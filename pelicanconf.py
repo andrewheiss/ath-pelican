@@ -24,7 +24,7 @@ DEFAULT_DATE_FORMAT = '%A, %B %-d, %Y'
 # Site building
 #----------------
 # Theme
-THEME = '/Users/andrew/Development/•Pelican/themes/athpelican'
+THEME = '/Users/andrew/Development/•Pelican/themes/athpelican-theme'
 
 # Folder where everything lives
 PATH = 'content'
