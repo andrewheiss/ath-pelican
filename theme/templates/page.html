@@ -1,15 +1,20 @@
 {% extends "base.html" %}
-{% block title %}{{ page.title }}{%endblock%}
+{% block meta_tags %}
+{{ super() }}
+  {%- if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt | striptags }}" />
+  {% else %}
+    <meta name="description" content="{{ page.summary | striptags }}" />
+  {% endif %}
+{% endblock meta_tags %}
+
+{% block title %}{{ page.title | striptags | escape }} | {{ SITENAME }}{% endblock title %}
+
 {% block content %}
+<article class="content-single">
     <h1>{{ page.title }}</h1>
-    {% import 'translations.html' as translations with context %}
-    {{ translations.translations_for(page) }}
 
     {{ page.content }}
+</article>
 
-	{% if page.modified %}
-		<p>
-		Last updated: {{ page.locale_modified }}
-		</p>
-	{% endif %}
 {% endblock %}
