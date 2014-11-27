@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article class="content-single">
+    <h2>Blog</h2>
+    {% for a in collations %}
+        <p>{{ a }}</p>
+    {% endfor %}
+
+    <h1>{{ page.title }}</h1>
+
+    {{ page.content }}
+</article>
+
+{% endblock %}
+
+
