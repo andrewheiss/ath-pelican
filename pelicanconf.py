@@ -19,6 +19,8 @@ DEFAULT_LANG = 'en'
 
 DEFAULT_DATE_FORMAT = '%A, %B %-d, %Y'
 
+TYPOGRIFY = True  # Nice typographic things
+
 
 #----------------
 # Site building
@@ -29,29 +31,53 @@ THEME = '/Users/andrew/Development/•Pelican/themes/athpelican-theme'
 # Folder where everything lives
 PATH = 'content'
 
-# Pagination
-# DEFAULT_PAGINATION = 10
+# Structure of output folder
+ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
+
+INDEX_SAVE_AS = 'blog/index.html'
+
+# Include source files, just for fun
+OUTPUT_SOURCES = True
+OUTPUT_SOURCES_EXTENSION = '.txt'
+
+
+#----------
 # Plugins
+#----------
 PLUGIN_PATHS = ['/Users/andrew/Development/•Pelican/pelican-plugins']
-PLUGINS = ['pandoc_reader']
+PLUGINS = ['pandoc_reader', 'collate_content', 'sitemap', 'dateish', 'sort_tags']
 
-# Special pandoc settings
+# Pandoc settings
 PANDOC_ARGS = [
     '--smart',
     '--base-header-level=2'
 ]
 
-# Nice typographic things
-TYPOGRIFY = True
+# collate_content settings
+# CATEGORIES_TO_COLLATE = ['category-of-interest', 'another-cool-category']
 
-# Structure of output folder
-ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
-ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+# Sitemap settings
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
 
-# Include source files, just for fun
-OUTPUT_SOURCES = True
-OUTPUT_SOURCES_EXTENSION = '.txt'
+# dateish settings
+# DATEISH_PROPERTIES = ['created_date', 'idea_date']
+
 
 # Feed generation
 FEED_ALL_ATOM = None if developing_site else None
@@ -67,8 +93,9 @@ LOAD_CONTENT_CACHE = False if developing_site else True
 #-------------
 # Site items
 #-------------
-MENUITEMS = [('About', '#'), ('CV', '#'), ('Research', '#'),
-             ('Teaching', '#'), ('Blog', '#'), ('Portfolio', '#')]
+MENUITEMS = [('About', '/about/'), ('CV', '#'), ('Blog', '/blog/'),
+             ('Research', '/research/'), ('Teaching', '/teaching/'),
+             ('Resources', '#'), ('Other projects', '#')]
 
 SOCIAL = [('E-mail', 'mailto:andrew@andrewheiss.com', 'fa-envelope-square'),
           ('Heissatopia (family blog)', 'http://www.heissatopia.com', 'fa-smile-o'),
