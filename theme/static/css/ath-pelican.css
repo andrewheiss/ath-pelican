@@ -1,0 +1,427 @@
+/* @override 
+	http://athpelican/css/layouts/ath-pelican.css
+	http://127.0.0.1/ath-pelican/css/layouts/ath-pelican.css */
+	
+/* @group Page structure */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#layout {
+    padding: 0;
+}
+
+/* @end */
+	
+/* @group Global styles */
+
+/*
+    When setting the primary font stack, apply it to the Pure grid units along
+    with `html`, `button`, `input`, `select`, and `textarea`. Pure Grids use
+    specific font stacks to ensure the greatest OS/browser compatibility.
+    */
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ab8320;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+code {
+	font-family: "Consolas", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New";
+	font-size: .8em;
+	background-color: #f8f8f8;
+	padding: .3em;
+}
+
+pre {
+	font-family: "Consolas", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New";
+	margin-bottom: .8em; /* The same as `p` */
+	line-height: 1.5em;
+	font-size: 1em;
+	padding: .8em .8em 0;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.screen-reader-text {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+/* @group Typogrify */
+
+.caps {
+	font-size: 0.92em;
+}
+
+.amp {
+	/*font-family: "adriane";*/
+	/*font-style: italic;*/
+}
+
+.dquo {
+	/*margin-left: -0.38em;*/
+}
+
+/* @end */
+
+/* @end */
+
+
+/* @group Content area */
+
+.content {
+	color: rgb(65, 65, 65);
+}
+
+.content .post-meta {
+	font: 1em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+.content header h1 {
+	margin: 0 0 0.8em;
+}
+
+.content header .post-meta {
+	margin: 0 0 0.9em;
+	color: rgb(140, 140, 140);
+}
+
+/* Custom heading spacing in content areas */
+.content h1 {
+	font-size: 2.2em;
+	line-height: 1.2em;
+}
+
+.content h2 {
+	margin-bottom: 0.2em;
+	padding-top: .5em;
+}
+
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+	margin-bottom: 0.2em;
+	padding-top: 0;
+}
+
+.content p,
+.content li {
+	font: 1.1em/1.5em "adriane";
+}
+
+.content li p,
+.content li li {
+	font-size: 1em;
+}
+
+/* Correctly handle elements after headings */
+.content h2 + p, 
+.content h3 + p, .content h4 + p, 
+.content h5 + p, .content h6 + p, 
+.content h2 + ol,
+.content h3 + ol, .content h4 + ol,
+.content h5 + ol, .content h6 + ol,
+.content h2 + ul, 
+.content h3 + ul, .content h4 + ul, 
+.content h5 + ul, .content h6 + ul {
+	margin-top: 0;
+}
+
+/* Modify pure table defaults */
+.content .pure-table {
+	margin: 1em 0;
+}
+
+.content .pure-table thead {
+	color: rgb(65, 65, 65);
+}
+
+.content blockquote {
+	border-left: solid 5px rgb(140, 140, 140);
+	padding-left: 1em;
+	margin-left: 1em;
+	margin-right: 0;
+	color: rgb(140, 140, 140);
+	font-size: 0.9em;
+}
+
+.content footer {
+	border-top: 1px solid rgb(140, 140, 140);
+	border-bottom: 1px solid rgb(140, 140, 140);
+	margin: 1.5em 0;
+	font-size: 0.8em;
+}
+
+/* @group Footnotes */
+
+.content .footnotes {
+	font-size: .8em;
+}
+
+.content .footnotes li p {
+	margin: 0 0 0.5em;
+}
+
+.bigfoot-footnote__content p {
+	font: 0.9em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+	color: rgb(65, 65, 65);
+}
+
+.bigfoot-footnote__button:after {
+	color: rgb(65, 65, 65) !important;
+}
+
+
+#content-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.big-title {
+	margin-top: 0;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Sidebar */
+
+.sidebar {
+    color: #fff;
+    /*text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);*/
+    /** To edit this background, follow this link:
+    http://svgeneration.com/generate/GPlay?height=4&width=4&background=25365f&overlay=32477d&weight=15&padding=0.25&
+    */
+    background-color: #25365f;
+    /*background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nMjU1JyBoZWlnaHQ9JzEzNScgdmlld0JveD0nMCAwIDUxIDI3Jz4KCTxkZWZzPgoJCTxwYXRoIGlkPSdzJyBmaWxsPScjMzI0NzdkJyBkPSdNMCwwbDQgMmwtNCwyeicvPgoJPC9kZWZzPgoJPGcgaWQ9J2InPgoJPHVzZSB4PSctNCcgeT0nLTInIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAxIDAgMCknIGZpbGwtb3BhY2l0eT0nMC4zJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nMCcgeT0nMC4yNScgZmlsbC1vcGFjaXR5PScwLjQ0OTk5OTk5OTk5OTk5OTk2JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nLTQnIHk9JzIuNScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjQ0OTk5OTk5OTk5OTk5OTk2JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nMCcgeT0nNC43NScgZmlsbC1vcGFjaXR5PScwLjQ0OTk5OTk5OTk5OTk5OTk2JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nLTQnIHk9JzcnIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAxIDAgMCknIGZpbGwtb3BhY2l0eT0nMC42JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nMCcgeT0nOS4yNScgZmlsbC1vcGFjaXR5PScwLjMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctNCcgeT0nMTEuNScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSc0LjI1JyB5PSctMicgZmlsbC1vcGFjaXR5PScwLjQ0OTk5OTk5OTk5OTk5OTk2JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nLTguMjUnIHk9JzAuMjUnIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAxIDAgMCknIGZpbGwtb3BhY2l0eT0nMC42JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nNC4yNScgeT0nMi41JyBmaWxsLW9wYWNpdHk9JzAuNDQ5OTk5OTk5OTk5OTk5OTYnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctOC4yNScgeT0nNC43NScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSc0LjI1JyB5PSc3JyBmaWxsLW9wYWNpdHk9JzAuMTUnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctOC4yNScgeT0nOS4yNScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSc0LjI1JyB5PScxMS41JyBmaWxsLW9wYWNpdHk9JzAuNDQ5OTk5OTk5OTk5OTk5OTYnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctMTIuNScgeT0nLTInIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAxIDAgMCknIGZpbGwtb3BhY2l0eT0nMC4zJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nOC41JyB5PScwLjI1JyBmaWxsLW9wYWNpdHk9JzAuMycgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9Jy0xMi41JyB5PScyLjUnIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAxIDAgMCknIGZpbGwtb3BhY2l0eT0nMC40NDk5OTk5OTk5OTk5OTk5NicgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzguNScgeT0nNC43NScgZmlsbC1vcGFjaXR5PScwLjMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctMTIuNScgeT0nNycgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjE1JyB4bGluazpocmVmPScjcycgLz4JCgk8dXNlIHg9JzguNScgeT0nOS4yNScgZmlsbC1vcGFjaXR5PScwLjMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctMTIuNScgeT0nMTEuNScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PScxMi43NScgeT0nLTInIGZpbGwtb3BhY2l0eT0nMC4zJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nLTE2Ljc1JyB5PScwLjI1JyB0cmFuc2Zvcm09J21hdHJpeCgtMSAwIDAgMSAwIDApJyBmaWxsLW9wYWNpdHk9JzAuMycgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzEyLjc1JyB5PScyLjUnIGZpbGwtb3BhY2l0eT0nMC4xNScgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9Jy0xNi43NScgeT0nNC43NScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjQ0OTk5OTk5OTk5OTk5OTk2JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nMTIuNzUnIHk9JzcnIGZpbGwtb3BhY2l0eT0nMC40NDk5OTk5OTk5OTk5OTk5NicgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9Jy0xNi43NScgeT0nOS4yNScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjE1JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nMTIuNzUnIHk9JzExLjUnIGZpbGwtb3BhY2l0eT0nMC4zJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nLTIxJyB5PSctMicgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgZmlsbC1vcGFjaXR5PScwLjQ0OTk5OTk5OTk5OTk5OTk2JyB4bGluazpocmVmPScjcycgLz4JCgk8dXNlIHg9JzE3JyB5PScwLjI1JyBmaWxsLW9wYWNpdHk9JzAuNicgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9Jy0yMScgeT0nMi41JyB0cmFuc2Zvcm09J21hdHJpeCgtMSAwIDAgMSAwIDApJyBmaWxsLW9wYWNpdHk9JzAuMTUnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PScxNycgeT0nNC43NScgZmlsbC1vcGFjaXR5PScwLjMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctMjEnIHk9JzcnIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAxIDAgMCknIGZpbGwtb3BhY2l0eT0nMC40NDk5OTk5OTk5OTk5OTk5NicgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzE3JyB5PSc5LjI1JyBmaWxsLW9wYWNpdHk9JzAuMTUnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctMjEnIHk9JzExLjUnIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAxIDAgMCknIGZpbGwtb3BhY2l0eT0nMC40NDk5OTk5OTk5OTk5OTk5NicgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzIxLjI1JyB5PSctMicgZmlsbC1vcGFjaXR5PScwLjMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSctMjUuMjUnIHk9JzAuMjUnIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAxIDAgMCknIGZpbGwtb3BhY2l0eT0nMC4zJyB4bGluazpocmVmPScjcycgLz4JCgk8dXNlIHg9JzIxLjI1JyB5PScyLjUnIGZpbGwtb3BhY2l0eT0nMC42JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nLTI1LjI1JyB5PSc0Ljc1JyB0cmFuc2Zvcm09J21hdHJpeCgtMSAwIDAgMSAwIDApJyBmaWxsLW9wYWNpdHk9JzAuMycgeGxpbms6aHJlZj0nI3MnIC8+CQoJPHVzZSB4PScyMS4yNScgeT0nNycgZmlsbC1vcGFjaXR5PScwLjQ0OTk5OTk5OTk5OTk5OTk2JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nLTI1LjI1JyB5PSc5LjI1JyB0cmFuc2Zvcm09J21hdHJpeCgtMSAwIDAgMSAwIDApJyBmaWxsLW9wYWNpdHk9JzAuMycgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzIxLjI1JyB5PScxMS41JyBmaWxsLW9wYWNpdHk9JzAuMycgeGxpbms6aHJlZj0nI3MnIC8+Cgk8L2c+Cgk8dXNlIHg9Jy0yNS4yNScgeT0nMTMuNScgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgeGxpbms6aHJlZj0nI2InIC8+Cgk8dXNlIHg9Jy01MC43NScgeT0nLTknIHRyYW5zZm9ybT0nbWF0cml4KC0xIDAgMCAtMSAwIDApJyB4bGluazpocmVmPScjYicgLz4KCTx1c2UgeD0nMjUuNScgeT0nLTE4JyB0cmFuc2Zvcm09J21hdHJpeCgxIDAgMCAtMSAwIDApJyB4bGluazpocmVmPScjYicgLz4KCTx1c2UgeD0nMjUuNScgeT0nLTMxLjUnIHRyYW5zZm9ybT0nbWF0cml4KDEgMCAwIC0xIDAgMCknIHhsaW5rOmhyZWY9JyNiJyAvPgo8L3N2Zz4K');*/
+}
+
+.sidebar header {
+    top: auto;
+    margin: 2em 0.8em;
+	text-align: left;
+}
+
+.sidebar h1 {
+	font-size: 2.2em;
+	line-height: 1.1em;
+	margin-bottom: 0.2em;
+}
+
+.sidebar h2 {
+	margin-top: 0;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.sidebar .school {
+	font-size: 1.4em;
+}
+
+.sidebar .minibio {
+	font-size: 1em;
+	color: rgb(175, 175, 175);
+}
+
+.sidebar a {
+	color: #fff;
+}
+
+.sidebar a:hover,
+.sidebar a:focus {
+	color: #ab8320;
+    text-decoration: none;
+}
+
+.sidebar nav {
+	margin-top: 2em;
+}
+
+.sidebar nav ul {
+	padding-left: 0;
+}
+
+
+.sidebar nav li {
+	display: inline;
+	font-size: 1.1em;
+}
+
+.sidebar nav li:after {
+	margin: 0 0.5em;
+	content: "•";
+	color: rgb(175, 175, 175);
+	font-size: .8em;
+}
+
+.sidebar nav li:last-child:after {
+	content: "";
+	margin: 0;
+}
+
+/* @end */
+
+/* @group Footer */
+
+.footer footer {
+	background: rgba(0,0,0,0.3) none;
+	padding: .8em;
+	color: rgb(175, 175, 175);
+}
+
+.footer a {
+	color: #fff;
+}
+
+.footer a:hover,
+.footer a:focus {
+	color: #ab8320;
+    text-decoration: none;
+}
+
+.footer footer ul {
+	padding-left: 0;
+	margin: 0.5em 0 1.5em;
+	list-style: none;
+}
+
+.footer footer li {
+	display: inline-block;
+	padding: 0 0 0 0;
+	margin-right: 0.5em;
+	line-height: 1.6em;
+}
+
+.footer .copy {
+	font-size: 0.9em;
+	margin-bottom: 0;
+}
+
+.footer .copy a {
+	color: rgb(175, 175, 175);
+}
+
+.footer .copy .cc-year {
+	position: relative;
+	bottom: 2.5px;
+}
+
+.colophon,
+.pgp {
+	font-size: 0.7em;
+	margin-bottom: 0;
+}
+
+/* @end */
+
+/* @group @media queries */
+
+/* Put footer in bottom left corner if screen is wide and tall enough */
+@media (min-height: 500px) and (min-width: 48em) {
+	.footer {
+		position: fixed;
+		bottom: 0;
+		width:25%; *width:24.969%;
+		max-width: 300px;
+		z-index: 1;
+	}
+	
+}
+
+/* Put footer at the bottom of the content area if screen is wide enough but too short */
+@media (max-height: 500px) and (min-width: 48em) {
+	.footer {
+		width: 75%;
+		text-align: center;
+		float: right;
+	}
+	
+	.footer footer {
+		background: rgba(0,0,0,0.8) none;
+		font-size: 1.05em;
+	}
+}
+
+/* Put footer at the bottom of the page at full width if the screen is skinny */
+@media (max-width: 48em) {
+	.footer {
+		text-align: center;
+	}
+	
+	.footer footer {
+		background: rgba(0,0,0,0.8) none;
+		font-size: 1.2em;
+	}
+}
+
+/* Non-phone and tablet layout */
+@media (min-width: 48em) {
+    .content {
+        padding: 2em 3em;
+        margin-left: 25%;
+        max-width: 50em;
+		z-index: 5;
+	}
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        max-width: 300px;
+		z-index: 1;
+	}
+}
+
+/* Phone and tablet layout */
+@media (max-width: 48em) {
+    .content {
+        padding: 2em 1.5em;
+	}
+
+    .sidebar header {
+        text-align: center;
+    }
+    
+    .sidebar h1 {
+    	font-size: 2.8em;
+    	line-height: 1.1em;
+    	margin-bottom: 0.2em;
+    }
+    
+    .sidebar h2 {
+    	margin-bottom: 0;
+    }
+    
+    .sidebar .minibio {
+    	font-size: 1.4em;
+    }
+    
+    .sidebar nav {
+    	margin-top: 1.5em;
+    }
+}
+
+/* @end */

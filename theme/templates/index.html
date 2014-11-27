@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% block content_title %}
+<h1 class="big-title">Recent posts</h1>
+{% endblock %}
+
+<ol id="content-list">
+{% for article in articles_page.object_list %}
+        <li><article class="content-summary">
+                <header class="post-header">
+                    <h2 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
+                    <p class="post-meta">
+                        <time datetime="{{ article.date.isoformat() }}" title="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+                    </p> 
+                </header>
+
+                {{ article.summary }}
+        </article></li>
+{% endfor %}
+</ol><!-- End of #content-list -->
+{% endblock content %}

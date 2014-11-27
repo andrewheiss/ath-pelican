@@ -1,0 +1,26 @@
+.content {
+    padding: 2em 3em;
+    margin-left: 25%;
+    width: 75%;
+    z-index: 5;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 25%;
+    z-index: 1;
+}
+
+.footer {
+    width: 75%;
+    text-align: center;
+    float: right;
+    height: 150px;
+}
+
+.footer footer {
+    background: #333333 none;
+    font-size: 1.05em;
+}

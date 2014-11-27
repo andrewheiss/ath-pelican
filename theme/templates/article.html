@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block meta_tags %}
+{{ super() }}
+  {%- for keyword in article.keywords %}
+    <meta name="keywords" contents="{{ keyword }}" />
+  {% endfor %}
+  {%- for description in article.description %}
+    <meta name="description" contents="{{ description }}" />
+  {% endfor %}
+  {%- for tag in article.keywords %}
+    <meta name="keywords" contents="{{ tag }}" />
+  {% endfor %}
+{% endblock meta_tags%}
+
+{% block content %}
+<article class="content-single">
+    <header class="post-header">
+        <p class="post-meta">
+            <time datetime="{{ article.date.isoformat() }}" title="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+        </p>
+        <h1 class="post-title">{{ article.title }}</h1>
+    </header>
+
+    {{ article.content }}
+
+    <footer>
+        <p class="post-meta">
+            By <a href="#" class="post-author">Andrew Heiss</a> &bull; 
+            <a href="{{ SITEURL }}/{{ article.url }}index.txt">Markdown <i class="fa fa-file-text-o"></i></a>
+            {%- for tag in article.tags %}
+            <a class="post-tag post-category-{{ tag|lower }}" href="#">#{{tag}}</a> 
+            {%- endfor %}
+        </p>
+    </footer>
+</article>
+{% endblock content %}
