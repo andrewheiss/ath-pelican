@@ -1,16 +1,17 @@
 {% extends "base.html" %}
 {% block meta_tags %}
 {{ super() }}
-  {%- for keyword in article.keywords %}
-    <meta name="keywords" contents="{{ keyword }}" />
-  {% endfor %}
-  {%- for description in article.description %}
-    <meta name="description" contents="{{ description }}" />
-  {% endfor %}
-  {%- for tag in article.keywords %}
-    <meta name="keywords" contents="{{ tag }}" />
-  {% endfor %}
-{% endblock meta_tags%}
+  {%- if article.excerpt %}
+    <meta name="description" content="{{ article.excerpt | striptags }}" />
+  {% else %}
+    <meta name="description" content="{{ article.summary | striptags }}" />
+  {% endif %}
+  {%- if article.tags %}
+    <meta name="keywords" content="{{ article.tags | join(',') }}" />
+  {% endif %}
+{% endblock meta_tags %}
+
+{% block title %}{{ article.title | striptags | escape }} | {{ SITENAME }}{% endblock title %}
 
 {% block content %}
 <article class="content-single">
@@ -28,7 +29,7 @@
             By <a href="#" class="post-author">Andrew Heiss</a> &bull; 
             <a href="{{ SITEURL }}/{{ article.url }}index.txt">Markdown <i class="fa fa-file-text-o"></i></a>
             {%- for tag in article.tags %}
-            <a class="post-tag post-category-{{ tag|lower }}" href="#">#{{tag}}</a> 
+            <a class="post-tag post-category-{{ tag | lower }}" href="#">#{{tag}}</a> 
             {%- endfor %}
         </p>
     </footer>
