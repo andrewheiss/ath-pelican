@@ -40,6 +40,13 @@ PAGE_SAVE_AS = '{slug}/index.html'
 
 INDEX_SAVE_AS = 'blog/index.html'
 
+YEAR_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/index.html'
+
+# Get rid of author pages (since I'm the only author) and the archives page
+# (since I'm doing that manually)
+DIRECT_TEMPLATES = ('index', 'categories')
+
 # Include source files, just for fun
 OUTPUT_SOURCES = True
 OUTPUT_SOURCES_EXTENSION = '.txt'
