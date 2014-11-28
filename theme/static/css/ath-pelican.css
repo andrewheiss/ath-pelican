@@ -111,6 +111,7 @@ pre {
 .content h1 {
 	font-size: 2.2em;
 	line-height: 1.2em;
+	margin-top: 0;
 }
 
 .content h2 {
@@ -227,7 +228,7 @@ pre {
 
 .sidebar h1 {
 	font-size: 2.2em;
-	line-height: 1.1em;
+	line-height: 1.2em;
 	margin-bottom: 0.2em;
 }
 
