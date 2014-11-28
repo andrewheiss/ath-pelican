@@ -199,8 +199,8 @@ pre {
 	padding-left: 0;
 }
 
-.big-title {
-	margin-top: 0;
+#content-list h2 {
+	font-family: "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
 /* @end */

@@ -1,11 +1,23 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>Archives for {{ SITENAME }}</h1>
+            <h1>Archive</h1>
 
-<dl>
-{% for article in dates %}
-    <dt>{{ article.locale_date }}</dt>
-    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+{% set first = true %}
+{% for article in collations.blog_articles %}
+    {% set article_year = article.date | strftime('%Y') %}
+    {% if article_year != next_year %}
+        {% if first == false %}
+            </ul>
+        {% endif %}
+            <h2>{{ article_year }}</h2>
+            <ul>
+    {% endif %}
+    {% set first = false %}
+                <li>
+                    <p>{{ article.locale_date }}</p>
+                    <p><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></p>
+                </li>
+    {% set next_year = article_year %}
 {% endfor %}
-</dl>
+            </ul>
 {% endblock %}

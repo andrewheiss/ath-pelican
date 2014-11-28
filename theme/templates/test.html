@@ -3,8 +3,8 @@
 {% block content %}
 <article class="content-single">
     <h2>Blog</h2>
-    {% for a in collations %}
-        <p>{{ a }}</p>
+    {% for a in collations.blog_articles %}
+        <p>{{ a.title }}</p>
     {% endfor %}
 
     <h1>{{ page.title }}</h1>

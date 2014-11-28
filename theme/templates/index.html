@@ -6,7 +6,7 @@
 {% endblock %}
 
 <ol id="content-list">
-{% for article in articles_page.object_list %}
+{% for article in articles_page.object_list[:5] %}
         <li><article class="content-summary">
                 <header class="post-header">
                     <h2 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
