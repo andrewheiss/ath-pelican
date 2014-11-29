@@ -7,17 +7,19 @@
     {% set article_year = article.date | strftime('%Y') %}
     {% if article_year != next_year %}
         {% if first == false %}
-            </ul>
+            </ol>
         {% endif %}
             <h2>{{ article_year }}</h2>
-            <ul>
+            <ol class="archive-list">
     {% endif %}
     {% set first = false %}
                 <li>
-                    <p>{{ article.locale_date }}</p>
-                    <p><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></p>
+                    <p class="post-meta">
+                        <time datetime="{{ article.date.isoformat() }}" title="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+                    </p>
+                    <h3 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
                 </li>
     {% set next_year = article_year %}
 {% endfor %}
-            </ul>
+            </ol>
 {% endblock %}

@@ -1,11 +1,15 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>Archives for {{ period | reverse | join(' ') }}</h1>
+            <h1>Archives for {{ period | reverse | join(' ') }}</h1>
 
-<dl>
+            <ol class="archive-list">
 {% for article in dates %}
-    <dt>{{ article.locale_date }}</dt>
-    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+                <li>
+                    <p class="post-meta">
+                        <time datetime="{{ article.date.isoformat() }}" title="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+                    </p>
+                    <h3 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+                </li>
 {% endfor %}
-</dl>
+            </ol>
 {% endblock %}

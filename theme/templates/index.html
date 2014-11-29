@@ -9,14 +9,16 @@
 {% for article in articles_page.object_list[:5] %}
         <li><article class="content-summary">
                 <header class="post-header">
-                    <h2 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
                     <p class="post-meta">
                         <time datetime="{{ article.date.isoformat() }}" title="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
                     </p> 
+                    <h2 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
                 </header>
 
                 {{ article.excerpt }}
         </article></li>
 {% endfor %}
 </ol><!-- End of #content-list -->
+
+<p class="archive-link"><a href="/archive/">Older posts &raquo;</a></p>
 {% endblock content %}

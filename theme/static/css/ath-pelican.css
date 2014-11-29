@@ -195,14 +195,47 @@ pre {
 	color: rgb(65, 65, 65) !important;
 }
 
+/* @end */
 
-#content-list {
+/* @group Blog list styles */
+
+#content-list,
+.archive-list {
 	list-style-type: none;
 	padding-left: 0;
 }
 
-#content-list h2 {
+#content-list h2,
+.archive-list h3 {
 	font-family: "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+#content-list h2 {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+#content-list .post-meta {
+	margin: 3em 0 0.3em;
+	font-size: 0.9em;
+}
+
+.archive-list h3 {
+	margin-top: 0;
+}
+
+.archive-list .post-meta {
+	margin-bottom: 0;
+	font-size: 0.9em;
+}
+
+.content .archive-list li:first-child p {
+	margin-top: 0;
+}
+
+.archive-link {
+	margin-top: 2em;
+	font-weight: bold !important;
 }
 
 /* @end */
