@@ -1,6 +1,6 @@
 Title: Another test post with lots of footnotes & stuff
 Date: 2014-11-21 14:39
-Category: Review Blog Other
+Category: Review
 Tags: thing1, thing5, CSS, Pure
 
 <p class="confirmation warning">This tutorial is officially defunct. It is only here for archival purposes. The main script has been consolidated into one PHP class—<a href="http://www.andrewheiss.com/blog/2009/06/19/pdftk-php-officially-released/">pdftk-php</a>. Please see <a href="http://www.andrewheiss.com/blog/2009/07/29/installing-pdftk-php/">the updated tutorial</a>.</p>
