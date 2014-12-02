@@ -136,3 +136,11 @@ def md(text):
 
 JINJA_FILTERS = {'md_single_line': md_single_line,
                  'md': md}
+
+# Make PHP snippets highlight without <?php
+import pygments.lexers.web as pygweb
+class MyPhpLexer(pygweb.PhpLexer):
+    def __init__(self, **options):
+        options['_startinline'] = True
+        super().__init__(**options)
+pygweb.PhpLexer = MyPhpLexer
