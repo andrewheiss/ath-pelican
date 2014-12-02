@@ -293,6 +293,64 @@ pre, code {
 	font-size: 0.6em;
 }
 
+/* @group Messages */
+
+.confirmation {
+	padding: 0.5em 0.5em 0.5em 2em;
+	position: relative;
+	font: 1em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif !important;
+}
+
+.confirmation:before {
+	position: absolute;
+	font-family: FontAwesome;
+	top: 0.75em;
+	left: 0.5em;
+}
+
+.confirmation.warning {
+	background: #fffeeb;
+	border: 1px solid #e6e5d8;
+	color: #555;
+}
+
+.confirmation.warning:before {
+    content: "\f071";
+    color: #cbc302;
+}
+
+.confirmation.accept {
+	background: #e5f7e3 url(images/check.gif) no-repeat 7px 10px;
+	border: 1px solid #c5e1c8;
+	color: #005e20;
+}
+
+.confirmation.accept:before {
+    content: "\f00c";
+}
+
+.confirmation.error {
+	background: #ffebeb url(images/x.gif) no-repeat 7px 10px;
+	border: 1px solid #f5c1c2;
+	color: #9e0b0f;
+}
+
+.confirmation.error:before {
+    content: "\f00d";
+}
+
+.confirmation.question {
+	background: #e8f8fe url(images/question.gif) no-repeat 7px 10px;
+	border: 1px solid #cfdfe5;
+	color: #004a80;
+}
+
+.confirmation.question:before {
+    content: "\f059";
+}
+
+/* @end */
+
 /* @end */
 
 /* @group Sidebar */
