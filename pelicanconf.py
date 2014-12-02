@@ -51,6 +51,10 @@ DIRECT_TEMPLATES = ('index', 'categories')
 OUTPUT_SOURCES = True
 OUTPUT_SOURCES_EXTENSION = '.txt'
 
+# Ordering
+PAGE_ORDER_BY = 'date'
+ARTICLE_ORDER_BY = 'date'
+
 
 #----------
 # Plugins
@@ -113,3 +117,25 @@ SOCIAL = [('E-mail', 'mailto:andrew@andrewheiss.com', 'fa-envelope-square'),
           ('LinkedIn', 'https://www.linkedin.com/in/andrewheiss', 'fa-linkedin-square'),
           ('Google+', 'https://plus.google.com/+AndrewHeiss', 'fa-google-plus-square'),
           ('Academia.edu', 'https://duke.academia.edu/AndrewHeiss', 'fa-graduation-cap')]
+
+
+#----------------
+# Jinja filters
+#----------------
+import jinja2
+import markdown
+
+# Remove <p>s surrounding Markdown output
+def md_single_line(text):
+    p = '<p>'
+    np = '</p>'
+    md = markdown.markdown(text)
+    if md.startswith(p) and md.endswith(np):
+        md = md[len(p):-len(np)]
+    return jinja2.Markup(md)
+
+def md(text):
+    return jinja2.Markup(markdown.markdown(text))
+
+JINJA_FILTERS = {'md_single_line': md_single_line,
+                 'md': md}
