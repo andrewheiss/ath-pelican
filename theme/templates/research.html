@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ page.title }}</h1>
+
+    {{ page.content }}
+
+    {% set publications = [('Journal Articles', collations.article_pages),
+                           ('Essays and Reviews', collations.review_pages),
+                           ('Working Papers', collations.working_paper_pages),
+                           ('Selected Seminar Papers', collations.seminar_paper_pages)] %}
+
+    <nav>
+        <ul class="publication-toc">
+        {% for pub_type_title, pubs in publications %}
+            <li><a href="#{{ pub_type_title | replace(' ', '-') | lower }}">{{ pub_type_title }}</a></li>
+        {% endfor %}
+        </ul>
+    </nav>
+
+    {% for pub_type_title, pubs in publications %}
+    <h2 id="{{ pub_type_title | replace(' ', '-') | lower }}">{{ pub_type_title }} <a href="#" class="back-to-top">&#8617;</a></h2>
+    <ul class="publication-list">
+        {% for pub in pubs | reverse %}
+        <li>
+            <div class="publication-content">
+                {{ pub.content }}
+            </div>
+
+            <div class="publication-details">
+                {% if pub.tldr %}
+                <p class="tldr"><strong>tl;dr:</strong> {{ pub.tldr | md_single_line }}</p>
+                {% endif %}
+
+                {% if pub.extra %}
+                <p class="extra">{{ pub.extra | md_single_line }}</p>
+                {% endif %}
+
+                {% if pub.extra1 %}
+                <p class="extra">{{ pub.extra1 | md_single_line }}</p>
+                {% endif %}
+
+                <ul class="publication-links">
+                    {% if pub.ungated %}
+                    <li><a href="{{ pub.ungated }}"><i class="fa fa-unlock-alt"></i> Ungated</a></li>
+                    {%- endif %}
+
+                    {% if pub.gated %}
+                    <li><a href="{{ pub.gated }}"><i class="fa fa-lock"></i> Gated</a></li>
+                    {%- endif %}
+
+                    {% if pub.pdf %}
+                    <li><a href="{{ pub.pdf }}"><i class="fa fa-file-pdf-o"></i> PDF</a></li>
+                    {%- endif %}
+
+                    {% if pub.code %}
+                    <li><a href="{{ pub.code }}"><i class="fa fa-github"></i> Code</a></li>
+                    {%- endif %}
+
+                    {% if pub.raw_output %}
+                    <li><a href="{{ pub.raw_output }}"><i class="fa fa-bar-chart"></i> Raw output</a></li>
+                    {%- endif %}
+
+                    {% if pub.poster %}
+                    <li><a href="{{ pub.poster }}"><i class="fa fa-square"></i> Poster</a></li>
+                    {%- endif %}
+
+                </ul>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+
+{% endblock %}

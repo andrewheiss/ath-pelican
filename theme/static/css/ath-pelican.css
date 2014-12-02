@@ -240,6 +240,66 @@ pre {
 
 /* @end */
 
+.publication-list,
+.publication-links,
+.publication-toc {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.publication-toc li {
+	font: 1em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif !important;
+	display: inline-block;
+	background: #ab8320;
+	color: rgb(255, 255, 255);
+	padding: 0.1em 0.4em;
+	margin: 0 0.2em 0.5em 0;
+	white-space: nowrap;
+}
+
+.publication-toc a {
+	color: rgb(255, 255, 255);
+}
+
+.publication-toc a:hover,
+.publication-toc a:focus {
+	color: rgb(175, 175, 175);
+	text-decoration: none;
+}
+
+.publication-details {
+	background-color: rgb(235, 235, 235);
+	padding: 0.5em;
+	margin: -0.5em 0em 2em 2em;
+	border-left: 5px solid #ab8320;
+}
+
+.publication-list li:last-child .publication-details {
+	margin-bottom: 2.5em;
+}
+
+.publication-details p,
+.publication-details li {
+	font: 0.8em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif !important;
+}
+
+.publication-details p {
+	margin: 0 0 0.5em;
+}
+
+.publication-links {
+	margin: 0;
+}
+
+.publication-links li {
+	display: inline;
+	padding-right: 10px;
+}
+
+.back-to-top {
+	font-size: 0.6em;
+}
+
 /* @end */
 
 /* @group Sidebar */
