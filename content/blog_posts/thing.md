@@ -3,6 +3,14 @@ Date: 2014-11-21 14:39
 Category: Review Blog Other
 Tags: thing1, thing5, CSS, Pure
 
+<p class="confirmation warning">This tutorial is officially defunct. It is only here for archival purposes. The main script has been consolidated into one PHP class—<a href="http://www.andrewheiss.com/blog/2009/06/19/pdftk-php-officially-released/">pdftk-php</a>. Please see <a href="http://www.andrewheiss.com/blog/2009/07/29/installing-pdftk-php/">the updated tutorial</a>.</p>
+
+<p class="confirmation accept">This tutorial is officially defunct. It is only here for archival purposes. The main script has been consolidated into one PHP class—<a href="http://www.andrewheiss.com/blog/2009/06/19/pdftk-php-officially-released/">pdftk-php</a>. Please see <a href="http://www.andrewheiss.com/blog/2009/07/29/installing-pdftk-php/">the updated tutorial</a>.</p>
+
+<p class="confirmation error">This tutorial is officially defunct. It is only here for archival purposes. The main script has been consolidated into one PHP class—<a href="http://www.andrewheiss.com/blog/2009/06/19/pdftk-php-officially-released/">pdftk-php</a>. Please see <a href="http://www.andrewheiss.com/blog/2009/07/29/installing-pdftk-php/">the updated tutorial</a>.</p>
+
+<p class="confirmation question">This tutorial is officially defunct.</p>
+
 And "giveth" them, and cast their crowns before the lamb, having every one of them named agabus, and signified it by an oath: that by two and two of them which by nature the children of israel: for they "watch" for your redemption draweth nigh. grudge not one against another. for meat CNN & ABC the lord by the prince of this generation. o jerusalem, jerusalem, which cometh down from the beginning and the wife see that he may eat the passover? and he was sanctified, an unholy thing, and hath learned of the children of israel could not cure him. jesus[^2]
 
 [^2]: Here's a note
