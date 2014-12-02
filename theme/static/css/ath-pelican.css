@@ -178,11 +178,11 @@ pre {
 
 /* @group Footnotes */
 
-.content .footnotes {
+.content .footnote {
 	font-size: .8em;
 }
 
-.content .footnotes li p {
+.content .footnote li p {
 	margin: 0 0 0.5em;
 }
 
