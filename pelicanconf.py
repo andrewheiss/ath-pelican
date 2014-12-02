@@ -60,13 +60,10 @@ ARTICLE_ORDER_BY = 'date'
 # Plugins
 #----------
 PLUGIN_PATHS = ['/Users/andrew/Development/•Pelican/pelican-plugins']
-PLUGINS = ['pandoc_reader', 'collate_content', 'sitemap', 'dateish', 'sort_tags']
+PLUGINS = ['collate_content', 'sitemap', 'dateish', 'sort_tags']
 
-# Pandoc settings
-PANDOC_ARGS = [
-    '--smart',
-    '--base-header-level=2'
-]
+MD_EXTENSIONS = ['smarty', 'extra', 'footnotes', 'meta',
+                 'codehilite(css_class=highlight)', 'headerid(level=2)']
 
 # collate_content settings
 # CATEGORIES_TO_COLLATE = ['category-of-interest', 'another-cool-category']
