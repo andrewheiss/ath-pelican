@@ -52,14 +52,14 @@ Now that we know that the HTTP POST variables are actually working, we need to s
 
 Use PHPmyadmin and create a new PDFStuff database with a username and password and then create a table in it with the following command (or use the GUI form in PHPmyadmin to create the table—either way works):
 
-{% highlight sql %}
+```{.sql}
 CREATE TABLE `PDF_Loans` (
 `id` int(4) NOT NULL auto_increment primary key,
 `FirstName` varchar(65) NOT NULL default '',
 `LastName` varchar(65) NOT NULL default '',
 `EMail` varchar(65) NOT NULL default '',
 ) TYPE=MyISAM AUTO_INCREMENT=0 ;
-{% endhighlight %}
+```
 
 You now have a table in your database where we can store our PDF form variables. Paste this code into a file called insert.php and change the PHP variables as necessary, both for your MySQL connection information and your HTTP POST variables (here I just use FirstName, LastName, and Email).
 
@@ -87,19 +87,19 @@ Before creating your variables, you need to discover the real names for all of y
 
 Place your empty PDF form in your main site folder. Open up a command prompt or terminal and run this command in the site folder, changing file names as necessary:
 
-{% highlight sh %}
+```{.sh}
 $ pdftk form.pdf dump_data_fields > form.pdf.fields
-{% endhighlight %}
+```
 
 Open up the newly created form.pdf.fields file in Notepad and you'll see the automatic fdftk output, which will look something like this:
 
-{% highlight text %}
+```{.text}
 FieldType: Text
 FieldName: form1[0].#subform[0].#area[0].FirstName[0]
 FieldNameAlt: First Name:
 FieldFlags: 2
 FieldJustification: Left
-{% endhighlight %}
+```
 
 The FieldName in this case is long and hairy, but we'll need that full name for the data insertion to work.
 

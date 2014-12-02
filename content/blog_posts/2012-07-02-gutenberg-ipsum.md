@@ -22,7 +22,7 @@ Here's how to get it working:
 
 * Copy the script below and save it somewhere on your computer (mine is in `~/bin/gutenberg_ipsum/`).
 
-{% highlight perl %}
+```{.perl}
 #!/usr/bin/perl -w
 # Modified from Dr. Drang's original script at http://www.leancrew.com/all-this/2011/02/dissociated-darwin/
 
@@ -52,7 +52,7 @@ $dis =~ s/^(.)/\u$1/;
 $dis =~ s/[.);:?'", -]+$/./;
 
 print $dis;
-{% endhighlight %}
+```
  
 * Go to [Project Gutenberg](http://www.gutenberg.org/) and download the full text for some book (or create some other corpus), stripping out the legal text, table of contents, and anything else you don't want the script to use to generate random text. Save that file in some folder on your computer (mine is in `~/bin/gutenberg_ipsum/words/`).
 * Modify line 7 of the script to default to your newly downloaded and saved corpus (mine is `totc.txt`, for *A Tale of Two Cities*).
@@ -67,10 +67,10 @@ print $dis;
 
 Once the script is installed and running, It's trivial to make it work with TextExpander. Make a new Shell Script snippet with this code:
 
-{% highlight sh %}
+```{.sh}
 #!/usr/bin/env bash
 ~/bin/gutenberg_ipsum/gutenberg_ipsum.pl princessofmars.txt
-{% endhighlight %}
+```
 
 Make as many snippets as you want—one for each of your corpus files. All you need to change in each script is the argument for the file. Replace `princessofmars.txt` with the name of whatever corpus you want that snippet to use. 
 

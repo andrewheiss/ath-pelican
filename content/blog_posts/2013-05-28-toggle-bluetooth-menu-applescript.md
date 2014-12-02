@@ -12,7 +12,7 @@ I also keep the Bluetooth menu turned off. However, when the battery runs low on
 
 Save [this](https://gist.github.com/andrewheiss/5667322) to an AppleScript application (or an Automator application) and run to (kludgingly) toggle the Bluetooth menu item.
 
-{% highlight applescript %}
+```applescript
 tell application "System Preferences"
   activate
   set the current pane to pane "Bluetooth"
@@ -29,7 +29,7 @@ end tell
 tell application "System Preferences"
   quit
 end tell
-{% endhighlight %}
+```
 
 
 [^fn1]: See [this fantastic graph](http://files.andrewheiss.com/images/toggle_bluetooth/geeks-vs-nongeeks-repetitive-tasks.png) originally posted by [Bruno Oliviera](https://plus.google.com/+BrunoOliveira/posts/MGxauXypb1Y).
