@@ -26,12 +26,16 @@
 
     <footer>
         <p class="post-meta">
-            By <a href="#" class="post-author">Andrew Heiss</a> &bull; 
-            <a href="{{ SITEURL }}/{{ article.url }}index.txt">Markdown <i class="fa fa-file-text-o"></i></a>
-            {%- for tag in article.tags %}
-            <a class="post-tag post-category-{{ tag | lower }}" href="#">#{{tag}}</a> 
-            {%- endfor %}
+            Posted by Andrew Heiss on X | 
+            <a href="{{ SITEURL }}/{{ article.url }}index.txt"><i class="fa fa-file-text-o"></i> Markdown source</a>
         </p>
+
+        <ul class="taxonomy">
+            <li class="post-category"><a href="#">{{ article.category }}</a></li>
+        {%- for tag in article.tags %}
+            <li class="post-tag post-tag-{{ tag | lower }}"><a href="#">#{{tag}}</a></li>
+        {%- endfor %}
+        </ul>
     </footer>
 </article>
 {% endblock content %}
