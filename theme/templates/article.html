@@ -22,7 +22,7 @@
         <h1 class="post-title">{{ article.title }}</h1>
     </header>
 
-    {{ article.content }}
+    {{ article.content | pure_table }}
 
     <footer>
         <p class="post-meta">
