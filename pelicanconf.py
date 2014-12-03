@@ -41,6 +41,14 @@ PAGE_SAVE_AS = '{slug}/index.html'
 
 INDEX_SAVE_AS = 'blog/index.html'
 
+CATEGORY_SAVE_AS = ''
+CATEGORIES_SAVE_AS = 'blog/category/index.html'
+
+TAG_SAVE_AS = ''
+TAGS_SAVE_AS = 'blog/tag/index.html'
+
+AUTHOR_SAVE_AS = ''
+
 YEAR_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/index.html'
 
