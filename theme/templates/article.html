@@ -25,17 +25,21 @@
     {{ article.content | pure_table }}
 
     <footer>
-        <p class="post-meta">
-            Posted by Andrew Heiss on X | 
-            <a href="{{ SITEURL }}/{{ article.url }}index.txt"><i class="fa fa-file-text-o"></i> Markdown source</a>
-        </p>
-
-        <ul class="taxonomy">
-            <li class="post-category"><a href="#">{{ article.category }}</a></li>
-        {%- for tag in article.tags %}
-            <li class="post-tag post-tag-{{ tag | lower }}"><a href="#">#{{tag}}</a></li>
-        {%- endfor %}
-        </ul>
+        <div class="pure-g">
+            <div class="pure-u-3-4">
+                <ul class="taxonomy">
+                    <li class="post-category"><a href="#"><i class="fa fa-folder"></i> {{ article.category }}</a></li>
+                {%- for tag in article.tags %}
+                    <li class="post-tag post-tag-{{ tag | lower }}"><a href="#">#{{tag}}</a></li>
+                {%- endfor %}
+                </ul>
+            </div>
+            <div class="pure-u-1-4">
+                <p class="post-md">
+                    <a href="{{ SITEURL }}/{{ article.url }}index.txt"><i class="fa fa-file-text-o"></i> Markdown source</a>
+                </p>
+            </div>
+        </div>
     </footer>
 </article>
 {% endblock content %}
