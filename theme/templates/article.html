@@ -28,9 +28,13 @@
         <div class="pure-g">
             <div class="pure-u-3-4">
                 <ul class="taxonomy">
-                    <li class="post-category"><a href="#"><i class="fa fa-folder"></i> {{ article.category }}</a></li>
+                    <li class="post-category post-category-{{ article.category | lower }}">
+                        <a href="{{ SITEURL }}/{{ article.category.url }}"><i class="fa fa-folder"></i> {{ article.category }}</a>
+                    </li>
                 {%- for tag in article.tags %}
-                    <li class="post-tag post-tag-{{ tag | lower }}"><a href="#">#{{tag}}</a></li>
+                    <li class="post-tag post-tag-{{ tag | lower }}">
+                        <a href="{{ SITEURL }}/{{ tag.url }}">#{{tag}}</a>
+                    </li>
                 {%- endfor %}
                 </ul>
             </div>
