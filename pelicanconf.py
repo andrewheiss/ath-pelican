@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 # Site development flag
 developing_site = True
+# DELETE_OUTPUT_DIRECTORY = True
 
 #-------------------
 # Site information
@@ -34,14 +35,6 @@ PATH = 'content'
 # Structure of output folder
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
-
-CATEGORY_URL = 'blog/category/{slug}/'
-CATEGORY_SAVE_AS = 'blog/category/{slug}/index.html'
-CATEGORIES_SAVE_AS = 'blog/category/index.html'
-
-TAG_URL = 'blog/tag/{slug}/'
-TAG_SAVE_AS = 'blog/tag/{slug}/index.html'
-TAGS_SAVE_AS = 'blog/tag/index.html'
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
