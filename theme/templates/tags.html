@@ -1,10 +1,27 @@
 {% extends "base.html" %}
 
-{% block title %}{{ SITENAME }} - Tags{% endblock %}
+{% block title %}Tags | {{ SITENAME }}{% endblock %}
 
 {% block content %}
-    <h1>Tags for {{ SITENAME }}</h1>
-    {%- for tag, articles in tags|sort %}
-        <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
+    <h1>Tags</h1>
+    <ul class="list taxonomy">
+    {%- for tag, articles in tags | sort %}
+        {% set num = articles | count %}
+        <li><a href="#{{ tag | lower | replace(' ', '-') }}">#{{ tag }} <span class="count">({{ num }})</span></a></li>
+    {% endfor %}
+    </ul>
+
+    {% for tag, articles in tags|sort %}
+    <h2 id="{{ tag | lower | replace(' ', '-') }}">#{{ tag }} <a href="#" class="back-to-top">&#8617;</a></h2>
+    <ol class="archive-list">
+        {% for article in articles %} 
+        <li>
+            <p class="post-meta">
+                <time datetime="{{ article.date.isoformat() }}" title="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+            </p>
+            <h3 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+        </li>
+        {% endfor %}
+    </ol>
     {% endfor %}
 {% endblock %}

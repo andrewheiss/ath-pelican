@@ -196,6 +196,14 @@ pre, code {
 	font-size: 1em;
 }
 
+.list.taxonomy li {
+	font: 0.8em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+.list.taxonomy .count {
+	font-size: 0.5em;
+}
+
 .taxonomy .post-category {
 	background: rgb(65, 65, 65);
 }
@@ -314,6 +322,10 @@ pre, code {
 #content-list .post-meta {
 	margin: 3em 0 0.3em;
 	font-size: 0.9em;
+}
+
+#content-list li:first-child .post-meta {
+	margin-top: 0em;
 }
 
 .archive-list h3 {

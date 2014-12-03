@@ -1,8 +1,27 @@
 {% extends "base.html" %}
+
+{% block title %}Categories | {{ SITENAME }}{% endblock %}
+
 {% block content %}
-<ul>
-{% for category, articles in categories %}
-    <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a></li>
-{% endfor %}
-</ul>
+    <h1>Blog categories</h1>
+    <ul class="list taxonomy">
+    {%- for category, articles in categories | sort %}
+        {% set num = articles | count %}
+        <li class="post-category"><a href="#{{ category | lower | replace(' ', '-') }}"><i class="fa fa-folder"></i> {{ category }} <span class="count">({{ num }})</span></a></li>
+    {% endfor %}
+    </ul>
+
+    {% for category, articles in categories | sort %}
+    <h2 id="{{ category | lower | replace(' ', '-') }}">{{ category }} <a href="#" class="back-to-top">&#8617;</a></h2>
+    <ol class="archive-list">
+        {% for article in articles %} 
+        <li>
+            <p class="post-meta">
+                <time datetime="{{ article.date.isoformat() }}" title="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+            </p>
+            <h3 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+        </li>
+        {% endfor %}
+    </ol>
+    {% endfor %}
 {% endblock %}

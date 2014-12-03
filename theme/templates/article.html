@@ -29,11 +29,11 @@
             <div class="pure-u-3-4">
                 <ul class="taxonomy">
                     <li class="post-category post-category-{{ article.category | lower }}">
-                        <a href="{{ SITEURL }}/{{ article.category.url }}"><i class="fa fa-folder"></i> {{ article.category }}</a>
+                        <a href="/blog/category/#{{ category | lower | replace(' ', '-') }}"><i class="fa fa-folder"></i> {{ article.category }}</a>
                     </li>
                 {%- for tag in article.tags %}
-                    <li class="post-tag post-tag-{{ tag | lower }}">
-                        <a href="{{ SITEURL }}/{{ tag.url }}">#{{tag}}</a>
+                    <li class="post-tag post-tag-{{ tag | lower | replace(' ', '-') }}">
+                        <a href="/blog/tag/#{{ tag | lower | replace(' ', '-') }}">#{{tag}}</a>
                     </li>
                 {%- endfor %}
                 </ul>
