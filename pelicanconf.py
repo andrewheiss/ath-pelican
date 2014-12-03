@@ -121,6 +121,7 @@ SOCIAL = [('E-mail', 'mailto:andrew@andrewheiss.com', 'fa-envelope-square'),
 #----------------
 import jinja2
 import markdown
+from bs4 import BeautifulSoup
 
 # Remove <p>s surrounding Markdown output
 def md_single_line(text):
@@ -134,9 +135,22 @@ def md_single_line(text):
 def md(text):
     return jinja2.Markup(markdown.markdown(text))
 
-JINJA_FILTERS = {'md_single_line': md_single_line,
-                 'md': md}
+def pure_table(html):
+    soup = BeautifulSoup(html)
 
+    for table_tag in soup.find_all('table'):
+        table_tag['class'] = table_tag.get('class', []) + ['pure-table']
+
+    return jinja2.Markup(soup)
+
+JINJA_FILTERS = {'md_single_line': md_single_line,
+                 'md': md,
+                 'pure_table': pure_table}
+
+
+#-----------------------------
+# Other filters and snippets
+#-----------------------------
 # Make PHP snippets highlight without <?php
 import pygments.lexers.web as pygweb
 class MyPhpLexer(pygweb.PhpLexer):

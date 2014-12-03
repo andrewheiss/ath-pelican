@@ -15,6 +15,13 @@ And "giveth" them, and cast their crowns before the lamb, having every one of th
 
 [^2]: Here's a note
 
+| Item      | Value |
+| --------- | -----:|
+| Computer  | $1600 |
+| Phone     |   $12 |
+| Pipe      |    $1 | 
+
+
 ```{.python}
 # python code
 ```
