@@ -42,10 +42,10 @@ PAGE_SAVE_AS = '{slug}/index.html'
 INDEX_SAVE_AS = 'blog/index.html'
 
 CATEGORY_SAVE_AS = ''
-CATEGORIES_SAVE_AS = 'blog/category/index.html'
+CATEGORIES_SAVE_AS = 'blog/categories/index.html'
 
 TAG_SAVE_AS = ''
-TAGS_SAVE_AS = 'blog/tag/index.html'
+TAGS_SAVE_AS = 'blog/tags/index.html'
 
 AUTHOR_SAVE_AS = ''
 
