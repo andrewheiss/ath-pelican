@@ -53,6 +53,10 @@
                     <li><a href="{{ pub.pdf }}"><i class="fa fa-file-pdf-o"></i> PDF</a></li>
                     {%- endif %}
 
+                    {% if pub.presentation %}
+                    <li><a href="{{ pub.presentation }}"><i class="fa fa-play-circle"></i> PDF</a></li>
+                    {%- endif %}
+
                     {% if pub.code %}
                     <li><a href="{{ pub.code }}"><i class="fa fa-github"></i> Code</a></li>
                     {%- endif %}
