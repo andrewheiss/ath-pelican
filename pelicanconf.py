@@ -35,6 +35,14 @@ PATH = 'content'
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
+CATEGORY_URL = 'blog/category/{slug}/'
+CATEGORY_SAVE_AS = 'blog/category/{slug}/index.html'
+CATEGORIES_SAVE_AS = 'blog/category/index.html'
+
+TAG_URL = 'blog/tag/{slug}/'
+TAG_SAVE_AS = 'blog/tag/{slug}/index.html'
+TAGS_SAVE_AS = 'blog/tag/index.html'
+
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 
@@ -45,7 +53,7 @@ MONTH_ARCHIVE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/index.html'
 
 # Get rid of author pages (since I'm the only author) and the archives page
 # (since I'm doing that manually)
-DIRECT_TEMPLATES = ('index', 'categories')
+DIRECT_TEMPLATES = ('index', 'categories', 'tags')
 
 # Include source files, just for fun
 OUTPUT_SOURCES = True
