@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block meta_tags %}
+{{ super() }}
+  {%- if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt | striptags }}" />
+  {% else %}
+    <meta name="description" content="{{ page.summary | striptags }}" />
+  {% endif %}
+{% endblock meta_tags %}
+
+{% block title %}{{ page.title | striptags | escape }} | {{ SITENAME }}{% endblock title %}
+
+{% block content %}
+<article class="content-single design-project">
+    <h1>{{ page.title }}</h1>
+
+    <div class="project-meta">
+        <ul>
+            <li><time datetime="{{ page.date.isoformat() }}" title="{{ page.date.isoformat() }}">{{ page.locale_date }}</time></li>
+            <li class="project-category"><a href="/other-projects/#{{ page.category | replace(' ', '-') | lower }}"><i class="fa fa-folder"></i> {{ page.category }}</a></li>
+            {% if page.link %}
+            <li class="project-link"><a href="{{ page.link }}"><i class="fa fa-external-link-square"></i> View online</a></li>
+            {% endif %}
+        </ul>
+    </div>
+
+    <div class="project-content">
+        <img src="{{ page.full }}">
+        {{ page.content }}
+    </div>
+</article>
+
+{% endblock %}

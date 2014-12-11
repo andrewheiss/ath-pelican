@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ page.title }}</h1>
+
+    {{ page.content }}
+
+    {% set other_projects = [('Web design', collations.web_design_pages),
+                             ('Print design', collations.print_design_pages)] %}
+
+    <nav>
+        <ul class="publication-toc">
+        {% for project_type_title, projects in other_projects %}
+            <li><a href="#{{ project_type_title | replace(' ', '-') | lower }}">{{ project_type_title }}</a></li>
+        {% endfor %}
+        </ul>
+    </nav>
+
+    {% for project_type_title, projects in other_projects %}
+    <h2 id="{{ project_type_title | replace(' ', '-') | lower }}">{{ project_type_title }} <a href="#" class="back-to-top">&#8617;</a></h2>
+    <ol class="project-list">
+        {% for project in projects | reverse %}
+        <li>
+            <article class="project-summary pure-g">
+
+                <div class="pure-u-1-6">
+                    <a href="{{ SITEURL }}/{{ project.url }}" rel="bookmark" title="Permalink to {{ project.title|striptags }}"><img src="{{ project.thumb }}" class="project-thumb"></a>
+                </div>
+
+                <div class="project-details pure-u-5-6">
+                    <h3 class="project-title"><a href="{{ SITEURL }}/{{ project.url }}" rel="bookmark" title="Permalink to {{ project.title|striptags }}">{{ project.title }}</a></h3>
+
+                    <p class="project-meta">
+                        <time datetime="{{ project.date.isoformat() }}" title="{{ project.date.isoformat() }}">{{ project.date | fmt_date('%B %Y') }}</time>
+                    </p>
+
+                    {% if project.link %}
+                    <p class="project-meta">
+                        <a href="{{ project.link }}"><i class="fa fa-external-link-square"></i> View online</a>
+                    </p>
+                    {% endif %}
+                </div>
+            </article>
+        </li>
+        {% endfor %}
+    </ol>
+    {% endfor %}
+
+{% endblock %}
