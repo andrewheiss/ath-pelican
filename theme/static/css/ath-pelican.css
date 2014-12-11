@@ -299,6 +299,14 @@ pre, code {
 
 /* @end */
 
+.home-blurb {
+	font-size: 1.3em;
+}
+
+.home-blurb p:first-child {
+	margin-top: 0.4em;
+}
+
 /* @end */
 
 /* @group Blog list styles */
