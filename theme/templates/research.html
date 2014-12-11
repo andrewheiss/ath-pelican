@@ -8,7 +8,8 @@
     {% set publications = [('Journal Articles', collations.article_pages),
                            ('Essays and Reviews', collations.review_pages),
                            ('Working Papers', collations.working_paper_pages),
-                           ('Selected Seminar Papers', collations.seminar_paper_pages)] %}
+                           ('Selected Seminar Papers', collations.seminar_paper_pages),
+                           ('Software', collations.software_pages)] %}
 
     <nav>
         <ul class="publication-toc">
@@ -47,6 +48,10 @@
 
                     {% if pub.gated %}
                     <li><a href="{{ pub.gated }}"><i class="fa fa-lock"></i> Gated</a></li>
+                    {%- endif %}
+
+                    {% if pub.link %}
+                    <li><a href="{{ pub.link }}"><i class="fa fa-external-link-square"></i> View online</a></li>
                     {%- endif %}
 
                     {% if pub.pdf %}
