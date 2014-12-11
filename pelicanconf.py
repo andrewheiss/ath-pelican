@@ -64,6 +64,8 @@ OUTPUT_SOURCES_EXTENSION = '.txt'
 PAGE_ORDER_BY = 'date'
 ARTICLE_ORDER_BY = 'date'
 
+STATIC_PATHS = ['files']
+
 
 #----------
 # Plugins
@@ -98,10 +100,10 @@ SITEMAP = {
 
 # Feed generation
 FEED_ALL_ATOM = None if developing_site else None
-CATEGORY_FEED_ATOM = None if developing_site else None
-TRANSLATION_FEED_ATOM = None if developing_site else None
-AUTHOR_FEED_ATOM = None if developing_site else None
-AUTHOR_FEED_RSS = None if developing_site else None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
 
 # Cache
 LOAD_CONTENT_CACHE = False if developing_site else True
@@ -112,7 +114,7 @@ LOAD_CONTENT_CACHE = False if developing_site else True
 #-------------
 MENUITEMS = [('About', '/about/'), ('CV', '#'), ('Blog', '/blog/'),
              ('Research', '/research/'), ('Teaching', '/teaching/'),
-             ('Resources', '#'), ('Other projects', '#')]
+             ('Resources', '#'), ('Other projects', '/other-projects/')]
 
 SOCIAL = [('E-mail', 'mailto:andrew@andrewheiss.com', 'fa-envelope-square'),
           ('Heissatopia (family blog)', 'http://www.heissatopia.com', 'fa-smile-o'),
@@ -152,9 +154,13 @@ def pure_table(html):
 
     return jinja2.Markup(soup)
 
+def fmt_date(value, fmt):
+    return value.strftime(fmt)
+
 JINJA_FILTERS = {'md_single_line': md_single_line,
                  'md': md,
-                 'pure_table': pure_table}
+                 'pure_table': pure_table,
+                 'fmt_date': fmt_date}
 
 
 #-----------------------------
