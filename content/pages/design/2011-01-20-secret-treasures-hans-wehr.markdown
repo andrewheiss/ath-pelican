@@ -3,8 +3,8 @@ Date: 2011-01-20
 Category: Web Design
 Template: design_project
 Slug: other-projects/design/secret-treasures-hans-wehr
-Thumb: /images/design/hans-thumb.png
-Full: /images/design/hans-full.png
+Thumb: http://www.andrewheiss.com/files/images/design/hans-thumb.png
+Full: http://www.andrewheiss.com/files/images/design/hans-full.png
 Link: http://www.hanswehr.net/
 
 

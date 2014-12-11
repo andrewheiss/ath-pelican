@@ -3,8 +3,8 @@ Date: 2009-01-31
 Category: Web Design
 Template: design_project
 Slug: other-projects/design/bitstream-communications
-Thumb: /images/design/bitstream-thumb.png
-Full: /images/design/bitstream-full.png
+Thumb: http://www.andrewheiss.com/files/images/design/bitstream-thumb.png
+Full: http://www.andrewheiss.com/files/images/design/bitstream-full.png
 Link: http://www.bitstream.org/
 
 
