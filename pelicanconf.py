@@ -114,7 +114,8 @@ LOAD_CONTENT_CACHE = False if developing_site else True
 #-------------
 MENUITEMS = [('About', '/about/'), ('CV', '#'), ('Blog', '/blog/'),
              ('Research', '/research/'), ('Teaching', '/teaching/'),
-             ('Resources', '#'), ('Other projects', '/other-projects/')]
+             # ('Resources', '#'),
+             ('Other projects', '/other-projects/')]
 
 SOCIAL = [('E-mail', 'mailto:andrew@andrewheiss.com', 'fa-envelope-square'),
           ('Heissatopia (family blog)', 'http://www.heissatopia.com', 'fa-smile-o'),

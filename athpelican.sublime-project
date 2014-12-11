@@ -2,9 +2,12 @@
 	"folders":
 	[
 		{
+			"folder_exclude_patterns":
+			[
+				"output"
+			],
 			"follow_symlinks": true,
-			"path": ".",
-            "folder_exclude_patterns": ["output"]
+			"path": "."
 		}
 	]
 }
