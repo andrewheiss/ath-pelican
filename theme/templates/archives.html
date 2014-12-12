@@ -9,6 +9,8 @@
   {% endif %}
 {% endblock meta_tags %}
 
+{% block title %}{{ page.title | striptags | escape }} | {{ SITENAME }}{% endblock title %}
+
 {% block content %}
             <h1>Archive</h1>
 

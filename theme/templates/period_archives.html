@@ -5,6 +5,8 @@
     <meta name="description" content="{{ DESCRIPTION }}" />
 {% endblock meta_tags %}
 
+{% block title %}Archives for {{ period | reverse | join(' ') }} | {{ SITENAME }}{% endblock title %}
+
 {% block content %}
             <h1>Archives for {{ period | reverse | join(' ') }}</h1>
 
