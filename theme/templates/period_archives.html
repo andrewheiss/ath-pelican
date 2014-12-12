@@ -1,4 +1,10 @@
 {% extends "base.html" %}
+
+{% block meta_tags %}
+{{ super() }}
+    <meta name="description" content="{{ DESCRIPTION }}" />
+{% endblock meta_tags %}
+
 {% block content %}
             <h1>Archives for {{ period | reverse | join(' ') }}</h1>
 

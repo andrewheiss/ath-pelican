@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
+{% block meta_tags %}
+{{ super() }}
+    <meta name="description" content="{{ DESCRIPTION }}" />
+{% endblock meta_tags %}
+
 {% block title %}Tags | {{ SITENAME }}{% endblock %}
 
 {% block content %}

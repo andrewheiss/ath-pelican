@@ -1,5 +1,14 @@
 {% extends "base.html" %}
 
+{% block meta_tags %}
+{{ super() }}
+  {%- if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+  {% else %}
+    <meta name="description" content="{{ DESCRIPTION }}" />
+  {% endif %}
+{% endblock meta_tags %}
+
 {% block content %}
 <article class="home-blurb">
     {{ page.content }}

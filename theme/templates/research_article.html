@@ -1,10 +1,11 @@
 {% extends "base.html" %}
+
 {% block meta_tags %}
 {{ super() }}
-  {%- if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt | striptags }}" />
+  {%- if page.description %}
+    <meta name="description" content="{{ page.description }}" />
   {% else %}
-    <meta name="description" content="{{ page.summary | striptags }}" />
+    <meta name="description" content="{{ DESCRIPTION }}" />
   {% endif %}
 {% endblock meta_tags %}
 

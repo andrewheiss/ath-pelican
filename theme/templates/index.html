@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
+{% block meta_tags %}
+{{ super() }}
+    <meta name="description" content="{{ DESCRIPTION }}" />
+{% endblock meta_tags %}
+
 {% block content %}
 <h1>Recent posts</h1>
 
@@ -18,5 +23,5 @@
 {% endfor %}
 </ol><!-- End of #content-list -->
 
-<p class="archive-link"><a href="/blog/archive/">Older posts &raquo;</a></p>
+<p class="archive-link pseudo-navigation"><a href="/blog/archive/">Older posts <i class="fa fa-arrow-circle-right"></i></a></p>
 {% endblock content %}

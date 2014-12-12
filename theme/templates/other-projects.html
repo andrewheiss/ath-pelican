@@ -1,5 +1,14 @@
 {% extends "base.html" %}
 
+{% block meta_tags %}
+{{ super() }}
+  {%- if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+  {% else %}
+    <meta name="description" content="{{ DESCRIPTION }}" />
+  {% endif %}
+{% endblock meta_tags %}
+
 {% block content %}
     <h1>{{ page.title }}</h1>
 
@@ -28,7 +37,7 @@
                 </div>
 
                 <div class="project-details pure-u-5-6">
-                    <h3 class="project-title"><a href="{{ SITEURL }}/{{ project.url }}" rel="bookmark" title="Permalink to {{ project.title|striptags }}">{{ project.title }}</a></h3>
+                    <h3 class="project-title"><a href="{{ SITEURL }}/{{ project.url }}" rel="bookmark">{{ project.title }}</a></h3>
 
                     <p class="project-meta">
                         <time datetime="{{ project.date.isoformat() }}" title="{{ project.date.isoformat() }}">{{ project.date | fmt_date('%B %Y') }}</time>
