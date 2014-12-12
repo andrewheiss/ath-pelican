@@ -300,11 +300,44 @@ pre, code {
 /* @end */
 
 .home-blurb {
-	font-size: 1.3em;
+	font-size: 1.5em;
 }
 
 .home-blurb p:first-child {
-	margin-top: 0.4em;
+	margin-top: 0em;
+}
+
+.home-extra h2 {
+	font-size: 1.9em;
+	margin-top: 0;
+}
+
+.blog-excerpt {
+	padding-right: 2em;
+}
+
+.blog-excerpt p {
+	margin-bottom: 0em;
+}
+
+#twitter ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+#loading p {
+	padding: 0;
+	margin-top: 0;
+}
+
+#twitter li {
+	padding-bottom: 1em;
+}
+
+.twitter_timestamp {
+	font: 0.9em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+	display: block;
 }
 
 /* @end */
@@ -707,6 +740,19 @@ pre, code {
     }
     
     .sidebar nav {
+    	margin-top: 1.5em;
+    }
+    
+    .home-extra {
+    	text-align: center;
+    }
+    
+    .home-extra .blog-excerpt,
+    .home-extra .twitter-excerpt {
+    	padding: 0 5%;
+    }
+    
+    .home-extra .twitter-excerpt {
     	margin-top: 1.5em;
     }
 }

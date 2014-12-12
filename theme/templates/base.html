@@ -51,6 +51,8 @@
       ga('create', '{{ GOOGLE_ANALYTICS }}', 'auto');
       ga('send', 'pageview');
 
+    </script>
+    {% block extra_script %}{% endblock extra_script %}
     {% endblock head %}
 
 </head>
