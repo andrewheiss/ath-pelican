@@ -23,7 +23,6 @@ DEFAULT_DATE_FORMAT = '%A, %B %-d, %Y'
 
 TYPOGRIFY = True  # Nice typographic things
 
-# GOOGLE_ANALYTICS = 'UA-527449-5'
 GOOGLE_ANALYTICS = ''
 
 
