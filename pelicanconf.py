@@ -12,6 +12,7 @@ developing_site = True
 AUTHOR = 'Andrew Heiss'
 SITENAME = 'Andrew Heiss'
 MINIBIO = 'Scholar, developer, and designer'
+DESCRIPTION = 'Andrew Heiss is a PhD student at the Sanford School of Public Policy at Duke University, researching the nonprofit sector in the Middle East.'
 
 SITEURL = ''
 
@@ -99,7 +100,7 @@ SITEMAP = {
 
 
 # Feed generation
-FEED_ALL_ATOM = None if developing_site else None
+FEED_ALL_ATOM = None if developing_site else 'atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None

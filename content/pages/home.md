@@ -2,6 +2,7 @@ Title: Welcome to My Site
 Date: 2014-12-01
 save_as: index.html
 Template: home
+Description: Andrew Heiss is a PhD student at the Sanford School of Public Policy at Duke University, researching the nonprofit sector in the Middle East.
 
 
 Hi. I'm Andrew. 

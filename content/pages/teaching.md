@@ -1,6 +1,7 @@
 Title: Teaching
 Date: 2014-11-26
 Slug: teaching
+Description: Andrew Heiss teaches courses in statistics, public policy analysis, and Middle East politics.
 
 
 # Future courses
