@@ -2,6 +2,7 @@ Title: Using Arabic in InDesign CS5 without InDesign ME
 Excerpt: Use InDesign CS5&rsquo;s hidden World Ready Composer to typeset text in Arabic and other complex scripts.
 Category: blog
 Tags: arabic, graphic design
+Slug: using-arabic-in-indesign-cs5-without-indesign-me
 
 
 Nearly four years ago, [I posted a workaround for InDesign CS3's lack of support for RTL support.](http://www.andrewheiss.com/blog/2007/09/17/using-arabic-in-indesign-without-indesign-me/) The only way to get proper Arabic or Hebrew text back then was to type backwards—something trivial (and scriptable) for Hebrew, but far more complicated for Arabic, with all its different letter forms that change depending on their position in the word. Rather than *type* backwards, you had to *manually* insert glyphs from the glyphs panel backwards. While this was extraordinarily tedious, it worked for times when you only needed to deal with a few words—maybe a short sentence.

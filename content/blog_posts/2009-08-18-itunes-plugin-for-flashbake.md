@@ -2,6 +2,7 @@ Title: iTunes plugin for Flashbake
 Excerpt: Flashbake-iTunes is a plugin for Flashbake that allows you to include information for the current track in the periodic git commit message.
 Category: blog
 Tags: flashbake, git, writing
+Slug: itunes-plugin-for-flashbake
 
 
 [Flashbake](http://wiki.github.com/commandline/flashbake "Home - flashbake - GitHub") is a fantastic script [for nerdy writers](http://lifehacker.com/5232049/flashbake-automates-version-control-for-nerdy-writers "Flashbake Automates Version Control for (Nerdy) Writers - Downloads - Lifehacker") (like me) that periodically commits changes to a Git repository and can optionally append various metadata to the commit message, allowing you to [annotate the entire creative process](http://www.boingboing.net/2009/02/13/flashbake-free-versi.html "Flashbake: Free version-control for writers using git - Boing Boing").

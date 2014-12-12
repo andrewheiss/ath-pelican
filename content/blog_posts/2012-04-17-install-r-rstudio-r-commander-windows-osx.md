@@ -2,6 +2,7 @@ Title: Install R, RStudio, and R Commander in Windows and OS X
 Excerpt: R, RStudio, and R Commander are all powerful open source statistical tools, but they can be a little tricky to install. These instructions make it easy to get everything working right.
 Category: blog
 Tags: statistics, r
+Slug: install-r-rstudio-r-commander-windows-osx
 
 
 [R](http://www.r-project.org/) is an incredibly powerful open source program for statistics and graphics. It can run on pretty much any computer and has a very active and friendly support community online. Graphics created by R are extremely extensible and are used in high level publications like the New York Times (as explained by [this former NYT infographic designer](http://book.flowingdata.com/)).

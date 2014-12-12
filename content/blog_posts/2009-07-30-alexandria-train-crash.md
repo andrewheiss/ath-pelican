@@ -2,6 +2,7 @@ Title: Alexandria Train Crash
 Excerpt: Pictures and details of a minor train wreck in Alexandria, Egypt on July 30, 2009.
 Category: blog
 Tags: alexandria, egypt, train wreck
+Slug: alexandria-train-crash
 
 
 <p class="confirmation question">See update below <a href="#update">(skip to update)</a></p>

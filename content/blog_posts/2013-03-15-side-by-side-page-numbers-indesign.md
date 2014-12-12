@@ -2,6 +2,7 @@ Title: True side-by-side page numbers in InDesign
 Excerpt: Automatically create side-by-side page numbers for parallel texts or spread numbers in InDesign. 
 Category: blog
 Tags: arabic, graphic design
+Slug: side-by-side-page-numbers-indesign
 
 
 The books I make for the [Middle East Texts Initiative](http://meti.byu.edu/) contain side-by-side English-Arabic translations of old Arabic, Hebrew, and Latin texts. InDesign can generally handle the side-by-side parallel stories and text frames, but it cannot properly number the pages. After all the front matter and introductory text, the English translation starts on a verso page (left) with page 1, followed by a page of Arabic on the recto (right), also on page 1. The next verso is page 2. 

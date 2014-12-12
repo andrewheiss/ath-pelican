@@ -2,6 +2,7 @@ Title: pdftk-php Officially Released
 Excerpt: After almost two years, I've officially developed and released pdftk-php--a script that lets you inject form data into a PDF with PHP.
 Category: blog
 Tags: pdf, pdftk, pdftk-php, php, release
+Slug: pdftk-php-officially-released
 
 
 Wow. It's been almost two years since I wrote [a little tutorial][tut] on how to use LiveCycle, PHP, and MySQL together to make a web application that served dynamic PDF forms. Since then it has become the number one page on this site. I still get a substantial number of comments a week here on the blog and via e-mail—many of those comments are stuck in my inbox, sent to me before I rebuilt my site on WordPress and enabled commenting.

@@ -2,6 +2,7 @@ Title: Installing pdftk-php
 Excerpt: A detailed, updated tutorial on how to install, use, and customize pdftk-php.php, which combines the power of pdftk and PHP, allowing you to serve dynamic PDF forms from the web.
 Category: blog
 Tags: html, pdftk, pdftk-php, php, sh, sql, text
+Slug: installing-pdftk-php
 
 
 Upon popular request, I've decided to update the original tutorial for populating a LiveCycle PDF with PHP to apply to the new release of pdftk-php. The installation instructions should be mostly clear in the readme and in the inline comments in the example included with the script; this post is merely supplemental.

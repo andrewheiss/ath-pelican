@@ -2,6 +2,7 @@ Title: On narrowing and redefining research
 excerpt: After a year of deliberation, I may have finally decided what to write about for my thesis.
 Category: blog
 Tags: bloggers, history, italians, mutamasirun, thesis
+Slug: on-narrowing-and-redefining-research
 
 
 I've been in Egypt for almost a year now, studiously working towards my MA in Middle East Studies. The supposed capstone of my time here at AUC—my thesis—now looms ahead somewhat menacingly. I get to spend the next several months researching and writing what will end up being my largest research project to date. It'll also set the foundation for my (hopefully) future PhD plans. 

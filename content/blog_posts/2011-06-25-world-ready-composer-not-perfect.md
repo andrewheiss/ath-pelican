@@ -2,6 +2,7 @@ Title: World-Ready Composer not Perfect
 Excerpt: Even though InDesign&rsquo;s new World-Ready Composer is awesome, it is still buggy and struggles with a few Arabic fonts.
 Category: blog
 Tags: arabic, graphic design
+Slug: world-ready-composer-not-perfect
 
 
 Although Adobe has included the world-ready composer in InDesign CS4 and 5, [like I said in my previous post](http://www.andrewheiss.com/blog/2011/06/24/using-arabic-in-indesign-cs5-without-indesign-me/), it's not documented or supported at all. It's still buggy and unfinished, unfortunately.
