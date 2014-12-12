@@ -2,7 +2,7 @@ Title: BitStream Communications
 Date: 2009-01-31
 Category: Web Design
 Template: design_project
-Slug: other-projects/design/bitstream-communications
+Slug: other-projects/bitstream-communications
 Thumb: http://www.andrewheiss.com/files/images/design/bitstream-thumb.png
 Full: http://www.andrewheiss.com/files/images/design/bitstream-full.png
 Link: http://www.bitstream.org/

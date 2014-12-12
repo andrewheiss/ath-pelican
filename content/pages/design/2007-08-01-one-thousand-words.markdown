@@ -2,7 +2,7 @@ Title: One Thousand Words
 Date: 2007-08-01
 Category: Web Design
 Template: design_project
-Slug: other-projects/design/one-thousand-words
+Slug: other-projects/one-thousand-words
 Thumb: http://www.andrewheiss.com/files/images/design/thousand-words-thumb.png
 Full: http://www.andrewheiss.com/files/images/design/thousand-words-full.png
 

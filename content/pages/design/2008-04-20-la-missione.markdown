@@ -2,7 +2,7 @@ Title: La missione
 Date: 2008-04-20
 Category: Print Design
 Template: design_project
-Slug: other-projects/design/la-missione
+Slug: other-projects/la-missione
 Thumb: http://www.andrewheiss.com/files/images/design/la-missione-thumb.png
 Full: http://www.andrewheiss.com/files/images/design/la-missione-full.png
 

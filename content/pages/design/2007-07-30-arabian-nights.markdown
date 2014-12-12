@@ -2,7 +2,7 @@ Title: Arabian Nights
 Date: 2007-07-30
 Category: Print Design
 Template: design_project
-Slug: other-projects/design/arabian-nights
+Slug: other-projects/arabian-nights
 Thumb: http://www.andrewheiss.com/files/images/design/1001-thumb.png
 Full: http://www.andrewheiss.com/files/images/design/1001-full.png
 Link: http://www.lulu.com/product/paperback/arabian-nights-selections-from-1001-nights/1368715

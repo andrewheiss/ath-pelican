@@ -2,7 +2,7 @@ Title: The Secret Treasures of Hans Wehr
 Date: 2011-01-20
 Category: Web Design
 Template: design_project
-Slug: other-projects/design/secret-treasures-hans-wehr
+Slug: other-projects/secret-treasures-hans-wehr
 Thumb: http://www.andrewheiss.com/files/images/design/hans-thumb.png
 Full: http://www.andrewheiss.com/files/images/design/hans-full.png
 Link: http://www.hanswehr.net/
