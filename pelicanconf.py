@@ -115,9 +115,9 @@ LOAD_CONTENT_CACHE = False if developing_site else True
 #-------------
 # Site items
 #-------------
-MENUITEMS = [('About', '/'), ('CV', '#'), ('Blog', '/blog/'),
-             ('Research', '/research/'), ('Teaching', '/teaching/'),
-             # ('Resources', '#'),
+MENUITEMS = [('About', '/'), ('CV', '/files/2014-09-01-andrew-heiss-vita.pdf'),
+             ('Blog', '/blog/'), ('Research', '/research/'),
+             ('Teaching', '/teaching/'),  # ('Resources', '#'),
              ('Other projects', '/other-projects/')]
 
 SOCIAL = [('E-mail', 'mailto:andrew@andrewheiss.com', 'fa-envelope-square'),
