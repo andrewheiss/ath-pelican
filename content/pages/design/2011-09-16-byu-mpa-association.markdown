@@ -3,8 +3,8 @@ Date: 2011-09-16
 Category: Web Design
 Template: design_project
 Slug: other-projects/byu-mpa-association
-Thumb: http://www.andrewheiss.com/files/images/design/mpaa-thumb.png
-Full: http://www.andrewheiss.com/files/images/design/mpaa-full.png
+Thumb: /files/images/design/mpaa-thumb.png
+Full: /files/images/design/mpaa-full.png
 Link: http://mpaa.byu.edu/
 
 

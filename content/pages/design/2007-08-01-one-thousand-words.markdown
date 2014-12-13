@@ -3,8 +3,8 @@ Date: 2007-08-01
 Category: Web Design
 Template: design_project
 Slug: other-projects/one-thousand-words
-Thumb: http://www.andrewheiss.com/files/images/design/thousand-words-thumb.png
-Full: http://www.andrewheiss.com/files/images/design/thousand-words-full.png
+Thumb: /files/images/design/thousand-words-thumb.png
+Full: /files/images/design/thousand-words-full.png
 
 
 * Ongoing series of minimalist photo books

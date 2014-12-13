@@ -3,8 +3,8 @@ Date: 2008-08-10
 Category: Web Design
 Template: design_project
 Slug: other-projects/test-project
-Thumb: http://www.andrewheiss.com/files/images/design/mmlab-thumb.png
-Full: http://www.andrewheiss.com/files/images/design/mmlab-full.png
+Thumb: /files/images/design/mmlab-thumb.png
+Full: /files/images/design/mmlab-full.png
 Link: https://mmlab.lib.byu.edu/mmlab/
 
 

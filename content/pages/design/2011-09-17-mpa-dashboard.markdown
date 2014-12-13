@@ -3,8 +3,8 @@ Date: 2011-09-17
 Category: Web Design
 Template: design_project
 Slug: other-projects/mpa-dashboard
-Thumb: http://www.andrewheiss.com/files/images/design/mpadash-thumb.png
-Full: http://www.andrewheiss.com/files/images/design/mpadash-full.png
+Thumb: /files/images/design/mpadash-thumb.png
+Full: /files/images/design/mpadash-full.png
 link: http://andrewheiss.com/mpadash/
 
 

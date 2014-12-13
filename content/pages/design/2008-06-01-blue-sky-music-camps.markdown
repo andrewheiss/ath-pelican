@@ -3,8 +3,8 @@ Date: 2008-06-01
 Category: Web Design
 Template: design_project
 Slug: other-projects/blue-sky-music-camps
-Thumb: http://www.andrewheiss.com/files/images/design/blue-sky-thumb.png
-Full: http://www.andrewheiss.com/files/images/design/blue-sky-full.png
+Thumb: /files/images/design/blue-sky-thumb.png
+Full: /files/images/design/blue-sky-full.png
 Link: http://www.blueskymusiccamps.com/
 
 

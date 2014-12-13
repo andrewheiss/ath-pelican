@@ -3,8 +3,8 @@ Date: 2009-12-01
 Category: Web Design
 Template: design_project
 Slug: other-projects/talk-morocco
-Thumb: http://www.andrewheiss.com/files/images/design/tm-thumb.png
-Full: http://www.andrewheiss.com/files/images/design/tm-full.png
+Thumb: /files/images/design/tm-thumb.png
+Full: /files/images/design/tm-full.png
 Link: http://www.talkmorocco.net/
 
 

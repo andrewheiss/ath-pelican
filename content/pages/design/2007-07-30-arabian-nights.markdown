@@ -3,8 +3,8 @@ Date: 2007-07-30
 Category: Print Design
 Template: design_project
 Slug: other-projects/arabian-nights
-Thumb: http://www.andrewheiss.com/files/images/design/1001-thumb.png
-Full: http://www.andrewheiss.com/files/images/design/1001-full.png
+Thumb: /files/images/design/1001-thumb.png
+Full: /files/images/design/1001-full.png
 Link: http://www.lulu.com/product/paperback/arabian-nights-selections-from-1001-nights/1368715
 
 
