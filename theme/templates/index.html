@@ -1,11 +1,19 @@
 {% extends "base.html" %}
+{% import "macros.html" as meta %}
+
+{% set title = 'Blog' %}
+{% set url = SITEURL + '/blog/' %}
+
+{% block canonical_rel %}
+    <link rel="canonical" href="{{ url }}">
+{% endblock %}
 
 {% block meta_tags %}
-{{ super() }}
-    <meta name="description" content="{{ DESCRIPTION }}" />
+    {{ meta.meta_description(DESCRIPTION) }}
 {% endblock meta_tags %}
 
-{% block title %}Blog | {{ SITENAME }}{% endblock title %}
+{% block title %}{{ title }} | {{ SITENAME }}{% endblock title %}
+
 
 {% block content %}
 <h1>Recent posts</h1>

@@ -1,18 +1,30 @@
 {% extends "base.html" %}
+{% import "macros.html" as meta %}
+
+{% set title = article.title | striptags | escape %}
+{% set url = SITEURL + '/' + article.url %}
+{%- if article.excerpt %}
+    {% set description = article.excerpt | striptags %}
+{% else %}
+    {% set description = article.summary | striptags %}
+{% endif %}
+
+{% block canonical_rel %}
+    <link rel="canonical" href="{{ url }}">
+{% endblock %}
 
 {% block meta_tags %}
-{{ super() }}
-  {%- if article.excerpt %}
-    <meta name="description" content="{{ article.excerpt | striptags }}" />
-  {% else %}
-    <meta name="description" content="{{ article.summary | striptags }}" />
-  {% endif %}
-  {%- if article.tags %}
-    <meta name="keywords" content="{{ article.tags | join(',') }}" />
-  {% endif %}
+    {{ meta.meta_description(description) }}
+    {% if article.tags %}
+    <meta name="keywords" content="{{ article.tags | join(', ') }}" />
+    {% endif %}
 {% endblock meta_tags %}
 
-{% block title %}{{ article.title | striptags | escape }} | {{ SITENAME }}{% endblock title %}
+{% block social_meta %}
+    {{ meta.open_graph(title, url, description) }}
+{% endblock social_meta %}
+
+{% block title %}{{ title }} | {{ SITENAME }}{% endblock title %}
 
 {% block content %}
 <article class="content-single">

@@ -1,15 +1,28 @@
 {% extends "base.html" %}
+{% import "macros.html" as meta %}
+
+{% set title = page.title | striptags | escape %}
+{% set url = SITEURL + '/' + page.url %}
+{%- if page.description %}
+    {% set description = page.description %}
+{% else %}
+    {% set description = DESCRIPTION %}
+{% endif %}
+
+{% block canonical_rel %}
+    <link rel="canonical" href="{{ url }}">
+{% endblock %}
 
 {% block meta_tags %}
-{{ super() }}
-  {%- if page.description %}
-    <meta name="description" content="{{ page.description }}" />
-  {% else %}
-    <meta name="description" content="{{ DESCRIPTION }}" />
-  {% endif %}
+    {{ meta.meta_description(description) }}
 {% endblock meta_tags %}
 
-{% block title %}{{ page.title | striptags | escape }} | {{ SITENAME }}{% endblock title %}
+{% block social_meta %}
+    {{ meta.open_graph(title, url, description) }}
+{% endblock social_meta %}
+
+{% block title %}{{ title }} | {{ SITENAME }}{% endblock title %}
+
 
 {% block content %}
 <article class="content-single design-project">

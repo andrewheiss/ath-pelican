@@ -1,11 +1,12 @@
 {% extends "base.html" %}
+{% import "macros.html" as meta %}
 
 {% block meta_tags %}
-{{ super() }}
-    <meta name="description" content="{{ DESCRIPTION }}" />
+    {{ meta.meta_description(DESCRIPTION) }}
 {% endblock meta_tags %}
 
 {% block title %}Categories | {{ SITENAME }}{% endblock title %}
+
 
 {% block content %}
     <h1>Blog categories</h1>

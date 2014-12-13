@@ -1,14 +1,18 @@
 {% extends "base.html" %}
+{% import "macros.html" as meta %}
+
+{% set title = 'Archives for ' + period | reverse | join(' ') %}
+{% set description =  %}
 
 {% block meta_tags %}
-{{ super() }}
-    <meta name="description" content="{{ DESCRIPTION }}" />
+    {{ meta.meta_description(DESCRIPTION) }}
 {% endblock meta_tags %}
 
-{% block title %}Archives for {{ period | reverse | join(' ') }} | {{ SITENAME }}{% endblock title %}
+{% block title %}{{ title }} | {{ SITENAME }}{% endblock title %}
+
 
 {% block content %}
-            <h1>Archives for {{ period | reverse | join(' ') }}</h1>
+            <h1>{{ title }}</h1>
 
             <ol class="archive-list">
 {% for article in dates %}

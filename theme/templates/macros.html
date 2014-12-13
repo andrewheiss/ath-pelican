@@ -1,0 +1,18 @@
+{% macro open_graph(title, url, description, image='') -%}
+    <meta name="twitter:card" value="summary">
+    <meta name="twitter:site" content="@andrewheiss">
+    <meta name="twitter:creator" content="@andrewheiss">
+
+    <meta property="og:site_name" content="Andrew Heiss"/>
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ url }}" />
+    {% if image != '' %}
+    <meta property="og:image" content="{{ image }}" />
+    {% endif %}
+    <meta property="og:description" content="{{ description }}" />
+{%- endmacro %}
+
+{% macro meta_description(description) -%}
+    <meta name="description" content="{{ description }}">
+{%- endmacro %}

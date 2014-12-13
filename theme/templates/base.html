@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="{{ DEFAULT_LANG }}">
+<html lang="{{ DEFAULT_LANG }}"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
     {% block head %}
     <meta charset="utf-8">
@@ -8,6 +10,13 @@
     <meta name="author" content="Andrew Heiss">
     {% block meta_tags %}{% endblock meta_tags %}
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+
+    {% block canonical_rel %}{% endblock %}
+    <link rel="alternate" type="application/atom+xml" title="Blog Posts" href="http://feeds.andrewheiss.com/AndrewHeiss">
+    <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles">
+    <link rel="openid2.local_id" href="http://www.google.com/profiles/andrewheiss">
+
+    {% block social_meta %}{% endblock social_meta %}
 
     <link rel="stylesheet" href="/theme/css/pure/0.5.0/pure-min.css">
     <link rel="stylesheet" href="/theme/css/syntax.css">

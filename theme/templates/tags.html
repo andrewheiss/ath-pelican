@@ -1,14 +1,17 @@
 {% extends "base.html" %}
+{% import "macros.html" as meta %}
+
+{% set title = 'Tags' %}
 
 {% block meta_tags %}
-{{ super() }}
-    <meta name="description" content="{{ DESCRIPTION }}" />
+    {{ meta.meta_description(DESCRIPTION) }}
 {% endblock meta_tags %}
 
-{% block title %}Tags | {{ SITENAME }}{% endblock title %}
+{% block title %}{{ title }} | {{ SITENAME }}{% endblock title %}
+
 
 {% block content %}
-    <h1>Tags</h1>
+    <h1>{{ title }}</h1>
     <ul class="list taxonomy">
     {%- for tag, articles in tags | sort %}
         {% set num = articles | count %}
