@@ -663,8 +663,10 @@ pre, code {
 
 /* @group @media queries */
 
+/* TODO: Weird things happen at width=769px, like the sidebar text is centered, but is laid out on the left. All is well at 768 and 770--just this weird liminal space that nobody is ever going to hit. This weird space used to happen at 768, though, which is the iPad portrait width, so I changed all 48ems in @media queries to 48.1, here and in grids-responsive-min.css*/
+
 /* Put footer in bottom left corner if screen is wide and tall enough */
-@media (min-height: 500px) and (min-width: 48em) {
+@media (min-height: 500px) and (min-width: 48.1em) {
 	.footer {
 		position: fixed;
 		bottom: 0;
@@ -676,7 +678,7 @@ pre, code {
 }
 
 /* Put footer at the bottom of the content area if screen is wide enough but too short */
-@media (max-height: 500px) and (min-width: 48em) {
+@media (max-height: 500px) and (min-width: 48.1em) {
 	.footer {
 		width: 75%;
 		text-align: center;
@@ -690,7 +692,7 @@ pre, code {
 }
 
 /* Put footer at the bottom of the page at full width if the screen is skinny */
-@media (max-width: 48em) {
+@media (max-width: 48.1em) {
 	.footer {
 		text-align: center;
 	}
@@ -702,7 +704,7 @@ pre, code {
 }
 
 /* Non-phone and tablet layout */
-@media (min-width: 48em) {
+@media (min-width: 48.1em) {
     .content {
         padding: 2em 3em;
         margin-left: 25%;
@@ -720,7 +722,7 @@ pre, code {
 }
 
 /* Phone and tablet layout */
-@media (max-width: 48em) {
+@media (max-width: 48.1em) {
     .content {
         padding: 2em 1.5em;
 	}
