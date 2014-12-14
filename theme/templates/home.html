@@ -20,7 +20,7 @@
 {% endblock social_meta %}
 
 {% block extra_script %}
-    <script type="text/javascript", charset="utf-8">
+    <script type="text/javascript">
         $(document).ready(function () {
             $.ajax({
                 async: true,
@@ -36,9 +36,9 @@
 {% endblock extra_script %}
 
 {% block content %}
-<article class="home-blurb">
+<div class="home-blurb">
     {{ page.content }}
-</article>
+</div>
 
 <div class="home-extra pure-g">
     <div class="blog-excerpt pure-u-1 pure-u-md-3-5">
