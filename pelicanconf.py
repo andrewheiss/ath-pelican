@@ -92,9 +92,9 @@ SITEMAP = {
         'pages': 0.5
     },
     'changefreqs': {
-        'articles': 'monthly',
+        'articles': 'weekly',
         'indexes': 'daily',
-        'pages': 'monthly'
+        'pages': 'weekly'
     }
 }
 
