@@ -6,7 +6,7 @@ Description: Andrew Heiss teaches courses in statistics, public policy analysis,
 
 # Future courses
 
-**[Middle Eastern Politics](/teaching/Middle%20East%20Politics%20syllabus.pdf)** (undergraduate)
+**[Middle Eastern Politics](/files/teaching/Middle%20East%20Politics%20syllabus.pdf)** (undergraduate)
 
 
 # Graduate courses
