@@ -77,7 +77,7 @@ Make as many snippets as you want—one for each of your corpus files. All you n
 
 In the end you can create a good collection of different automatic random filler text from any corpus you want.
 
-![Gutenberg ipsum snippets](http://files.andrewheiss.com.s3.amazonaws.com/images/te-snippets-small.png)
+![Gutenberg ipsum snippets](/files/images/te-snippets-small.png)
 
 If TextExpander 4 allowed its new Fill Ins to work as variables in a shell script, this whole collection could be a lot simpler—it could just be one dropdown menu of all the corpus files in the `words` folder. But since that's not possible, this will have to do.
 

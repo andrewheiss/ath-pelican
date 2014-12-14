@@ -3,7 +3,7 @@ Date: 2014-08-20
 Category: Working Paper
 Slug: research/working-papers/heiss-rogerson-sources-2014
 Template: research_article
-PDF: /files/research/HeissRogerson,%20Sources%20of%20Advocacy,%202014-09-01.pdf
+PDF: /files/research/2014-heiss-rogerson-sources.pdf
 Code: https://github.com/andrewheiss/Egyptian-NGO-sources-in-media
 Extra: Presented at the annual meeting of the American Political Science Association (APSA), Washington, DC, August 2014
 

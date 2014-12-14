@@ -3,7 +3,7 @@ Date: 2014-03-20
 Category: Working Paper
 Slug: research/working-papers/heiss-rogerson-discourse-2014
 Template: research_article
-PDF: /files/research/HeissRogerson,%20Discovering%20Discourse,%202014-03-22.pdf
+PDF: /files/research/2014-heiss-rogerson-discourse.pdf
 Code: https://github.com/andrewheiss/Media-and-NGOs
 Extra: Presented at the annual meetings of the Southern Political Science Association (SPSA), New Orleans, LA, January 2014; and the International Studies Association (ISA), Toronto, Canada, March 2014
 

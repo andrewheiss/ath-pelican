@@ -30,14 +30,14 @@ Here's how to do it:
 While these services eliminate most of the clicking and dragging I was doing before, they still require three clicks (select the file, right click to navigate to the services menu, click on the service). Luckily Quicksilver simplifies the process even more. You could probably use other Quicksilver-esque programs like Alfred and the like to get the universal service keyboard shortcuts.
 
 1. Enable the "Services Menu Module" in Quicksliver's plug-ins sheet in its preferences (⌘ + ,).  
-![Quicksilver plugin menu](http://files.andrewheiss.com/images/qs-plugins_500.png "Quicksilver plugin menu")
+![Quicksilver plugin menu](/files/images/qs-plugins_500.png "Quicksilver plugin menu")
 
 2. Go to Preferences and make sure "Enable advanced features" is checked.
 
 3. Go to Catalog > Quicksilver and check "Proxy Objects"
 
 4. Create a new trigger to pipe the current selection through each of the services. I use ⌃⌥⌘U for Copy to Dropbox and ⌃⌥⇧⌘U (essentially mashing down the whole corner of my keyboard :) ) for Move to Dropbox.   
-![Setting a trigger in Quicksilver](http://files.andrewheiss.com/images/trigger_500.png "Setting a trigger in Quicksilver")
+![Setting a trigger in Quicksilver](/files/images/trigger_500.png "Setting a trigger in Quicksilver")
 
 5. Select a file, press your new keyboard shortcut, and voila—the file is instantly copied to Dropbox and you have a URL ready to paste somewhere. Pure magic :)
 

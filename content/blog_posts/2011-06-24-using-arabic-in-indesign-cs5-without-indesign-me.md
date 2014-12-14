@@ -20,7 +20,7 @@ You can programmatically create paragraph styles that use the world ready compos
 1. [Download these scripts](http://www.thomasphinney.com/wp-content/uploads/2009/01/r2l_scripts_for_id_cs4.zip) by Thomas Phinney and Peter Kahrel and [install them](http://www.danrodney.com/scripts/directions-installingscripts.html) in your script folder.
 2. Run the "r2l Paragraph Style Arabic" script from the Scripts panel. A new paragraph style named "RTL Arabic" should appear in your Paragraph Styles panel.
 3. Check the style settings and verify that the "Adobe World-Ready Paragraph Composer" is being used for the style.  
-![World-Ready Composer](http://files.andrewheiss.com/images/world-ready.png "World-Ready Composer")
+![World-Ready Composer](/files/images/world-ready.png "World-Ready Composer")
 4. Start using Arabic text!
 5. *Bonus:* To use the composer in other documents you can either run the script again or just copy the style. The composer is activated by the style. Theoretically you could save the Arabic style to a new template and never have to run the script again.
 

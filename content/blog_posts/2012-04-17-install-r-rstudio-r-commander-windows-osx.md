@@ -20,12 +20,12 @@ However, as is the case with lots of free and open source software, it can be a 
 3. Download RStudio from [http://rstudio.org/download/desktop](http://rstudio.org/download/desktop) and install it. Leave all default settings in the installation options.
 4. Open RStudio.
 5. Go to the "Packages" tab and click on "Install Packages". The first time you'll do this you'll be prompted to choose a CRAN mirror. R will download all necessary files from the server you select here. Choose the location closest to you (probably "USA CA 1" or "USA CA 2", which are housed at UC Berkeley and UCLA, respectively).  
-![Install packages in Windows](http://files.andrewheiss.com/images/install_r_commander/install_packages_win.png)
+![Install packages in Windows](/files/images/install_r_commander/install_packages_win.png)
 6. Start typing "Rcmdr" until you see it appear in a list. Select the first option (or finish typing Rcmdr), ensure that "Install dependencies" is checked, and click "Install".  
-![Install Rcmdr in Windows](http://files.andrewheiss.com/images/install_r_commander/install_packages_win_1.png)
+![Install Rcmdr in Windows](/files/images/install_r_commander/install_packages_win_1.png)
 7. Wait while all the parts of the R Commander package are installed.
 8. If you get permission errors while installing packages, close R Studio and reopen it with administrator privileges.  
-![Run as administrator in Windows](http://files.andrewheiss.com/images/install_r_commander/run_as_administrator.png)
+![Run as administrator in Windows](/files/images/install_r_commander/run_as_administrator.png)
 
 
 ### Install R, RStudio, and R Commander in Mac OS X
@@ -37,12 +37,12 @@ However, as is the case with lots of free and open source software, it can be a 
 5. Download Tcl/Tk from [http://cran.r-project.org/bin/macosx/tools/](http://cran.r-project.org/bin/macosx/tools/) (click on `tcltk-8.x.x-x11.dmg`; OS X needs this to run R Commander.)
 6. Install Tcl/Tk.
 7. Go to your Applications folder and find a folder named Utilities. Verify that you have a program named "X11" there. If not, go to [http://xquartz.macosforge.org/](http://xquartz.macosforge.org/) and download and install the latest version of XQuartz.  
-![X11 in Applications/Utilities](http://files.andrewheiss.com/images/install_r_commander/x11_utilities.png)
+![X11 in Applications/Utilities](/files/images/install_r_commander/x11_utilities.png)
 8. Open RStudio.
 9. Go to the "Packages" tab and click on "Install Packages". The first time you'll do this you'll be prompted to choose a CRAN mirror. R will download all necessary files from the server you select here. Choose the location closest to you (probably "USA CA 1" or "USA CA 2", which are housed at UC Berkeley and UCLA, respectively).  
-![Install packages in OS X](http://files.andrewheiss.com/images/install_r_commander/install_packages_mac.png)
+![Install packages in OS X](/files/images/install_r_commander/install_packages_mac.png)
 10. Start typing "Rcmdr" until you see it appear in a list. Select the first option (or finish typing Rcmdr), ensure that "Install dependencies" is checked, and click "Install".  
-![Install Rcmdr in OS X](http://files.andrewheiss.com/images/install_r_commander/install_packages_mac_1.png)
+![Install Rcmdr in OS X](/files/images/install_r_commander/install_packages_mac_1.png)
 11. Wait while all the parts of the R Commander package are installed.
 
 
