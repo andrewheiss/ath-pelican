@@ -162,10 +162,16 @@ def pure_table(html):
 def fmt_date(value, fmt):
     return value.strftime(fmt)
 
+def current_year(value):
+    import time
+    return(time.strftime("%Y"))
+
+
 JINJA_FILTERS = {'md_single_line': md_single_line,
                  'md': md,
                  'pure_table': pure_table,
-                 'fmt_date': fmt_date}
+                 'fmt_date': fmt_date,
+                 'current_year': current_year}
 
 
 #-----------------------------
