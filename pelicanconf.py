@@ -116,7 +116,7 @@ LOAD_CONTENT_CACHE = False if developing_site else True
 #-------------
 # Site items
 #-------------
-MENUITEMS = [('About', '/'), ('CV', '/files/2014-09-01-andrew-heiss-vita.pdf'),
+MENUITEMS = [('About', '/'), ('CV', '/files/2014-11-01-andrew-heiss-vita.pdf'),
              ('Blog', '/blog/'), ('Research', '/research/'),
              ('Teaching', '/teaching/'),  # ('Resources', '#'),
              ('Other projects', '/other-projects/')]
