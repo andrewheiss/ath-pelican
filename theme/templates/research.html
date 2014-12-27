@@ -33,7 +33,8 @@
                            ('Essays and Reviews', collations.review_pages),
                            ('Working Papers', collations.working_paper_pages),
                            ('Selected Seminar Papers', collations.seminar_paper_pages),
-                           ('Software', collations.software_pages)] %}
+                           ('Software', collations.software_pages),
+                           ('Translations', collations.translation_pages)] %}
 
     <nav>
         <ul class="publication-toc">
@@ -76,6 +77,10 @@
 
                     {% if pub.link %}
                     <li><a href="{{ pub.link }}"><i class="fa fa-external-link-square"></i> View online</a></li>
+                    {%- endif %}
+
+                    {% if pub.book %}
+                    <li><a href="{{ pub.book }}"><i class="fa fa-book"></i> Book</a></li>
                     {%- endif %}
 
                     {% if pub.pdf %}
