@@ -6,10 +6,15 @@ Description: Andrew Heiss teaches courses in statistics, public policy analysis,
 
 # Future courses
 
+**[Telling Stories with Data](/files/teaching/Telling%20Stories%20with%20Data%20syllabus.pdf)** (graduate or undergraduate)
+
 **[Middle Eastern Politics](/files/teaching/Middle%20East%20Politics%20syllabus.pdf)** (undergraduate)
 
 
 # Graduate courses
+
+**Stats in Real Life** (TA)  
+Spring 2014 and Fall 2014  | Duke University (PubPol 590)
 
 **Policy Analysis** (TA)  
 Fall 2013 | Duke University (PubPol 803)
@@ -31,3 +36,16 @@ Spring 2008 | Brigham Young University (CHum 260)
 
 **[First-year Arabic](/byuarabic101/)** (Instructor)  
 Fall 2006, Spring 2007 | Brigham Young University (Arabic 101)
+
+
+# Mini courses
+
+**Statistics** (Instructor)   
+April 2014 | Duke University  
+Duke Center for International Development (DCID)  
+State Administration of Foreign Experts Affairs (SAFEA) Kazakh cohort
+
+**Microeconomics** (Instructor)  
+August 2014 | Duke University  
+Duke Center for International Development (DCID)  
+State Administration of Foreign Experts Affairs (SAFEA) Chinese cohort
