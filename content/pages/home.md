@@ -7,4 +7,4 @@ Description: Andrew Heiss is a PhD student at the Sanford School of Public Polic
 
 Hi. I'm Andrew. 
 
-I'm a PhD student at Duke University's Sanford School of Public Policy where I'm researching the nonprofit and civil society sector in the Middle East. I'm married and have three (and a half) fantastic kids. Life rocks.
+I'm a PhD candidate at Duke University's Sanford School of Public Policy where I'm researching the [restrictions on education and freedom of expression international NGOs working in Egypt and China](http://ingorestrictions.org). I'm married and have three (and a half) fantastic kids. Life rocks.
