@@ -6,13 +6,13 @@ from __future__ import unicode_literals
 developing_site = True
 # DELETE_OUTPUT_DIRECTORY = True
 
-#-------------------
+# ------------------
 # Site information
-#-------------------
+# ------------------
 AUTHOR = 'Andrew Heiss'
 SITENAME = 'Andrew Heiss'
 MINIBIO = 'Scholar, developer, and designer'
-DESCRIPTION = 'Andrew Heiss is a PhD student at the Sanford School of Public Policy at Duke University, researching the nonprofit sector in the Middle East.'
+DESCRIPTION = 'Andrew Heiss is a PhD student at the Sanford School of Public Policy at Duke University, researching international NGOs in the Middle East and China.'
 
 SITEURL = ''
 
@@ -26,9 +26,9 @@ TYPOGRIFY = True  # Nice typographic things
 GOOGLE_ANALYTICS = ''
 
 
-#----------------
+# ---------------
 # Site building
-#----------------
+# ---------------
 # Theme
 THEME = '/Users/andrew/Development/•Pelican/themes/athpelican-theme'
 
@@ -71,9 +71,9 @@ STATIC_PATHS = ['files']
 READERS = {'html': None}  # Don't parse HTML files
 
 
-#----------
+# ---------
 # Plugins
-#----------
+# ---------
 PLUGIN_PATHS = ['/Users/andrew/Development/•Pelican/pelican-plugins']
 PLUGINS = ['collate_content', 'sitemap', 'dateish', 'sort_tags']
 
@@ -113,10 +113,10 @@ AUTHOR_FEED_RSS = None
 LOAD_CONTENT_CACHE = False if developing_site else True
 
 
-#-------------
+# ------------
 # Site items
-#-------------
-MENUITEMS = [('About', '/'), ('CV', '/files/2014-11-01-andrew-heiss-vita.pdf'),
+# ------------
+MENUITEMS = [('About', '/'), ('CV', '/files/2015-08-09-andrew-heiss-vita.pdf'),
              ('Blog', '/blog/'), ('Research', '/research/'),
              ('Teaching', '/teaching/'),  # ('Resources', '#'),
              ('Other projects', '/other-projects/')]
@@ -132,9 +132,9 @@ SOCIAL = [('E-mail', 'mailto:andrew@andrewheiss.com', 'fa-envelope-square'),
           ('Academia.edu', 'https://duke.academia.edu/AndrewHeiss', 'fa-graduation-cap')]
 
 
-#----------------
+# ---------------
 # Jinja filters
-#----------------
+# ---------------
 import jinja2
 import markdown
 from bs4 import BeautifulSoup
@@ -174,9 +174,9 @@ JINJA_FILTERS = {'md_single_line': md_single_line,
                  'current_year': current_year}
 
 
-#-----------------------------
+# ----------------------------
 # Other filters and snippets
-#-----------------------------
+# ----------------------------
 # Make PHP snippets highlight without <?php
 import pygments.lexers.web as pygweb
 class MyPhpLexer(pygweb.PhpLexer):
