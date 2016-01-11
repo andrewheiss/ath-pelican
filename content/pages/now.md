@@ -11,6 +11,6 @@ As of December 9, 2015, I'm spending all my time on these things:
 * Writing an article on anti-human trafficking NGOs (code private for now)
 * Working as an RA for my [dissertation adviser](https://sanford.duke.edu/people/faculty/kelley-judith) ([code](https://github.com/andrewheiss/jk_misc))
 * Typesetting books and journals for the [Neal A. Maxwell Institute for Religious Scholarship](http://publications.maxwellinstitute.byu.edu/) at BYU
-* Reading some sort of religiously themed text every day ([books](http://goodreads.com/andrewheiss); [notes](https://stats.andrewheiss.com/til_gospel/))
+* Reading some sort of religiously themed text every day ([books](https://www.goodreads.com/review/list/2733632-andrew-heiss?shelf=religious); [notes](https://stats.andrewheiss.com/til_gospel/))
 * Helping colleagues and friends with statistics and programming
 * Teaching a [class of 6-year-olds](https://www.lds.org/manual/primary-3) every Sunday
