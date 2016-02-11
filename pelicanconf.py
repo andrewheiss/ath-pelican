@@ -152,7 +152,7 @@ def md(text):
     return jinja2.Markup(markdown.markdown(text))
 
 def pure_table(html):
-    soup = BeautifulSoup(html)
+    soup = BeautifulSoup(html, 'html.parser')
 
     for table_tag in soup.find_all('table'):
         table_tag['class'] = table_tag.get('class', []) + ['pure-table']
