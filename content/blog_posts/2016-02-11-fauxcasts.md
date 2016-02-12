@@ -11,7 +11,7 @@ I listen to to pretty much all spoken word media on my iPhone or iPad through ei
 
 In a perfect world I'd be able fly through these CD-based audiobooks in Overcast. 
 
-Behold that perfect world: [Fauxcasts](https://github.com/andrewheiss/fauxcasts). I wrote up a little script that generates a podcast RSS feed from a folder of MP3 files. After creating the script, I just have to upload the folder and feed to a server, subscribe to my fake podcast, and listen away.
+Behold that perfect world: [Fauxcasts](https://github.com/andrewheiss/fauxcasts). I wrote up a little script that generates a podcast RSS feed from a folder of MP3 files. After running the script, I just have to upload the folder and feed to a server, subscribe to my fake podcast, and listen away.
 
 ![Macbeth as a podcast](/files/images/fauxcast.png){.pure-img-responsive}
 
