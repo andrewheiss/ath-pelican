@@ -1,9 +1,9 @@
 Title: What I'm doing now
-Date: 2016-02-01
+Date: 2016-03-14
 Slug: now
 Description: Andrew Heiss is working on several exciting and groundbreaking projects
 
-As of February 1, 2016, I'm spending all my time on these things:
+As of March 14, 2016, I'm spending all my time on these things:
 
 * Raising 4 kids (8, 6, 3, 0.75) and trying to stay sane ([family blog](http://www.heissatopia.com/))
 * Writing my dissertation on [international NGOs and authoritarianism](https://www.ingorestrictions.org) ([code](https://github.com/andrewheiss/Dissertation))
