@@ -11,7 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # Special live-site-only variables
-SITEURL = 'http://www.andrewheiss.com'
+SITEURL = 'https://www.andrewheiss.com'
 RELATIVE_URLS = False
 DELETE_OUTPUT_DIRECTORY = True
 
