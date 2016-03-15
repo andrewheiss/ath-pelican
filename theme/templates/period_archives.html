@@ -2,7 +2,7 @@
 {% import "macros.html" as meta %}
 
 {% set title = 'Archives for ' + period | reverse | join(' ') %}
-{% set description =  %}
+{% set description = DESCRIPTION %}
 
 {% block meta_tags %}
     {{ meta.meta_description(DESCRIPTION) }}
