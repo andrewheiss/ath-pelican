@@ -65,7 +65,7 @@ OUTPUT_SOURCES_EXTENSION = '.txt'
 
 # Ordering
 PAGE_ORDER_BY = 'date'
-ARTICLE_ORDER_BY = 'date'
+ARTICLE_ORDER_BY = 'reversed-date'
 
 STATIC_PATHS = ['files']
 READERS = {'html': None}  # Don't parse HTML files
