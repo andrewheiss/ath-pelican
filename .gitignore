@@ -3,3 +3,4 @@ cache/*
 *.pid
 output/*
 content/files/*
+*.sublime-workspace
