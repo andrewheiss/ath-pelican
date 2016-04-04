@@ -2,6 +2,7 @@ Title: What I'm doing now
 Date: 2016-03-31
 Slug: now
 Description: Andrew Heiss is working on several exciting and groundbreaking projects
+Template: now
 
 As of March 31, 2016, I'm spending all my time on these things:
 
@@ -14,5 +15,3 @@ As of March 31, 2016, I'm spending all my time on these things:
 * Reading some sort of religiously themed text every day ([books](https://www.goodreads.com/review/list/2733632-andrew-heiss?shelf=religious); [notes](https://stats.andrewheiss.com/til_gospel/))
 * Helping colleagues and friends with statistics and programming
 * Teaching a [class of 10- and 11-year-olds](https://www.lds.org/manual/primary-4) every Sunday
-
-You can also check out a [day-to-day log of what I'm up to](https://littlelogs.co/andrewheiss/).
