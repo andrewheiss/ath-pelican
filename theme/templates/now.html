@@ -1,0 +1,37 @@
+{% extends "page.html" %}
+
+{% block extra_script %}
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.ajax({
+                async: true,
+                url: "/get_littlelog/",
+                cache: false,
+                dataType: "html",
+                success: function(data) {
+                    $("#littlelog").html(data);
+                }
+            });
+        });
+    </script>
+{% endblock extra_script %}
+
+{% block content %}
+    <article class="content-single">
+        <h1>{{ page.title }}</h1>
+
+        {{ page.content }}
+    </article>
+
+    <div id="littlelog-wrapper">
+        <p>You can also check out a full <a href="https://littlelogs.co/andrewheiss/">day-to-day log of what I'm up to</a>. Here's what I've done over the past few days:</p>
+        <div id="littlelog">
+            <div id="loading">
+                <p><i class="fa fa-spinner fa-spin"></i> Loading littlelog&hellip;</p>
+            </div>
+        </div>
+        <div class="littlelog-more-wrapper">
+            <p class="littlelog-more"><a href="https://littlelogs.co/andrewheiss/">See all entries</a></p>
+        </div>
+    </div>
+{% endblock %}

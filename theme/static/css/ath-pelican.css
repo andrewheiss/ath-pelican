@@ -348,6 +348,77 @@ pre, code {
 
 /* @end */
 
+/* @group /now page */
+
+#littlelog-wrapper {
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top:  1px solid rgb(140, 140, 140);
+}
+
+#littlelog {
+    font-size: 0.8em;
+}
+
+#littlelog > ul {
+    padding-left: 0;
+}
+
+#littlelog > ul > li {
+    list-style-type: none;
+}
+
+#littlelog img {
+    max-width: 50%;
+    height: auto;
+}
+
+#littlelog .littlelog-entry {
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+    background-color: rgb(235, 235, 235);
+    padding: 0.5em;
+    margin: -0.5em 0em 2em;
+    border-left: 5px solid #ab8320;
+}
+
+#littlelog .littlelog-entry,
+#littlelog .littlelog-entry p {
+    font: 1em/1.4em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+#littlelog .littlelog-entry p {
+    margin: 0.5em 0;
+}
+
+#littlelog .littlelog-meta {
+    font-size: 0.8em;
+    color: rgb(140, 140, 140);
+}
+
+#littlelog .littlelog-meta a {
+    color: rgb(140, 140, 140);
+}
+
+#littlelog-wrapper .littlelog-more-wrapper {
+    text-align: center;
+}
+
+#littlelog-wrapper .littlelog-more {
+    font: 1em "lato", 'Lucida Grande', Helvetica, Arial, sans-serif !important;
+    display: inline-block;
+    background: #ab8320;
+    color: rgb(255, 255, 255);
+    padding: 0.1em 0.4em;
+    margin: 0;
+}
+
+#littlelog-wrapper .littlelog-more a {
+    color: rgb(255, 255, 255);
+}
+
+/* @end */
+
 /* @end */
 
 /* @group Blog list styles */
