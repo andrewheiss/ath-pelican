@@ -120,7 +120,7 @@ MENUITEMS = [('About', '/'), ('CV', '/files/2015-12-10-andrew-heiss-vita.pdf'),
              ('Blog', '/blog/'), ('Research', '/research/'),
              ('Teaching', '/teaching/'),  # ('Resources', '#'),
              ('Other projects', '/other-projects/'),
-             ('Now', '/now/')]
+             ('Now', '/now/'), ('Uses', '/uses/')]
 
 SOCIAL = [('E-mail', 'mailto:andrew@andrewheiss.com', 'fa-envelope-square'),
           ('Heissatopia (family blog)', 'http://www.heissatopia.com', 'fa-smile-o'),
