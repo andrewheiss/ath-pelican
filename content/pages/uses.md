@@ -31,11 +31,12 @@ I try to keep this updated fairly regularly. As of April 4, 2016 this is what I'
 - I run my main web server on a [DigitalOcean](https://www.digitalocean.com/) droplet, and [I spin up temporary droplets all the time](https://github.com/andrewheiss/cloud-config-files) to offload scraping scripts, complicated R models, and to create on-the-fly VPNs.
 - I normally access my remote files through SSH in a terminal, but for more complicated things, I've found that [Mountain Duck](https://mountainduck.io/) is indispensable.
 - My website uses [Pelican](http://blog.getpelican.com/).
+- I use [Let's Encrypt](https://letsencrypt.org/) for SSL.
 
 ## Miscellaneous
 
-- I use a[ system-wide hotkey](https://www.iterm2.com/features.html#hotkey-window) (``ctrl + \```) to open [iTerm2](https://www.iterm2.com/) from anywhere.
-- I use [Homebrew](http://brew.sh/) to install any Unix-y programs I need.
+- I use a[ system-wide hotkey](https://www.iterm2.com/features.html#hotkey-window) (``ctrl + ` ``) to open [iTerm2](https://www.iterm2.com/) from anywhere.
+- I use [Homebrew](http://brew.sh/) to install Unix-y programs.
 - I'm partial to both [Hack](https://sourcefoundry.org/hack/) and [Consolas](https://en.wikipedia.org/wiki/Consolas) for my monospaced fonts.
 
 
