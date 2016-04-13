@@ -30,7 +30,7 @@ GOOGLE_ANALYTICS = ''
 # Site building
 # ---------------
 # Theme
-THEME = '/Users/andrew/Development/•Pelican/themes/athpelican-theme'
+THEME = 'theme'
 
 # Folder where everything lives
 PATH = 'content'
