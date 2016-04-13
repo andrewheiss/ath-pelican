@@ -75,7 +75,7 @@ READERS = {'html': None}  # Don't parse HTML files
 # Plugins
 # ---------
 PLUGIN_PATHS = ['/Users/andrew/Development/•Pelican/pelican-plugins']
-PLUGINS = ['collate_content', 'sitemap', 'dateish', 'sort_tags']
+PLUGINS = ['collate_content', 'sitemap', 'dateish']
 
 MD_EXTENSIONS = ['smarty', 'extra', 'footnotes', 'meta',
                  'codehilite(css_class=highlight)', 'headerid(level=2)']
@@ -118,7 +118,8 @@ LOAD_CONTENT_CACHE = False if developing_site else True
 # ------------
 MENUITEMS = [('About', '/'), ('CV', '/files/2015-12-10-andrew-heiss-vita.pdf'),
              ('Blog', '/blog/'), ('Research', '/research/'),
-             ('Teaching', '/teaching/'),  # ('Resources', '#'),
+             ('Notebook', 'https://notebook.andrewheiss.com/'),
+             ('Teaching', '/teaching/'),
              ('Other projects', '/other-projects/'),
              ('Now', '/now/'), ('Uses', '/uses/')]
 
