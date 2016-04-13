@@ -9,9 +9,20 @@
 		}
 	],
 	"folders":
-	[
-		{
-			"path": "."
-		}
-	]
+    [
+        {
+            "file_exclude_patterns":
+            [
+                "*.pyc",
+                "*.pyo",
+                "*.sublime-workspace",
+                "Icon?"
+            ],
+            "folder_exclude_patterns":
+            [
+                "output",
+            ],
+            "path": "."
+        }
+    ]
 }
