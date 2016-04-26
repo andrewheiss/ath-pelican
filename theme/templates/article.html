@@ -26,6 +26,17 @@
 
 {% block title %}{{ title }} | {{ SITENAME }}{% endblock title %}
 
+{% block extra_script %}
+{% if article.math %}
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+    </script>
+    <script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+{% endif %}
+{% endblock extra_script %}
+
 {% block content %}
 <article class="content-single">
     <header class="post-header">
