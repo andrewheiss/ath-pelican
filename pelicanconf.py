@@ -77,8 +77,14 @@ READERS = {'html': None}  # Don't parse HTML files
 PLUGIN_PATHS = ['/Users/andrew/Development/•Pelican/pelican-plugins']
 PLUGINS = ['collate_content', 'sitemap', 'dateish']
 
-MD_EXTENSIONS = ['smarty', 'extra', 'footnotes', 'meta',
-                 'codehilite(css_class=highlight)', 'headerid(level=2)']
+MD_EXTENSIONS = {
+    'markdown.extensions.smarty': {},
+    'markdown.extensions.extra': {},
+    'markdown.extensions.footnotes': {},
+    'markdown.extensions.meta': {},
+    'markdown.extensions.codehilite': {'css_class': 'highlight'},
+    'markdown.extensions.headerid': {'level': 2}
+}
 
 # collate_content settings
 # CATEGORIES_TO_COLLATE = ['category-of-interest', 'another-cool-category']
