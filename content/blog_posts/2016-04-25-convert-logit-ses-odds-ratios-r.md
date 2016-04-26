@@ -133,4 +133,4 @@ get.or.se(model)
 
 Same results in both programs!
 
-![](/files/images/gifs/same.gif)
+![Same!](/files/images/gifs/same.gif "Same!")
