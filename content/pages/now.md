@@ -1,10 +1,10 @@
 Title: What I'm doing now
-Date: 2016-05-02
+Date: 2016-05-16
 Slug: now
 Description: Andrew Heiss is working on several exciting and groundbreaking projects
 Template: now
 
-As of May 2, 2016, I'm spending all my time on these things:
+As of May 16, 2016, I'm spending all my time on these things:
 
 * Raising 4 kids (8, 6, 3, 1) and trying to stay sane ([family blog](http://www.heissatopia.com/))
 * Writing my dissertation on [international NGOs and authoritarianism](https://www.ingorestrictions.org) ([code](https://github.com/andrewheiss/Dissertation))
