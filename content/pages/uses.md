@@ -1,11 +1,11 @@
 Title: Uses
-Date: 2016-04-13
+Date: 2016-06-27
 Slug: uses
 Description: Andrew Heiss is working on several exciting and groundbreaking projects
 
 People often ask me what programs I use for my writing and design. In truth, my workflow tends to look like [this](https://xkcd.com/1579/) or [this](https://xkcd.com/1172/), but here's a more detailed list of all the interconnected programs I use.
 
-I try to keep this updated fairly regularly. As of April 13, 2016 this is what I'm using:
+I try to keep this updated fairly regularly. As of June 27, 2016 this is what I'm using:
 
 # Writing
 
@@ -44,7 +44,7 @@ I try to keep this updated fairly regularly. As of April 13, 2016 this is what I
 
 ## Graphic design
 
-- Though I regularly use LaTeX (through pandoc), I adore [InDesign CC](https://www.adobe.com/products/indesign.html) and use it to make fancier academic and policy documents. I also use it for all the typesetting I do for [BYU's Neal A. Maxwell Institute](http://mi.byu.edu/).
+- Though I regularly use LaTeX (through pandoc), I adore [InDesign CC](https://www.adobe.com/products/indesign.html) and use it to make fancier academic and policy documents. I also used it for [all the typesetting I did](https://github.com/andrewheiss/maxwell-institute-typesetting/blob/master/books-i-made.md) for [BYU's Neal A. Maxwell Institute](http://mi.byu.edu/).
 - I use [Illustrator CC](https://www.adobe.com/products/illustrator.html) all the time to enhance graphics I make in R and to make non-data-driven figures and diagrams.
 - I use [Lightroom](https://www.adobe.com/products/photoshop-lightroom.html) and [Photoshop](https://www.adobe.com/products/photoshop.html) too, but less often nowadays.
 - Despite my dislike for Word and Excel, I use PowerPoint for all my presentations. It's not my favorite, but in the apocryphal words of Churchill, "PowerPoint is the worst form of slide editor, except for all the others."
@@ -54,7 +54,7 @@ I try to keep this updated fairly regularly. As of April 13, 2016 this is what I
 - My secret for avoiding the siren call of the internet is [Freedom](https://freedom.to/). I have two blocklists: (1) *antisocial*, which blocks Facebook and Twitter, and (2) *nuclear*, which blocks everything. I generally turn on my antisocial blocklist for 4+ hours and write/develop away. I also use [Focus](http://www.focusapp.io/ "http://www.focusapp.io") to follow a kind of pomodoro schedule, but I sometimes miss notifications to take breaks.
 - I was an early convert to [Todo.txt](http://todotxt.com/) and used it for years until my tasks and projects got too unwieldy. I switched to [Taskpaper](https://www.taskpaper.com/) for a while before recently settling on [2Do](http://www.2doapp.com/) (due to [incredibly](https://www.macstories.net/stories/why-2do-is-my-new-favorite-ios-task-manager/) [positive](https://brooksreview.net/2016/01/2do/) reviews), and I'm in love.
 - [Fantastical 2](https://flexibits.com/fantastical)’s natural language input is a glorious thing.
-- I use [aText](https://www.trankynam.com/atext/) and [Keyboard Maestro](https://www.keyboardmaestro.com/main/) to replace and expand a ton of snippets and control my computer with the keyboard. I used to use [TextExpander](https://smilesoftware.com/textexpander), but now that they're a subscription-based expansion-as-a-service product, I've abandoned ship ([like lots of others](http://leancrew.com/all-this/2016/04/the-new-textexpander/)).
+- I use [Keyboard Maestro](https://www.keyboardmaestro.com/main/) to replace and expand a ton of snippets and control my computer with the keyboard. I used to use [TextExpander](https://smilesoftware.com/textexpander), but now that they're a subscription-based expansion-as-a-service product, I've abandoned ship ([like lots of others](http://leancrew.com/all-this/2016/04/the-new-textexpander/); [this script](https://github.com/rjames86/textexpander_to_keyboardmaestro) was invaluable for switching). I had initially switched to [aText](https://www.trankynam.com/atext/), but it wasn't very stable and snippets only expanded 75% of the time, which was odd. 
 - I used to use [Geektool](http://projects.tynsoe.org/en/geektool/) to show weather, iTunes track information, and my todo lists on my desktop, but I recently switched to [Übersicht](http://tracesof.net/uebersicht/) and it's fantastic.
 - I use [Dropbox](https://www.dropbox.com) religiously and use [Crashplan](https://www.code42.com/crashplan/) to back up all the computers in our house to the cloud.
 - With all these little helper apps, I use [Bartender](https://www.macbartender.com/) to keep my menubar clean.
