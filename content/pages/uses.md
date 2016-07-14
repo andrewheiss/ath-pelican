@@ -1,11 +1,11 @@
 Title: Uses
-Date: 2016-06-27
+Date: 2016-07-14
 Slug: uses
 Description: Andrew Heiss is working on several exciting and groundbreaking projects
 
 People often ask me what programs I use for my writing and design. In truth, my workflow tends to look like [this](https://xkcd.com/1579/) or [this](https://xkcd.com/1172/), but here's a more detailed list of all the interconnected programs I use.
 
-I try to keep this updated fairly regularly. As of June 27, 2016 this is what I'm using:
+I try to keep this updated fairly regularly. As of July 14, 2016 this is what I'm using:
 
 # Writing
 
@@ -15,7 +15,7 @@ I try to keep this updated fairly regularly. As of June 27, 2016 this is what I'
 - The key to my whole writing workflow is the magical [pandoc](http://pandoc.org/), which converts Markdown files into basically anything else. I use [my own variation](https://github.com/andrewheiss/Global-Pandoc-files) of Kieran Healy's [Plain Text Social Science workflow](http://plain-text.co/) to convert Markdown to HTML, PDF (through LaTeX), and Word (through LibreOffice).
 - I store all my bibliographic references, books, and articles in a [BibTeX](http://www.bibtex.org/) file that I edit with [BibDesk](http://bibdesk.sourceforge.net/).
 - I read and annotate all my PDFs with [Skim](http://skim-app.sourceforge.net/) (and [iAnnotate](http://www.iannotate.com/) on iOS), since both export annotations as clean plain text.
-- I store all my notes in [Evernote](www.evernote.com).
+- I store all my notes in [OneNote](https://www.onenote.com/) (I ditched Evernote after 7 years(!) because of their [new prices and policies](https://blog.evernote.com/blog/2016/06/28/changes-to-evernotes-pricing-plans/)).
 
 # Development
 
@@ -54,6 +54,7 @@ I try to keep this updated fairly regularly. As of June 27, 2016 this is what I'
 - My secret for avoiding the siren call of the internet is [Freedom](https://freedom.to/). I have two blocklists: (1) *antisocial*, which blocks Facebook and Twitter, and (2) *nuclear*, which blocks everything. I generally turn on my antisocial blocklist for 4+ hours and write/develop away. I also use [Focus](http://www.focusapp.io/ "http://www.focusapp.io") to follow a kind of pomodoro schedule, but I sometimes miss notifications to take breaks.
 - I was an early convert to [Todo.txt](http://todotxt.com/) and used it for years until my tasks and projects got too unwieldy. I switched to [Taskpaper](https://www.taskpaper.com/) for a while before recently settling on [2Do](http://www.2doapp.com/) (due to [incredibly](https://www.macstories.net/stories/why-2do-is-my-new-favorite-ios-task-manager/) [positive](https://brooksreview.net/2016/01/2do/) reviews), and I'm in love.
 - [Fantastical 2](https://flexibits.com/fantastical)’s natural language input is a glorious thing.
+- I keep a log of what I work on (and occasionally do more traditional diary-like entries) with [Day One 2](http://dayoneapp.com/) on both iOS and OS X.
 - I use [Keyboard Maestro](https://www.keyboardmaestro.com/main/) to replace and expand a ton of snippets and control my computer with the keyboard. I used to use [TextExpander](https://smilesoftware.com/textexpander), but now that they're a subscription-based expansion-as-a-service product, I've abandoned ship ([like lots of others](http://leancrew.com/all-this/2016/04/the-new-textexpander/); [this script](https://github.com/rjames86/textexpander_to_keyboardmaestro) was invaluable for switching). I had initially switched to [aText](https://www.trankynam.com/atext/), but it wasn't very stable and snippets only expanded 75% of the time, which was odd. 
 - I used to use [Geektool](http://projects.tynsoe.org/en/geektool/) to show weather, iTunes track information, and my todo lists on my desktop, but I recently switched to [Übersicht](http://tracesof.net/uebersicht/) and it's fantastic.
 - I use [Dropbox](https://www.dropbox.com) religiously and use [Crashplan](https://www.code42.com/crashplan/) to back up all the computers in our house to the cloud.
@@ -61,4 +62,4 @@ I try to keep this updated fairly regularly. As of June 27, 2016 this is what I'
 
 # Hardware
 
-- I use an early 2013 13″ MacBook Pro Retina, iPad Mini 2, and iPhone 5C.
+- I use an early 2013 13″ MacBook Pro Retina, iPad Mini 2, and iPhone SE.
