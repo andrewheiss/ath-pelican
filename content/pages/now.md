@@ -2,7 +2,6 @@ Title: What I'm doing now
 Date: 2016-07-14
 Slug: now
 Description: Andrew Heiss is working on several exciting and groundbreaking projects
-Template: now
 
 As of July 14, 2016, I'm spending all my time on these things:
 
