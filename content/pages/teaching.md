@@ -1,7 +1,7 @@
 Title: Teaching
-Date: 2014-11-26
+Date: 2016-07-28
 Slug: teaching
-Description: Andrew Heiss teaches courses in statistics, public policy analysis, and Middle East politics.
+Description: Andrew Heiss teaches courses in graphic design, data visualization, statistics, public policy analysis, and Middle East politics.
 
 
 # Future courses
@@ -14,10 +14,10 @@ Description: Andrew Heiss teaches courses in statistics, public policy analysis,
 # Graduate courses
 
 **Stats in Real Life** (TA)  
-Spring 2014 and Fall 2014  | Duke University (PubPol 590)
+Spring 2014, Fall 2014  | Duke University (PubPol 590)
 
 **Policy Analysis** (TA)  
-Fall 2013 | Duke University (PubPol 803)
+Fall 2013, Fall 2015 | Duke University (PubPol 803/807)
 
 **Statistical Analysis for Public Administrators** (TA)  
 Summer 2012 | Brigham Young University (PMGT 630)
@@ -40,7 +40,7 @@ Fall 2006, Spring 2007 | Brigham Young University (Arabic 101)
 
 # Mini courses
 
-**Statistics** (Instructor)   
+**Statistics** (Instructor)  
 April 2014 | Duke University  
 Duke Center for International Development (DCID)  
 State Administration of Foreign Experts Affairs (SAFEA) Kazakh cohort
