@@ -7,4 +7,4 @@ gated: http://connection.ebscohost.com/c/articles/79790241/failed-management-dyi
 ungated: /files/research/2012-heiss-failed-management-arab-spring.pdf
 PDF: /files/research/2011-heiss-failed-management-arab-spring.pdf
 
-Andrew Heiss. 2012. "The Failed Management of a Dying Regime: Hosni Mubarak, Egypt's National Democratic Party, and the January 25 Revolution." *Journal of Third World Studies* 28, no. 1 (Spring): 155–171.
+**Andrew Heiss**. 2012. "The Failed Management of a Dying Regime: Hosni Mubarak, Egypt's National Democratic Party, and the January 25 Revolution." *Journal of Third World Studies* 28, no. 1 (Spring): 155–171.
