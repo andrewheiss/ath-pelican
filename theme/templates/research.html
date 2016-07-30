@@ -37,7 +37,7 @@
                            ('Translations', collations.translation_pages)] %}
 
     <nav>
-        <ul class="publication-toc">
+        <ul id="publications" class="publication-toc">
         {% for pub_type_title, pubs in publications %}
             <li><a href="#{{ pub_type_title | replace(' ', '-') | lower }}">{{ pub_type_title }}</a></li>
         {% endfor %}
@@ -45,7 +45,7 @@
     </nav>
 
     {% for pub_type_title, pubs in publications %}
-    <h2 id="{{ pub_type_title | replace(' ', '-') | lower }}">{{ pub_type_title }} <a href="#" class="back-to-top">&#8617;</a></h2>
+    <h2 id="{{ pub_type_title | replace(' ', '-') | lower }}">{{ pub_type_title }} <a href="#publications" class="back-to-top">&#8617;</a></h2>
     <ul class="publication-list">
         {% for pub in pubs | reverse %}
         <li>
