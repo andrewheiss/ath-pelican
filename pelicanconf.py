@@ -12,7 +12,7 @@ developing_site = True
 AUTHOR = 'Andrew Heiss'
 SITENAME = 'Andrew Heiss'
 MINIBIO = 'Scholar, developer, and designer'
-DESCRIPTION = 'Andrew Heiss is a PhD candidate at the Sanford School of Public Policy at Duke University, researching international NGOs in the Middle East and China.'
+DESCRIPTION = 'Andrew Heiss is a PhD candidate at the Sanford School of Public Policy at Duke University, researching international NGOs in authoritarian regimes.'
 
 SITEURL = ''
 
