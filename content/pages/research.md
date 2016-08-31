@@ -1,5 +1,5 @@
 Title: Research
-Date: 2016-07-29
+Date: 2016-08-31
 Slug: research
 Template: research
 Description: Andrew Heiss studies international NGOs, global governance, authoritarian regimes, and the Middle East.
@@ -10,6 +10,8 @@ My dissertation, "Amicable Contempt: The Strategic Balance between Dictators and
 2. how international NGOs respond to those regulations.
 
 View the theory and (forthcoming) data for the first and second halves of the project at [ingorestrictions.org](http://ingorestrictions.org/) and [ingoresearch.org](https://www.ingoresearch.org/).
+
+Read [my research statement](/files/research/2016-08-31-andrew-heiss-research-statement.pdf) for a broad overview of my research agenda.
 
 ---
 
