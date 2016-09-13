@@ -2,6 +2,7 @@ Title: Welcome to My Site
 Date: 2016-09-06
 save_as: index.html
 Template: home
+main_photo: /files/images/photos/andrew-heiss-2016.jpg
 
 
 Hi. I'm Andrew.

@@ -313,6 +313,10 @@ pre, code {
 	margin-top: 0em;
 }
 
+.home-image {
+    padding-right: 2em;
+}
+
 .home-extra h2 {
 	font-size: 1.9em;
 	margin-top: 0;
@@ -800,6 +804,10 @@ pre, code {
 @media (max-width: 48.1em) {
     .content {
         padding: 2em 1.5em;
+	}
+	
+	.home-image {
+	    display: none;
 	}
 
     .sidebar header {
