@@ -135,9 +135,7 @@ SOCIAL = [('E-mail', 'mailto:andrew@andrewheiss.com', 'fa-envelope-square'),
           ('Twitter', 'https://twitter.com/andrewheiss', 'fa-twitter-square'),
           ('GitHub', 'https://github.com/andrewheiss', 'fa-github-square'),
           ('StackOverflow', 'https://stackoverflow.com/users/120898/andrew', 'fa-stack-overflow'),
-          ('LinkedIn', 'https://www.linkedin.com/in/andrewheiss', 'fa-linkedin-square'),
-          ('Google+', 'https://plus.google.com/+AndrewHeiss', 'fa-google-plus-square'),
-          ('Telegram', 'https://telegram.me/andrewheiss', 'fa-paper-plane')]
+          ('LinkedIn', 'https://www.linkedin.com/in/andrewheiss', 'fa-linkedin-square')]
 
 
 # ---------------
