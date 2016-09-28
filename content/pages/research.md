@@ -13,7 +13,7 @@ My dissertation, "Amicable Contempt: The Strategic Balance between Dictators and
 1. how authoritarian regimes regulate international NGOs, and
 2. how international NGOs respond to those regulations.
 
-View the theory and (forthcoming) data for the first and second halves of the project at [ingorestrictions.org](http://ingorestrictions.org/) and [ingoresearch.org](https://www.ingoresearch.org/).
+View the theory and (forthcoming) data for the project at [ingoresearch.org](https://www.ingoresearch.org/).
 
 ---
 
