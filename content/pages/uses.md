@@ -1,11 +1,11 @@
 Title: Uses
-Date: 2016-12-07
+Date: 2017-01-03
 Slug: uses
 Description: Andrew Heiss is working on several exciting and groundbreaking projects
 
 People often ask me what programs I use for my writing and design. In truth, my workflow tends to look like [this](https://xkcd.com/1579/) or [this](https://xkcd.com/1172/), but here's a more detailed list of all the interconnected programs I use.
 
-I try to keep this updated fairly regularly. As of December 7, 2016 this is what I'm using:
+I try to keep this updated fairly regularly. As of January 3, 2017 this is what I'm using:
 
 # Writing
 
@@ -15,14 +15,14 @@ I try to keep this updated fairly regularly. As of December 7, 2016 this is what
 - The key to my whole writing workflow is the magical [pandoc](http://pandoc.org/), which converts Markdown files into basically anything else. I use [my own variation](https://github.com/andrewheiss/Global-Pandoc-files) of Kieran Healy's [Plain Text Social Science workflow](http://plain-text.co/) to convert Markdown to HTML, PDF (through LaTeX), and Word (through LibreOffice).
 - I store all my bibliographic references, books, and articles in a [BibTeX](http://www.bibtex.org/) file that I edit with [BibDesk](http://bibdesk.sourceforge.net/).
 - I read and annotate all my PDFs with [Skim](http://skim-app.sourceforge.net/) (and [iAnnotate](http://www.iannotate.com/) on iOS), since both export annotations as clean plain text.
-- I store all my notes in [OneNote](https://www.onenote.com/) (I ditched Evernote after 7 years(!) because of their [new prices and policies](https://blog.evernote.com/blog/2016/06/28/changes-to-evernotes-pricing-plans/)).
+- I store all my notes in [Evernote](https://www.evernote.com/) (after temporarily ditching them for OneNote because of their [new prices and policies](https://blog.evernote.com/blog/2016/06/28/changes-to-evernotes-pricing-plans/), and despite their ongoing privacy controversies).
 
 # Development
 
 ## Science and research
 
 - I post almost everything I write or develop on [GitHub](https://github.com/andrewheiss).
-- I use [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) for most of my statistical computing, and I'm a dedicated devotee of the [hadleyverse](http://adolfoalvarez.cl/the-hitchhikers-guide-to-the-hadleyverse/) (especially [ggplot2](http://ggplot2.org/) and [dplyr](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html)). I sometimes use [knitr](http://yihui.name/knitr/) and [RMarkdown](http://rmarkdown.rstudio.com/), but I generally just export figures and tables from R and reference them in my writing rather than making full-blown literate documents.
+- I use [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) for most of my statistical computing, and I'm a dedicated devotee of the [tidyverse](http://tidyverse.org/) (especially [ggplot2](http://ggplot2.org/) and [dplyr](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html)). I sometimes use [knitr](http://yihui.name/knitr/) and [RMarkdown](http://rmarkdown.rstudio.com/), but I generally just export figures and tables from R and reference them in my writing rather than making full-blown literate documents.
 - I also use [Python](https://www.python.org/) ([3!](http://www.onthelambda.com/2014/05/13/damn-the-torpedoes-full-speed-ahead-making-the-switch-to-python-3/)) pretty regularly, especially for natural language processing (with [nltk](http://www.nltk.org/)) and web scraping (with [Requests](http://docs.python-requests.org/en/master/) + [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)). Every few months I play with pandas and numpy and Jupyter, but I'm far more comfortable with R for scientific computing.
 - I use RStudio for editing R files, but I use [Sublime Text 3](https://sublimetext.com/3) for everything else.
 
@@ -35,7 +35,7 @@ I try to keep this updated fairly regularly. As of December 7, 2016 this is what
 
 ## Miscellaneous
 
-- I use a[ system-wide hotkey](https://www.iterm2.com/features.html#hotkey-window) (``ctrl + ` ``) to open [iTerm2](https://www.iterm2.com/) from anywhere.
+- I use a [system-wide hotkey](https://www.iterm2.com/features.html#hotkey-window) (``ctrl + ` ``) to open [iTerm2](https://www.iterm2.com/) from anywhere.
 - I use [Homebrew](http://brew.sh/) to install Unix-y programs.
 - I'm partial to both [Hack](https://sourcefoundry.org/hack/) and [Consolas](https://en.wikipedia.org/wiki/Consolas) for my monospaced fonts.
 
