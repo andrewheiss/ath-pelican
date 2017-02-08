@@ -67,7 +67,7 @@ OUTPUT_SOURCES_EXTENSION = '.txt'
 PAGE_ORDER_BY = 'date'
 ARTICLE_ORDER_BY = 'reversed-date'
 
-STATIC_PATHS = ['files']
+STATIC_PATHS = ['files', 'keybase.txt']
 READERS = {'html': None}  # Don't parse HTML files
 
 
