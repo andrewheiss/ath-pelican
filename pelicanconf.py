@@ -77,7 +77,7 @@ READERS = {'html': None}  # Don't parse HTML files
 PLUGIN_PATHS = ['/Users/andrew/Development/•Pelican/pelican-plugins']
 PLUGINS = ['collate_content', 'sitemap', 'dateish']
 
-MD_EXTENSIONS = {
+MARKDOWN = {
     'markdown.extensions.smarty': {},
     'markdown.extensions.extra': {},
     'markdown.extensions.footnotes': {},
