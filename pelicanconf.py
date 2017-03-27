@@ -78,12 +78,15 @@ PLUGIN_PATHS = ['/Users/andrew/Development/•Pelican/pelican-plugins']
 PLUGINS = ['collate_content', 'sitemap', 'dateish']
 
 MARKDOWN = {
-    'markdown.extensions.smarty': {},
-    'markdown.extensions.extra': {},
-    'markdown.extensions.footnotes': {},
-    'markdown.extensions.meta': {},
-    'markdown.extensions.codehilite': {'css_class': 'highlight'},
-    'markdown.extensions.headerid': {'level': 2}
+    'extension_configs': {
+        'markdown.extensions.smarty': {},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.footnotes': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.codehilite': {'css_class': 'codehilite'},
+        'markdown.extensions.headerid': {'level': 2}
+    },
+    'output_format': 'html5',
 }
 
 # collate_content settings
