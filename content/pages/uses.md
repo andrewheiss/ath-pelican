@@ -1,11 +1,11 @@
 Title: Uses
-Date: 2017-04-07
+Date: 2017-04-18
 Slug: uses
 Description: Andrew Heiss is working on a bunch of exciting and groundbreaking projects
 
 People often ask me what programs I use for my writing and design. In truth, my workflow tends to look like [this](https://xkcd.com/1579/) or [this](https://xkcd.com/1172/), but here's a more detailed list of all the interconnected programs I use.
 
-I try to keep this updated fairly regularly. As of April 7, 2017 this is what I'm using:
+I try to keep this updated fairly regularly. As of April 18, 2017 this is what I'm using:
 
 # Writing
 
