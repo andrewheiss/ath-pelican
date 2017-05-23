@@ -75,7 +75,7 @@ READERS = {'html': None}  # Don't parse HTML files
 # Plugins
 # ---------
 PLUGIN_PATHS = ['/Users/andrew/Development/•Pelican/pelican-plugins']
-PLUGINS = ['collate_content', 'sitemap', 'dateish']
+PLUGINS = ['collate_content', 'sitemap', 'dateish', 'pelican_json_feed']
 
 MARKDOWN = {
     'extension_configs': {
@@ -118,6 +118,10 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+# JSON Feed generation
+JSON_FEED_DESCRIPTION = DESCRIPTION
+JSON_FEED_ICON = 'https://www.andrewheiss.com/theme/feed-icon.png'
 
 # Cache
 LOAD_CONTENT_CACHE = False if developing_site else True
