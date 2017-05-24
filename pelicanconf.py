@@ -70,12 +70,14 @@ ARTICLE_ORDER_BY = 'reversed-date'
 STATIC_PATHS = ['files', 'keybase.txt']
 READERS = {'html': None}  # Don't parse HTML files
 
+TEMPLATE_PAGES = {'feed.json': 'feed.json'}
+
 
 # ---------
 # Plugins
 # ---------
 PLUGIN_PATHS = ['/Users/andrew/Development/•Pelican/pelican-plugins']
-PLUGINS = ['collate_content', 'sitemap', 'dateish', 'pelican_json_feed']
+PLUGINS = ['collate_content', 'sitemap', 'dateish']
 
 MARKDOWN = {
     'extension_configs': {
@@ -118,10 +120,6 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
-# JSON Feed generation
-JSON_FEED_DESCRIPTION = DESCRIPTION
-JSON_FEED_ICON = 'https://www.andrewheiss.com/theme/feed-icon.png'
 
 # Cache
 LOAD_CONTENT_CACHE = False if developing_site else True
@@ -180,12 +178,23 @@ def current_year(value):
     import time
     return(time.strftime("%Y"))
 
+def jsonify(text):
+    import json
+    return json.dumps(text, ensure_ascii=False)
+
+def titlify(text):
+    soup_title = BeautifulSoup(text.replace('&nbsp;', ' '), 'html.parser')
+    page_title = soup_title.get_text(' ', strip=True)
+    return(page_title)
+
 
 JINJA_FILTERS = {'md_single_line': md_single_line,
                  'md': md,
                  'pure_table': pure_table,
                  'fmt_date': fmt_date,
-                 'current_year': current_year}
+                 'current_year': current_year,
+                 'jsonify': jsonify,
+                 'titlify': titlify}
 
 
 # ----------------------------

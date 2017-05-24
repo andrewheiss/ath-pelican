@@ -1,0 +1,22 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": {{ SITENAME | jsonify }},
+    "home_page_url": "{{ SITEURL }}",
+    "feed_url": {{ (SITEURL + '/feed.json') | jsonify }},
+    "description": {{ DESCRIPTION | jsonify }},
+    "icon": "https://www.andrewheiss.com/theme/feed-icon.png",
+    "items": [
+    {% for article in collations.blog_articles %}
+        {
+            "id": {{ (SITEURL + '/' + article.url) | jsonify }},
+            "url": {{ (SITEURL + '/' + article.url) | jsonify }},
+            "title": {{ article.title | titlify | jsonify }},
+            "content_html": {{ article.content | pure_table | jsonify }},
+            "date_published": {{ article.date.isoformat() | jsonify }},
+            "author": {
+                "name": {{ AUTHOR | jsonify }}
+            }
+        },
+    {% endfor %}
+    ]
+}
