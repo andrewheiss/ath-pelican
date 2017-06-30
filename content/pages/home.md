@@ -5,6 +5,6 @@ Template: home
 main_photo: /files/images/photos/andrew-heiss-2016.jpg
 
 
-Hi. I'm Andrew.
+I'm a PhD candidate at Duke University's [Sanford School of Public Policy](http://sanford.duke.edu/) where I study [how international NGOs work in authoritarian countries](https://www.ingoresearch.org). 
 
-I'm a PhD candidate at Duke University's Sanford School of Public Policy where I'm researching the [restrictions on international NGOs](http://ingoresearch.org) that work in Egypt, China, and Russia.
+In 2017–18 I'll be a visiting assistant professor at the [Romney Institute of Public Management](https://marriottschool.byu.edu/mpa/) at BYU.
