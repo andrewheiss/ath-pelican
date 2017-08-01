@@ -11,8 +11,8 @@ developing_site = True
 # ------------------
 AUTHOR = 'Andrew Heiss'
 SITENAME = 'Andrew Heiss'
-MINIBIO = 'Scholar, developer, and designer'
-DESCRIPTION = 'Andrew Heiss is a PhD candidate at the Sanford School of Public Policy at Duke University, researching international NGOs in authoritarian regimes.'
+MINIBIO = 'International NGOs, nonprofit management, authoritarianism, data visualization, and R'
+DESCRIPTION = 'Andrew Heiss is a visiting assistant professor at the Romney Institute of Public Management at Brigham Young University, researching international NGOs in authoritarian regimes and teaching data visualization and economics.'
 
 SITEURL = ''
 
