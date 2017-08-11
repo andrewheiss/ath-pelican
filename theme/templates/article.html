@@ -21,7 +21,11 @@
 {% endblock meta_tags %}
 
 {% block social_meta %}
-    {{ meta.open_graph(title, url, description) }}
+    {% if article.thumbnail %}
+    {{ meta.open_graph(title, url, description, article.thumbnail) }}
+    {% else %}
+    {{ meta.open_graph(title, url, description, DEFAULT_SOCIAL_IMG) }}
+    {% endif %}
 {% endblock social_meta %}
 
 {% block title %}{{ title }} | {{ SITENAME }}{% endblock title %}
