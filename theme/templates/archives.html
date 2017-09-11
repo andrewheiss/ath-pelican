@@ -12,24 +12,32 @@
 {% block content %}
             <h1>{{ title }}</h1>
 
-{% set first = true %}
+{#
+Jinja 2.9+ removed the (accidental) ability to set variable values outside of
+their scopes, like in loops, which broke this. So instead, I use a set of
+dictionary values and update them within the loop with the weird
+`if vars.update(asdf); endif` construction.
+
+See https://stackoverflow.com/a/16746185/120898
+#}
+{% set vars = {'first': True, 'article_year': '', 'next_year': ''} %}
 {% for article in collations.blog_articles %}
-    {% set article_year = article.date | strftime('%Y') %}
-    {% if article_year != next_year %}
-        {% if first == false %}
+    {% if vars.update({'article_year': article.date | strftime('%Y')}) %} {% endif %}
+    {% if vars.article_year != vars.next_year %}
+        {% if vars.first == false %}
             </ol>
         {% endif %}
-            <h2>{{ article_year }}</h2>
+            <h2>{{ vars.article_year }}</h2>
             <ol class="archive-list">
     {% endif %}
-    {% set first = false %}
+    {% if vars.update({'first': False}) %} {% endif %}
                 <li>
                     <p class="post-meta">
                         <time datetime="{{ article.date.isoformat() }}" title="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
                     </p>
                     <h3 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
                 </li>
-    {% set next_year = article_year %}
+    {% if vars.update({'next_year': vars.article_year}) %} {% endif %}
 {% endfor %}
             </ol>
 {% endblock %}
