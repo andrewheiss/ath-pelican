@@ -10,14 +10,24 @@ My teaching and research experience has prepared me to teach courses in internat
 I have had many opportunities to assist with teaching and act as an instructor of record in many undergraduate and graduate courses, including the following:
 
 
-## Future courses
+## Current courses
 
-**[Telling Stories with Data](/files/teaching/Telling%20Stories%20with%20Data%20syllabus.pdf)** (graduate or undergraduate)
+**[Data Visualization](https://dataviz.andrewheiss.com)**  
+Fall 2017 | Brigham Young University (MPA 635) | Graduate students
+
+**[Telling Stories with Data](https://stories.andrewheiss.com)**  
+Fall 2017 | Brigham Young University (Bus M 491 R) | Graduate and undergraduate students
+
+**Economic Decision Making for Managers**  
+Winter 2018 | Brigham Young University (MPA 612) | Graduate students
+
+
+## Future courses
 
 **[Middle Eastern Politics](/files/teaching/Middle%20East%20Politics%20syllabus.pdf)** (undergraduate)
 
 
-## Graduate courses
+## Past graduate courses
 
 **Stats in Real Life** (TA)  
 Spring 2014, Fall 2014  | Duke University (PubPol 590)
@@ -35,7 +45,7 @@ Winter and Spring 2012 | Brigham Young University (PMGT 690R)
 Fall 2011, Spring 2012 | Brigham Young University (PMGT 632)
 
 
-## Undergraduate courses
+## Past undergraduate courses
 
 **Print Publishing** (Instructor)  
 Spring 2008 | Brigham Young University (CHum 260)
