@@ -53,6 +53,16 @@ pre, code {
     height: auto;
 }
 
+.pure-img-responsive-50 {
+    max-width: 50%;
+    height: auto;
+}
+
+.pure-img-responsive-75 {
+    max-width: 75%;
+    height: auto;
+}
+
 .screen-reader-text {
 	position: absolute;
 	left: -10000px;
@@ -79,6 +89,10 @@ pre, code {
 
 .quo {
 	margin-left: -0.3em;
+}
+
+.small {
+    font-size: 0.8em;
 }
 
 /* @end */
@@ -843,6 +857,16 @@ pre, code {
     
     .home-extra .twitter-excerpt {
     	margin-top: 1.5em;
+    }
+
+    .pure-img-responsive-50 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .pure-img-responsive-75 {
+        max-width: 100%;
+        height: auto;
     }
 }
 
