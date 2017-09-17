@@ -137,25 +137,16 @@ ggplot(mapping = aes(x = x, y = y)) +
 
 ![Supply demand intersection for just x](/files/images/supply-demand-ggplot/supply-demand-intersection-x-1.png){.pure-img-responsive-75}
 
-To get the horizontal intersection, we have to create a second `approxfun()` function with respect to y instead of x (so we just reverse x and y) and then use `uniroot()` on the y-based supply function and the regular demand function:
+To get the horizontal intersection, we just have to find where the vertical intersection (4.654) shows up in the demand function. We calculate this by plugging the intersection into `fun_demand()`:
 
 ``` r
-fun_supply_y <- approxfun(supply$y, supply$x, rule = 2)
+y_root <- fun_demand(intersection_funs$root)
 
-intersection_funs_y <-  uniroot(function(x) fun_supply_y(x) - fun_demand(x), c(1, 9))
-intersection_funs_y$root
-```
-
-    ## [1] 3.395557
-
-Amazingly, it works:
-
-``` r
 ggplot(mapping = aes(x = x, y = y)) + 
   geom_path(data = supply, color = "#0073D9", size = 1) + 
   geom_path(data = demand, color = "#FF4036", size = 1) + 
   geom_vline(xintercept = intersection_funs$root, linetype = "dotted") +
-  geom_hline(yintercept = intersection_funs_y$root, linetype = "dotted") +
+  geom_hline(yintercept = y_root, linetype = "dotted") +
   theme_classic() + 
   coord_equal()
 ```
@@ -169,20 +160,16 @@ Finding the intersections involves a lot of code, so we can put it all in a sing
 # For instance, as_data_frame(Hmisc::bezier(c(1, 8, 9), c(1, 5, 9)))
 #
 curve_intersect <- function(curve1, curve2) {
-  # Approximate the functional form of curve 1, based on x
-  curve1_f_x <- approxfun(curve1$x, curve1$y, rule = 2)
-  # Approximate the functional form of curve 1, based on y
-  curve1_f_y <- approxfun(curve1$y, curve1$x, rule = 2)
-  # Approximate the functional form of curve 2, based on x
-  # We don't need curve 2 based on y, for, um, reasons.
-  curve2_f_x <- approxfun(curve2$x, curve2$y, rule = 2)
+  # Approximate the functional form of both curves
+  curve1_f <- approxfun(curve1$x, curve1$y, rule = 2)
+  curve2_f <- approxfun(curve2$x, curve2$y, rule = 2)
   
   # Calculate the intersection of curve 1 and curve 2 along the x-axis
-  point_x <- uniroot(function(x) curve1_f_x(x) - curve2_f_x(x), 
+  point_x <- uniroot(function(x) curve1_f(x) - curve2_f(x), 
                      c(min(curve1$x), max(curve1$x)))$root
-  # Calculate the intersection of curve 1 and curve 2 along the y-axis
-  point_y <- uniroot(function(x) curve1_f_y(x) - curve2_f_x(x),
-                     c(min(curve1$y), max(curve1$y)))$root
+  
+  # Find where point_x is in curve 2
+  point_y <- curve2_f(point_x)
   
   # All done!
   return(list(x = point_x, y = point_y))
