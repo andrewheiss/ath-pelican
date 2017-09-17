@@ -17,7 +17,7 @@ DESCRIPTION = 'Andrew Heiss is a visiting assistant professor at the Romney Inst
 SITEURL = ''
 DEFAULT_SOCIAL_IMG = SITEURL + '/theme/img/meta_img.png'
 
-TIMEZONE = 'America/New_York'
+TIMEZONE = 'America/Denver'
 DEFAULT_LANG = 'en'
 
 DEFAULT_DATE_FORMAT = '%A, %B %-d, %Y'
