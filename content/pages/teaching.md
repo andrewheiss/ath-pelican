@@ -10,7 +10,7 @@ My teaching and research experience has prepared me to teach courses in internat
 I have had many opportunities to assist with teaching and act as an instructor of record in many undergraduate and graduate courses, including the following:
 
 
-## Current courses
+# Current courses
 
 **[Data Visualization](https://dataviz.andrewheiss.com)**  
 Fall 2017 | Brigham Young University (MPA 635) | Graduate students
@@ -22,12 +22,12 @@ Fall 2017 | Brigham Young University (Bus M 491 R) | Graduate and undergraduate 
 Winter 2018 | Brigham Young University (MPA 612) | Graduate students
 
 
-## Future courses
+# Future courses
 
 **[Middle Eastern Politics](/files/teaching/Middle%20East%20Politics%20syllabus.pdf)** (undergraduate)
 
 
-## Past graduate courses
+# Past graduate courses
 
 **Stats in Real Life** (TA)  
 Spring 2014, Fall 2014  | Duke University (PubPol 590)
@@ -45,7 +45,7 @@ Winter and Spring 2012 | Brigham Young University (PMGT 690R)
 Fall 2011, Spring 2012 | Brigham Young University (PMGT 632)
 
 
-## Past undergraduate courses
+# Past undergraduate courses
 
 **Print Publishing** (Instructor)  
 Spring 2008 | Brigham Young University (CHum 260)
@@ -54,7 +54,7 @@ Spring 2008 | Brigham Young University (CHum 260)
 Fall 2006, Spring 2007 | Brigham Young University (Arabic 101)
 
 
-## Mini courses
+# Mini courses
 
 **Statistics** (Instructor)  
 April 2014 | Duke University  

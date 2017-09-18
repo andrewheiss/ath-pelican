@@ -86,7 +86,7 @@ MARKDOWN = {
         'markdown.extensions.extra': {},
         'markdown.extensions.footnotes': {},
         'markdown.extensions.meta': {},
-        'markdown.extensions.toc': {},
+        'markdown.extensions.toc': {'baselevel': 1},
         'markdown.extensions.codehilite': {'css_class': 'codehilite'},
         'markdown.extensions.headerid': {'level': 2}
     },
