@@ -4,6 +4,7 @@ Category: blog
 Thumbnail: https://www.andrewheiss.com/files/images/supply-demand-ggplot/complete-example-1.png
 Tags: r, ggplot, dataviz, economics
 
+<p class="confirmation accept">This is now an R package named <a href="https://github.com/andrewheiss/reconPlots">`reconPlots`</a>.</p>
 
 <span class="small">([Skip to the tl;dr complete example](#tldr); [see this mini project on GitHub](https://github.com/andrewheiss/supply-demand-ggplot))</span>
 
