@@ -1,11 +1,11 @@
 Title: What I'm doing now
-Date: 2017-11-25
+Date: 2017-12-15
 Slug: now
 Description: Andrew Heiss is working on a bunch of exciting and groundbreaking projects
 
-As of November 25, 2017, I'm spending all my time on these things:
+As of December 15, 2017, I'm spending all my time on these things:
 
-* Raising 5 kids (10, 8, 5, 2, 6 weeks) and trying to stay sane ([family blog](http://www.heissatopia.com/))
+* Raising 5 kids (10, 8, 5, 2, 2 months) and trying to stay sane ([family blog](http://www.heissatopia.com/))
 * Teaching [data visualization](https://dataviz.andrewheiss.com), telling stories with data, and microeconomics at the [Romney Institute of Public Management](https://marriottschool.byu.edu/mpa/) at [Brigham Young University](https://home.byu.edu/home/) during the 2017–18 academic year
 * Applying for academic jobs in public administration, public policy, and political science
 * Working on several articles on NGO restrictions with [Suparna Chaudhry](http://www.suparnachaudhry.com/)
