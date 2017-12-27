@@ -164,6 +164,7 @@ pre, code {
 /* Give the first column a set width */
 .class-list tr td:first-child {
     width: 65px;
+    vertical-align: text-top;
 }
 
 .class-list tr td:first-child img {
