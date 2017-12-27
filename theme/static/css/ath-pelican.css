@@ -140,13 +140,34 @@ pre, code {
 }
 
 .content p,
-.content li {
+.content li,
+.content .class-list {
 	font: 1.1em/1.5em "adriane";
 }
 
 .content li p,
 .content li li {
 	font-size: 1em;
+}
+
+/* Add fake padding between rows with an invisible border */
+.content .class-list tr {
+    border-bottom: 1em solid transparent;
+}
+
+/* The table seems to inherit some sort of vertical margin from somewhere, so 
+   add some negative space to counter it*/
+.class-list table {
+    margin: -0.5em 0;
+}
+
+/* Give the first column a set width */
+.class-list tr td:first-child {
+    width: 65px;
+}
+
+.class-list tr td:first-child img {
+    width: 50px;
 }
 
 /* Correctly handle elements after headings */
