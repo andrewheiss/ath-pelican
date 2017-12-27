@@ -10,58 +10,86 @@ My teaching and research experience has prepared me to teach courses in nonprofi
 I have had many opportunities to assist with teaching and act as an instructor of record in many undergraduate and graduate courses, including the following:
 
 
-# Current courses
+# Courses for the 2017–18 academic year
 
-**[Data Visualization](https://dataviz.andrewheiss.com)**  
-Fall 2017 | Brigham Young University (MPA 635) | Graduate students
+<div class="class-list" markdown="1">
+<table>
+    <tr>
+        <td>
+            [![Economic Decision Making for Managers](/files/images/teaching/econw18.png)][econw18] 
+        </td>
+        <td>
+            **[Economic Decision Making for Managers][econw18]** <small>(MPA 612)</small>  
+            Winter 2018 | Brigham Young University | Graduate students
+        </td>
+    </tr>
+    <tr>
+        <td>
+            [![Telling Stories with Data](/files/images/teaching/storiesf17.png)][storiesf17] 
+        </td>
+        <td>
+            **[Telling Stories with Data][storiesf17]** <small>(Bus M 491R)</small>  
+            Fall 2017 | Brigham Young University | Graduate and undergraduate students
+        </td>
+    </tr>
+    <tr>
+        <td>
+            [![Data Visualization](/files/images/teaching/datavizf17.png)][datavizf17]
+        </td>
+        <td>
+            **[Data Visualization][datavizf17]** <small>(MPA 635)</small>  
+            Fall 2017 | Brigham Young University | Graduate students
+        </td>
+    </tr>
+</table>
+</div>
 
-**[Telling Stories with Data](https://stories.andrewheiss.com)**  
-Fall 2017 | Brigham Young University (Bus M 491 R) | Graduate and undergraduate students
+[econw18]: https://econw18.classes.andrewheiss.com/
+[storiesf17]: https://storiesf17.classes.andrewheiss.com/
+[datavizf17]: https://datavizf17.classes.andrewheiss.com/
 
-**Economic Decision Making for Managers**  
-Winter 2018 | Brigham Young University (MPA 612) | Graduate students
 
 
 # Future courses
 
-**[Middle Eastern Politics](/files/teaching/Middle%20East%20Politics%20syllabus.pdf)** (undergraduate)
+**[Middle Eastern Politics](/files/teaching/Middle%20East%20Politics%20syllabus.pdf)** <small>(undergraduate)</small>
 
 
 # Past graduate courses
 
-**Stats in Real Life** (TA)  
-Spring 2014, Fall 2014  | Duke University (PubPol 590)
+**Stats in Real Life** <small>(TA; PubPol 590)</small>  
+Spring 2014, Fall 2014  | Duke University
 
-**Policy Analysis** (TA)  
-Fall 2013, Fall 2015 | Duke University (PubPol 803/807)
+**Policy Analysis** <small>(TA; PubPol 803/807)</small>  
+Fall 2013, Fall 2015 | Duke University
 
-**Statistical Analysis for Public Administrators** (TA)  
-Summer 2012 | Brigham Young University (PMGT 630)
+**Statistical Analysis for Public Administrators** <small>(TA; PMGT 630)</small>  
+Summer 2012 | Brigham Young University
 
-**International Development Field Study** (TA)  
-Winter and Spring 2012 | Brigham Young University (PMGT 690R)
+**International Development Field Study** <small>(TA; PMGT 690R)</small>  
+Winter and Spring 2012 | Brigham Young University
 
-**Decision Modeling and Analysis** (TA)  
-Fall 2011, Spring 2012 | Brigham Young University (PMGT 632)
+**Decision Modeling and Analysis** <small>(TA; PMGT 632)</small>  
+Fall 2011, Spring 2012 | Brigham Young University
 
 
 # Past undergraduate courses
 
-**Print Publishing** (Instructor)  
-Spring 2008 | Brigham Young University (CHum 260)
+**Print Publishing** <small>(Instructor; CHum 260)</small>  
+Spring 2008 | Brigham Young University
 
-**[First-year Arabic](/byuarabic101/)** (Instructor)  
-Fall 2006, Spring 2007 | Brigham Young University (Arabic 101)
+**[First-year Arabic](/byuarabic101/)** <small>(Instructor; Arabic 101)</small>  
+Fall 2006, Spring 2007 | Brigham Young University
 
 
 # Mini courses
 
-**Statistics** (Instructor)  
+**Statistics** <small>(Instructor)</small>  
 April 2014 | Duke University  
 Duke Center for International Development (DCID)  
 State Administration of Foreign Experts Affairs (SAFEA) Kazakh cohort
 
-**Microeconomics** (Instructor)  
+**Microeconomics** <small>(Instructor)</small>  
 August 2014 | Duke University  
 Duke Center for International Development (DCID)  
 State Administration of Foreign Experts Affairs (SAFEA) Chinese cohort
