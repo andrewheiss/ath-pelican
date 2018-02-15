@@ -78,7 +78,7 @@ TEMPLATE_PAGES = {'feed.json': 'feed.json'}
 # Plugins
 # ---------
 PLUGIN_PATHS = ['/Users/andrew/Sites/Pelican/pelican-plugins']
-PLUGINS = ['collate_content', 'sitemap', 'dateish']
+PLUGINS = ['collate_content', 'sitemap', 'dateish', 'render_math']
 
 MARKDOWN = {
     'extension_configs': {
