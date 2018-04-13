@@ -1,18 +1,18 @@
 Title: Uses
-Date: 2018-03-08
+Date: 2018-04-13
 Slug: uses
 Description: Andrew Heiss is working on a bunch of exciting and groundbreaking projects
 
 People often ask me what programs I use for my writing and design. In truth, my workflow tends to look like [this](https://xkcd.com/1579/) or [this](https://xkcd.com/1172/), but here's a more detailed list of all the interconnected programs I use.
 
-I try to keep this updated fairly regularly. As of March 8, 2018 this is what I'm using:
+I try to keep this updated fairly regularly. As of April 13, 2018 this is what I'm using:
 
 # Writing
 
 - I permanently ditched Word as a writing environment in 2008 after starting grad school. I do all my writing in [pandoc-flavored](http://pandoc.org/) [Markdown](https://daringfireball.net/projects/markdown/) (including e-mails and paper-and-pencil writing)—it's incredibly intuitive, imminently readable, flexible, future proof, and lets me ignore formatting and focus on content.
 - I live in [Ulysses](http://ulyssesapp.com/). At first I chafed at the fact that it stores everything in its own internal folder structure, since I store most of my writing in git repositories, but exporting a compiled Markdown file from a bunch of Ulysses sheets is trivial (and still easily trackable in version control).
 - Ulysses has decent HTML previewing powers, but when I need more editorial tools, I use [Marked](http://marked2app.com/).
-- I use [iA Writer](https://ia.net/writer/) to edit standalone Markdown files, since Ulysses uses its own syntax when using fancy things like footnotes.
+- I use [Typora](https://typora.io/) to edit standalone Markdown files, since Ulysses uses its own syntax when using fancy things like footnotes. Typora is my favorite standalone Markdown editor I've found so far because it inherently supports pandoc-flavored Markdown.
 - The key to my writing workflow is the magical [pandoc](http://pandoc.org/), which converts Markdown files into basically anything else. I use [my own variation](https://github.com/andrewheiss/Global-Pandoc-files) of Kieran Healy's [Plain Text Social Science workflow](http://plain-text.co/) to convert Markdown to HTML, PDF (through LaTeX), and Word (through LibreOffice).
 - I store all my bibliographic references, books, and articles in a [BibTeX](http://www.bibtex.org/) file that I edit with [BibDesk](http://bibdesk.sourceforge.net/).
 - I read and annotate all my PDFs with [Skim](http://skim-app.sourceforge.net/) (and [iAnnotate](http://www.iannotate.com/) on iOS), since both export annotations as clean plain text.
@@ -23,7 +23,7 @@ I try to keep this updated fairly regularly. As of March 8, 2018 this is what I'
 ## Science and research
 
 - I post almost everything I write or develop on [GitHub](https://github.com/andrewheiss).
-- I use [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) for most of my statistical computing, and I'm a dedicated devotee of the [tidyverse](http://tidyverse.org/) (especially [ggplot2](http://ggplot2.org/) and [dplyr](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html)). I sometimes use [knitr](http://yihui.name/knitr/) and [RMarkdown](http://rmarkdown.rstudio.com/), but I generally just export figures and tables from R and reference them in my writing rather than making full-blown literate documents.
+- I use [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) for most of my statistical computing, and I'm a dedicated devotee of the [tidyverse](http://tidyverse.org/). In the interest of full reproducibility and transparency, I make [R Markdown websites](https://rmarkdown.rstudio.com/rmarkdown_websites.html) for each of my projects. I don't typically make full-blown literate documents (like, I have yet to write a full article or book in R Markdown)—instead, I generate figures and tables with R and reference them in my writing. [See a list of these websites](https://stats.andrewheiss.com/).
 - I also use [Python](https://www.python.org/) ([3!](http://www.onthelambda.com/2014/05/13/damn-the-torpedoes-full-speed-ahead-making-the-switch-to-python-3/)) pretty regularly, especially for natural language processing (with [nltk](http://www.nltk.org/)) and web scraping (with [Requests](http://docs.python-requests.org/en/master/) + [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)). Every few months I play with pandas and numpy and Jupyter, but I'm far more comfortable with R for scientific computing.
 - I use RStudio for editing R files, but I use [Sublime Text 3](https://sublimetext.com/3) for everything else.
 
@@ -31,14 +31,14 @@ I try to keep this updated fairly regularly. As of March 8, 2018 this is what I'
 
 - I run my main web server on a [DigitalOcean](https://www.digitalocean.com/) droplet, and [I spin up temporary droplets all the time](https://github.com/andrewheiss/cloud-config-files) to offload scraping scripts, complicated R models, and to create on-the-fly VPNs.
 - I normally access my remote files through SSH in a terminal, but for more complicated things, I've found that [Mountain Duck](https://mountainduck.io/) is indispensable.
-- My website uses [Pelican](http://blog.getpelican.com/).
+- My website uses [Pelican](http://blog.getpelican.com/). My teaching websites all use [blogdown + Hugo](https://bookdown.org/yihui/blogdown/).
 - I use [Let's Encrypt](https://letsencrypt.org/) for SSL.
 
 ## Miscellaneous
 
 - I use a [system-wide hotkey](https://www.iterm2.com/features.html#hotkey-window) (``ctrl + ` ``) to open [iTerm2](https://www.iterm2.com/) from anywhere.
 - I use [Homebrew](http://brew.sh/) to install Unix-y programs.
-- I'm partial to both [Hack](https://sourcefoundry.org/hack/) and [Consolas](https://en.wikipedia.org/wiki/Consolas) for my monospaced fonts.
+- I'm partial to both [Fira Code](https://github.com/tonsky/FiraCode) and [Consolas](https://en.wikipedia.org/wiki/Consolas) for my monospaced fonts.
 
 
 # Desktop apps
