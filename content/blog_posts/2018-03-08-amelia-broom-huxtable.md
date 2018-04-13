@@ -225,8 +225,8 @@ tidy.melded <- function(x, conf.int = FALSE, conf.level = 0.95) {
     a <- (1 - conf.level) / 2
     
     output <- output %>% 
-      mutate(conf.low = estimate + std.error * qt(a, model_degree_freedom),
-             conf.high = estimate + std.error * qt((1 - a), model_degree_freedom))
+      mutate(conf.low = estimate + std.error * qt(a, model_degrees_freedom),
+             conf.high = estimate + std.error * qt((1 - a), model_degrees_freedom))
   }
   
   # tidy objects only have a data.frame class, not tbl_df or anything else
