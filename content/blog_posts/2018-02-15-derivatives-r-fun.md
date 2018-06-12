@@ -60,7 +60,7 @@ ggplot(mapping = aes(x = 0:10)) +
   theme(legend.position = "bottom")
 ```
 
-![](/files/images/derivatives-r-fun/plot-functions-1.png){.pure-img-responsive-75}
+![Total cost and total revenue](/files/images/derivatives-r-fun/plot-functions-1.png){.pure-img-responsive-75}
 
 Then, using `Deriv::Deriv()`, create derivative functions for the marginal cost and marginal revenue equations:
 
@@ -86,7 +86,7 @@ ggplot(mapping = aes(x = 0:10)) +
   theme(legend.position = "bottom")
 ```
 
-![](/files/images/derivatives-r-fun/plot-marginal-functions-1.png){.pure-img-responsive-75}
+![First derivatives of total cost and total revenue](/files/images/derivatives-r-fun/plot-marginal-functions-1.png){.pure-img-responsive-75}
 
 Finally, use the `uniroot()` function to look for the point where `mc` and `mr` intersect within a given range (here I'm looking between 1 and 10 since the demand curve goes negative after $Q =$ 10):
 
@@ -178,7 +178,7 @@ ggplot(costs_revenues_plot, aes(x = Quantity, y = Price, color = Variable)) +
   theme(legend.position = "bottom")
 ```
 
-![](/files/images/derivatives-r-fun/empirical-cost-revenue-1.png){.pure-img-responsive-75}
+![Empirical cost and revenue](/files/images/derivatives-r-fun/empirical-cost-revenue-1.png){.pure-img-responsive-75}
 
 Because both variables are curvilinear, it's probably best to approximate their functions using splines with `splinefun()`: 
 
@@ -281,7 +281,7 @@ ggplot(mapping = aes(x = 0:10)) +
   theme(legend.position = "bottom")
 ```
 
-![](/files/images/derivatives-r-fun/plot-empirical-marginal-functions-1.png){.pure-img-responsive-75}
+![Empirical marginal cost and marginal revenue](/files/images/derivatives-r-fun/plot-empirical-marginal-functions-1.png){.pure-img-responsive-75}
 
 Finally, we can use `uniroot()` to find where these two functions intersect:
 
@@ -360,6 +360,6 @@ ggplot(mapping = aes(x = 0:10)) +
   theme(legend.position = "bottom")
 ```
 
-![](/files/images/derivatives-r-fun/plot-all-empirical-1.png){.pure-img-responsive-75}
+![Monopolies](/files/images/derivatives-r-fun/plot-all-empirical-1.png){.pure-img-responsive-75}
 
 In this case, the empirical solution and the function-based solution are identical, but that's only because I created the empirical data from the functions. In real life, though, this same process should work on any empirical price, quantity, and cost data.
