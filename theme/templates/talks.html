@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% import "macros.html" as meta %}
+
+{% set title = page.title | striptags | escape %}
+{% set url = SITEURL + '/' + page.url %}
+{%- if page.description %}
+    {% set description = page.description %}
+{% else %}
+    {% set description = DESCRIPTION %}
+{% endif %}
+
+{% block canonical_rel %}
+    <link rel="canonical" href="{{ url }}">
+{% endblock %}
+
+{% block meta_tags %}
+    {{ meta.meta_description(description) }}
+{% endblock meta_tags %}
+
+{% block social_meta %}
+    {% if page.thumbnail %}
+    {{ meta.open_graph(title, url, description, page.thumbnail) }}
+    {% else %}
+    {{ meta.open_graph(title, url, description, DEFAULT_SOCIAL_IMG) }}
+    {% endif %}
+{% endblock social_meta %}
+
+{% block title %}{{ title }} | {{ SITENAME }}{% endblock title %}
+
+
+{% block content %}
+    <h1>{{ page.title }}</h1>
+
+    {{ page.content }}
+
+{% set vars = {'first': True, 'talk_year': '', 'next_year': ''} %}
+{% for talk in collations.talk_pages | reverse %}
+    {% if vars.update({'talk_year': talk.date | strftime('%Y')}) %} {% endif %}
+    {% if vars.talk_year != vars.next_year %}
+        {% if vars.first == false %}
+    </ol>
+        {% endif %}
+    <h2>{{ vars.talk_year }}</h2>
+    <ul class="publication-list">
+    {% endif %}
+    {% if vars.update({'first': False}) %} {% endif %}
+
+        <li>
+            <div class="publication-content">
+                <p><strong>{{ talk.title | md_single_line }}</strong></p>
+            </div>
+
+            <div class="publication-details">
+                <p>{{ talk.date.strftime('%B %-d, %Y') }} | {{ talk.event | md_single_line }} | {{ talk.location | md_single_line }}</p>
+
+                <ul class="publication-links">
+                    {% if talk.slides %}
+                    <li><a href="{{ talk.slides }}"><i class="fas fa-chalkboard-teacher"></i> Slides</a></li>
+                    {%- endif %}
+
+                    {% if talk.code %}
+                    <li><a href="{{ talk.code }}"><i class="fab fa-github"></i> {{ talk.code_title }}</a></li>
+                    {%- endif %}
+
+                    {% if talk.page %}
+                    <li><a href="{{ talk.link }}"><i class="fas fa-external-link-square-alt"></i> {{ talk.page_title }}</a></li>
+                    {%- endif %}
+                </ul>
+            </div>
+        </li>
+{% if vars.update({'next_year': vars.talk_year}) %} {% endif %}
+{% endfor %}
+    </ul>
+
+{% endblock %}
