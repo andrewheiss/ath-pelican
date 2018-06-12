@@ -30,15 +30,15 @@
 
 {% block content %}
 <article class="content-single design-project">
-    <p class="pseudo-navigation"><a href="/other-projects/"><i class="fa fa-arrow-circle-left"></i> Other Projects</p></a>
+    <p class="pseudo-navigation"><a href="/other-projects/"><i class="fas fa-arrow-circle-left"></i> Other Projects</p></a>
     <h1>{{ page.title }}</h1>
 
     <div class="project-meta">
         <ul>
             <li><time datetime="{{ page.date.isoformat() }}" title="{{ page.date.isoformat() }}">{{ page.locale_date }}</time></li>
-            <li class="project-category"><a href="/other-projects/#{{ page.category | replace(' ', '-') | lower }}"><i class="fa fa-folder"></i> {{ page.category }}</a></li>
+            <li class="project-category"><a href="/other-projects/#{{ page.category | replace(' ', '-') | lower }}"><i class="fas fa-folder"></i> {{ page.category }}</a></li>
             {% if page.link %}
-            <li class="project-link"><a href="{{ page.link }}"><i class="fa fa-external-link-square"></i> View online</a></li>
+            <li class="project-link"><a href="{{ page.link }}"><i class="fas fa-external-link-square-alt"></i> View online</a></li>
             {% endif %}
         </ul>
     </div>

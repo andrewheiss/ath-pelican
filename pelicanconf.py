@@ -136,13 +136,13 @@ MENUITEMS = [('About', '/'), ('CV', '/files/2018-05-15-andrew-heiss-cv.pdf'),
              ('Other projects', '/other-projects/'),
              ('Now', '/now/'), ('Uses', '/uses/')]
 
-SOCIAL = [('E-mail', 'mailto:andrew@andrewheiss.com', 'fa-envelope-square'),
-          ('Heissatopia (family blog)', 'http://www.heissatopia.com', 'fa-smile-o'),
-          ('Facebook', 'https://www.facebook.com/andrewheiss', 'fa-facebook-square'),
-          ('Twitter', 'https://twitter.com/andrewheiss', 'fa-twitter-square'),
-          ('GitHub', 'https://github.com/andrewheiss', 'fa-github-square'),
-          ('StackOverflow', 'https://stackoverflow.com/users/120898/andrew', 'fa-stack-overflow'),
-          ('LinkedIn', 'https://www.linkedin.com/in/andrewheiss', 'fa-linkedin-square')]
+SOCIAL = [('E-mail', 'mailto:andrew@andrewheiss.com', 'far fa-envelope'),
+          ('Heissatopia (family blog)', 'http://www.heissatopia.com', 'fab fa-blogger'),
+          ('Facebook', 'https://www.facebook.com/andrewheiss', 'fab fa-facebook'),
+          ('Twitter', 'https://twitter.com/andrewheiss', 'fab fa-twitter'),
+          ('GitHub', 'https://github.com/andrewheiss', 'fab fa-github'),
+          ('StackOverflow', 'https://stackoverflow.com/users/120898/andrew', 'fab fa-stack-overflow'),
+          ('LinkedIn', 'https://www.linkedin.com/in/andrewheiss', 'fab fa-linkedin')]
 
 
 # ---------------

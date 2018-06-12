@@ -13,7 +13,7 @@
     <ul class="list taxonomy">
     {%- for category, articles in categories | sort %}
         {% set num = articles | count %}
-        <li class="post-category"><a href="#{{ category | lower | replace(' ', '-') }}"><i class="fa fa-folder"></i> {{ category }} <span class="count">({{ num }})</span></a></li>
+        <li class="post-category"><a href="#{{ category | lower | replace(' ', '-') }}"><i class="fas fa-folder"> {{ category }} <span class="count">({{ num }})</span></a></li>
     {% endfor %}
     </ul>
 

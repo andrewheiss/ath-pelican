@@ -60,7 +60,7 @@
             <div class="pure-u-3-4">
                 <ul class="taxonomy">
                     <li class="post-category post-category-{{ article.category | lower }}">
-                        <a href="/blog/categories/#{{ category | lower | replace(' ', '-') }}"><i class="fa fa-folder"></i> {{ article.category }}</a>
+                        <a href="/blog/categories/#{{ category | lower | replace(' ', '-') }}"><i class="fas fa-folder"></i> {{ article.category }}</a>
                     </li>
                 {%- for tag in article.tags %}
                     <li class="post-tag post-tag-{{ tag | lower | replace(' ', '-') }}">
@@ -71,7 +71,7 @@
             </div>
             <div class="pure-u-1-4">
                 <p class="post-md">
-                    <a href="{{ SITEURL }}/{{ article.url }}index.txt"><i class="fa fa-file-text-o"></i> Markdown source</a>
+                    <a href="{{ SITEURL }}/{{ article.url }}index.txt"><i class="far fa-file-alt"></i> Markdown source</a>
                 </p>
             </div>
         </div>

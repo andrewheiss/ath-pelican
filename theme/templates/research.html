@@ -72,39 +72,39 @@
 
                 <ul class="publication-links">
                     {% if pub.ungated %}
-                    <li><a href="{{ pub.ungated }}"><i class="fa fa-unlock-alt"></i> Ungated</a></li>
+                    <li><a href="{{ pub.ungated }}"><i class="fas fa-unlock"></i> Ungated</a></li>
                     {%- endif %}
 
                     {% if pub.gated %}
-                    <li><a href="{{ pub.gated }}"><i class="fa fa-lock"></i> Gated</a></li>
+                    <li><a href="{{ pub.gated }}"><i class="fas fa-lock"></i> Gated</a></li>
                     {%- endif %}
 
                     {% if pub.link %}
-                    <li><a href="{{ pub.link }}"><i class="fa fa-external-link-square"></i> View online</a></li>
+                    <li><a href="{{ pub.link }}"><i class="fas fa-external-link-square-alt"></i> View online</a></li>
                     {%- endif %}
 
                     {% if pub.book %}
-                    <li><a href="{{ pub.book }}"><i class="fa fa-book"></i> Book</a></li>
+                    <li><a href="{{ pub.book }}"><i class="fas fa-book"></i> Book</a></li>
                     {%- endif %}
 
                     {% if pub.pdf %}
-                    <li><a href="{{ pub.pdf }}"><i class="fa fa-file-pdf-o"></i> PDF</a></li>
+                    <li><a href="{{ pub.pdf }}"><i class="far fa-file-pdf"></i> PDF</a></li>
                     {%- endif %}
 
                     {% if pub.presentation %}
-                    <li><a href="{{ pub.presentation }}"><i class="fa fa-play-circle"></i> PDF</a></li>
+                    <li><a href="{{ pub.presentation }}"><i class="fas fa-chalkboard-teacher"></i> PDF</a></li>
                     {%- endif %}
 
                     {% if pub.code %}
-                    <li><a href="{{ pub.code }}"><i class="fa fa-github"></i> Code</a></li>
+                    <li><a href="{{ pub.code }}"><i class="fab fa-github"></i> Code</a></li>
                     {%- endif %}
 
                     {% if pub.raw_output %}
-                    <li><a href="{{ pub.raw_output }}"><i class="fa fa-bar-chart"></i> Raw output</a></li>
+                    <li><a href="{{ pub.raw_output }}"><i class="fas fa-chart-bar"></i> Raw output</a></li>
                     {%- endif %}
 
                     {% if pub.poster %}
-                    <li><a href="{{ pub.poster }}"><i class="fa fa-square"></i> Poster</a></li>
+                    <li><a href="{{ pub.poster }}"><i class="fas fa-square"></i> Poster</a></li>
                     {%- endif %}
 
                 </ul>
