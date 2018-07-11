@@ -58,6 +58,10 @@
                     <li><a href="{{ talk.slides }}"><i class="fas fa-chalkboard-teacher"></i> Slides</a></li>
                     {%- endif %}
 
+                    {% if talk.video %}
+                    <li><a href="{{ talk.video_link }}"><i class="fab fa-youtube"></i> {{ talk.video_title }}</a></li>
+                    {%- endif %}
+
                     {% if talk.code %}
                     <li><a href="{{ talk.code }}"><i class="fab fa-github"></i> {{ talk.code_title }}</a></li>
                     {%- endif %}
