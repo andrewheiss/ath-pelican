@@ -1,3 +1,4 @@
+---
 Title: Arabian Nights
 Date: 2007-07-30
 Category: Print Design
@@ -6,7 +7,7 @@ Slug: other-projects/arabian-nights
 Thumb: /files/images/design/1001-thumb.png
 Full: /files/images/design/1001-full.png
 Link: http://www.lulu.com/product/paperback/arabian-nights-selections-from-1001-nights/1368715
-
+---
 
 * Andrew Lang's 1898 version of *1,001 Nights*
 * Done with InDesign, Illustrator, and Photoshop CS3

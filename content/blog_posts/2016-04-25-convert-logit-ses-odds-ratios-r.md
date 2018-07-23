@@ -1,8 +1,10 @@
+---
 Title: Convert logistic regression standard errors to odds ratios with R
 Excerpt: Correctly transform logistic regression standard errors to odds ratios using R
 Category: blog
 Tags: r, regression
 Math: True
+---
 
 Converting logistic regression coefficients and standard errors into odds ratios is trivial in Stata: just add `, or` to the end of a `logit` command:
 

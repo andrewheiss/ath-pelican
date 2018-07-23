@@ -1,8 +1,10 @@
+---
 Title: flashbakectl released
 Excerpt: flashbakectl is a handy little script that starts and stops Flashbake by loading and unloading plist files.
 Category: blog
 Tags: flashbake, git, writing
 Slug: flashbakectl-released
+---
 
 
 Adding to my apparent [series of Flashbake addons](http://www.andrewheiss.com/blog/2009/08/18/itunes-plugin-for-flashbake/ "iTunes plugin for Flashbake  &#8211;   AndrewHeiss.com"), I've just released [`flashbakectl`](http://github.com/andrewheiss/flashbakectl "andrewheiss's flashbakectl at master - GitHub").

@@ -1,3 +1,4 @@
+---
 Title: Practically Perfect Professional Policy Presentations
 Date: 2014-09-02
 Category: Talk
@@ -7,3 +8,4 @@ Code: https://github.com/andrewheiss/talks/tree/master/2014-09-02_practically-pe
 Code_title: GitHub repository
 Event: MPP workshop at the Sanford School of Public Policy
 Location: Duke University
+---

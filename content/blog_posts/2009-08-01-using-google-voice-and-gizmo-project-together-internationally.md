@@ -1,8 +1,10 @@
+---
 Title: Using Google Voice and Gizmo Project Together
 Excerpt: Description of how to make Google Voice and the Gizmo Project work together with an ATA so that you get a free phone number and almost free phone calls.
 Category: blog
 Tags: ata, gizmo, google voice, phone, voip
 Slug: using-google-voice-and-gizmo-project-together-internationally
+---
 
 
 <p class="confirmation question">See update below <a href="#update">(skip to update)</a></p>

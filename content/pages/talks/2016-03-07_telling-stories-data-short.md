@@ -1,3 +1,4 @@
+---
 Title: Telling Stories with Data
 Date: 2016-03-07
 Category: Talk
@@ -7,3 +8,4 @@ Code: https://github.com/andrewheiss/talks/tree/master/2016-03-07_telling-storie
 Code_title: GitHub repository
 Event: MPP workshop at the Sanford School of Public Policy
 Location: Duke University
+---

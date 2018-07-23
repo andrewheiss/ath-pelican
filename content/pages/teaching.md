@@ -1,7 +1,9 @@
+---
 Title: Teaching
 Date: 2017-05-29
 Slug: teaching
 Description: Andrew Heiss teaches courses in graphic design, data visualization, statistics, public policy analysis, and Middle East politics.
+---
 
 I believe that university teaching should challenge and shift how students understand the world. As a teacher, I believe that students can grapple with these big ideas only when teaching materials are grounded in real world concerns, when courses are designed with student needs in mind, and when students are actively engaged in the learning process. [I describe my philosophy for teaching in this brief statement](/files/teaching/2017-09-01-andrew-heiss-teaching-statement.pdf).
 

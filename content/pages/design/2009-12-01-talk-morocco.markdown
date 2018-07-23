@@ -1,3 +1,4 @@
+---
 Title: Talk Morocco
 Date: 2009-12-01
 Category: Web Design
@@ -6,7 +7,7 @@ Slug: other-projects/talk-morocco
 Thumb: /files/images/design/tm-thumb.png
 Full: /files/images/design/tm-full.png
 Link: http://www.talkmorocco.net/
-
+---
 
 * WordPress blog + CMS
 * Localized and internationalized

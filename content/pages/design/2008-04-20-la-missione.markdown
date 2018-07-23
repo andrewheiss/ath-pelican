@@ -1,3 +1,4 @@
+---
 Title: La missione
 Date: 2008-04-20
 Category: Print Design
@@ -5,7 +6,7 @@ Template: design_project
 Slug: other-projects/la-missione
 Thumb: /files/images/design/la-missione-thumb.png
 Full: /files/images/design/la-missione-full.png
-
+---
 
 * Full color coffee table-ish book
 * Used automated text cleanup scripts

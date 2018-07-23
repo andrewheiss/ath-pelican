@@ -1,3 +1,4 @@
+---
 Title: Blue Sky Music Camps
 Date: 2008-06-01
 Category: Web Design
@@ -6,7 +7,7 @@ Slug: other-projects/blue-sky-music-camps
 Thumb: /files/images/design/blue-sky-thumb.png
 Full: /files/images/design/blue-sky-full.png
 Link: http://www.blueskymusiccamps.com/
-
+---
 
 * Custom PHP/MySQL + WordPress
 * PayPal integration

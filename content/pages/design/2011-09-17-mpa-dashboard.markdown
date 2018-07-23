@@ -1,3 +1,4 @@
+---
 Title: MPA Dashboard
 Date: 2011-09-17
 Category: Web Design
@@ -6,7 +7,7 @@ Slug: other-projects/mpa-dashboard
 Thumb: /files/images/design/mpadash-thumb.png
 Full: /files/images/design/mpadash-full.png
 link: http://andrewheiss.com/mpadash/
-
+---
 
 * Drupal-based digital signage
 * No manual updating required

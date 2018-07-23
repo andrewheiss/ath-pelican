@@ -1,8 +1,10 @@
+---
 Title: Working with R, Cairo graphics, custom fonts, and ggplot
 Excerpt: The Cairo graphics library makes it easy to embed custom fonts in PDFs and create high resolution PNGs.
 Category: blog
 Thumbnail: https://www.andrewheiss.com/files/images/cairo-fonts-ggplot/example-plot-1.png
 Tags: r, ggplot, dataviz, cairo, fonts
+---
 
 Skip to instructions for [macOS](#mac) or [Windows](#windows)
 

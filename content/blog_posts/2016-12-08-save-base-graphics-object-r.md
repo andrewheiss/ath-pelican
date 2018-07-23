@@ -1,7 +1,9 @@
+---
 Title: Save base graphics as pseudo-objects in R
 Excerpt: Use pryr to save a series of R commands as a kind of macro you can call repeatedly.
 Category: blog
 Tags: r, ggplot, graphics
+---
 
 
 **tl;dr:** Use `pryr::%<a-%` to save a series of R commands as a kind of macro you can call repeatedly.

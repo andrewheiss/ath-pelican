@@ -1,3 +1,4 @@
+---
 Title: The Secret Treasures of Hans Wehr
 Date: 2011-01-20
 Category: Web Design
@@ -6,7 +7,7 @@ Slug: other-projects/secret-treasures-hans-wehr
 Thumb: /files/images/design/hans-thumb.png
 Full: /files/images/design/hans-full.png
 Link: http://www.hanswehr.net/
-
+---
 
 * Runs on Drupal
 * Giant database of dictionary entries

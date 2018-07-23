@@ -1,7 +1,9 @@
+---
 Title: Drone sightings in the US, visualized
 Excerpt: See where the FAA has reported hobbyist drone sightings from 2014–2016
 Category: blog
 Tags: r, dataviz, hrbrmstr-challenge
+---
 
 
 For my first entry into [@hrbrmstr's new weekly data visualization challenge](https://rud.is/b/2016/03/30/introducing-a-weekly-r-python-js-etc-vis-challenge/), I made two plots related to the [dataset of unmanned aircraft (UAS) sightings](https://www.faa.gov/uas/law_enforcement/uas_sighting_reports/). The [R code for these plots is on GitHub](https://github.com/andrewheiss/2016-13/tree/master/andrewheiss).

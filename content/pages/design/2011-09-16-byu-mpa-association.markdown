@@ -1,3 +1,4 @@
+---
 Title: BYU MPA Association
 Date: 2011-09-16
 Category: Web Design
@@ -6,7 +7,7 @@ Slug: other-projects/byu-mpa-association
 Thumb: /files/images/design/mpaa-thumb.png
 Full: /files/images/design/mpaa-full.png
 Link: http://mpaa.byu.edu/
-
+---
 
 * Runs on Drupal 6
 * Central hub for MPA students, alumni, and faculty

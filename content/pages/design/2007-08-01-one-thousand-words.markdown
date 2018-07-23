@@ -1,3 +1,4 @@
+---
 Title: One Thousand Words
 Date: 2007-08-01
 Category: Web Design
@@ -5,7 +6,7 @@ Template: design_project
 Slug: other-projects/one-thousand-words
 Thumb: /files/images/design/thousand-words-thumb.png
 Full: /files/images/design/thousand-words-full.png
-
+---
 
 * Ongoing series of minimalist photo books
 

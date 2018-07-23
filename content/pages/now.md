@@ -1,7 +1,9 @@
+---
 Title: What I'm doing now
 Date: 2018-07-23
 Slug: now
 Description: Andrew Heiss is working on a bunch of exciting and groundbreaking projects
+---
 
 As of July 23, 2018, I'm spending all my time on these things:
 

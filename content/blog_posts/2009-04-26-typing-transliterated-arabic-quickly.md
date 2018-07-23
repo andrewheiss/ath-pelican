@@ -1,8 +1,10 @@
+---
 Title: Typing transliterated Arabic quickly
 Excerpt: Use text-replacement software to automate Arabic transliteration.
 Category: blog
 Tags: arabic, automation, ijmes, texter, transliteration, typinator
 Slug: typing-transliterated-arabic-quickly
+---
 
 
 Since Arabic doesn't use the Latin alphabet, and lots of the letters don't have Latin equivalents (خ, ع, ق, ط, for example), transliteration is necessary to show Arabic words and sounds in English writing. There is an easy way to type transliterated Arabic quickly, though, using macros to locate hidden Unicode characters used by many of the standard transliteration systems.

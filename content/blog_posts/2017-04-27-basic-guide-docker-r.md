@@ -1,7 +1,9 @@
+---
 Title: Super basic practical guide to Docker and RStudio
 Excerpt: Use RStudio inside Docker containers for portable and reproducible development environments.
 Category: blog
 Tags: r, docker
+---
 
 
 All the cool data science kids seem to be using [Docker](https://www.docker.com/) these days, and being able to instantly spin up a pre-built computer with a complete development or production environment is magic. The R community has also jumped on the Docker whale, and [rOpenSci](https://ropensci.org/) maintains [dozens of pre-built Docker images](https://hub.docker.com/u/rocker/). [These images are well documented](https://ropensci.org/blog/blog/2014/10/23/introducing-rocker) and there are [helpful guides explaining how to get started](https://github.com/rocker-org/rocker/wiki/Using-the-RStudio-image). 

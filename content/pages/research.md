@@ -1,8 +1,10 @@
+---
 Title: Research
 Date: 2016-08-31
 Slug: research
 Template: research
 Description: Andrew Heiss studies international NGOs, global governance, authoritarian regimes, and the Middle East.
+---
 
 Read [my research statement](/files/research/2017-09-01-andrew-heiss-research-statement.pdf) for a broad overview of my research agenda.
 

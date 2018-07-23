@@ -1,8 +1,10 @@
+---
 Title: Quickly play with Polity IV and OECD data (and see the danger of US democracy)
 Excerpt: Use ggplot to reproducibly see how much trouble the Polity Project thinks the US is in.
 Category: blog
 Thumbnail: https://www.andrewheiss.com/files/images/polity-oecd/unnamed-chunk-6-1.png
 Tags: r, ggplot, dataviz
+---
 
 
 The [Polity IV Project](http://www.systemicpeace.org/polityproject.html) released new data yesterday, with democratization scores for 169 countries up to 2016. I wanted to check if the ongoing erosion of US democratic institutions since the 2016 elections registered in the US's Polity score, and, lo and behold, it did! We dropped from our solid, historically consistent 10 to an 8.

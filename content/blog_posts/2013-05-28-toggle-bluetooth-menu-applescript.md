@@ -1,8 +1,10 @@
+---
 Title: Toggle the Bluetooth menu item with AppleScript
 Excerpt: The OS X Bluetooth menu item re-enables itself everytime a device battery gets low. This simple application turns it back off. 
 Category: blog
 Tags: osx, automation, AppleScript
 Slug: toggle-bluetooth-menu-applescript
+---
 
 
 I like to keep my menubar as uncluttered as possible, so I keep as many items hidden as possible—especially system programs like Time Machine, the displays menu, or the volume menu. 

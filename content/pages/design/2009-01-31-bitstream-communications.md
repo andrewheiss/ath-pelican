@@ -1,3 +1,4 @@
+---
 Title: BitStream Communications
 Date: 2009-01-31
 Category: Web Design
@@ -6,7 +7,7 @@ Slug: other-projects/bitstream-communications
 Thumb: /files/images/design/bitstream-thumb.png
 Full: /files/images/design/bitstream-full.png
 Link: http://www.bitstream.org/
-
+---
 
 * Full site + logo design
 * WordPress as CMS

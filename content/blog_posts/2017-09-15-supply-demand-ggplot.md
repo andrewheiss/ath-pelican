@@ -1,8 +1,10 @@
+---
 Title: Create supply and demand economics curves with ggplot2
 Excerpt: Use ggplot to create economics-style, non-data-based conceptual graphs.
 Category: blog
 Thumbnail: https://www.andrewheiss.com/files/images/supply-demand-ggplot/complete-example-1.png
 Tags: r, ggplot, dataviz, economics
+---
 
 <p class="confirmation accept">This is now an R package named <a href="https://github.com/andrewheiss/reconPlots">`reconPlots`</a>.</p>
 

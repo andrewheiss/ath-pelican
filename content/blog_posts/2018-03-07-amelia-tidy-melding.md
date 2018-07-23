@@ -1,9 +1,11 @@
+---
 Title: Meld regression output from multiple imputations with tidyverse
 Excerpt: Use tidyverse functions to correctly meld and pool multiply imputed model output.
 Category: blog
 Tags: r, imputation, tidyverse
 Slug: amelia-tidy-melding
 Math: True
+---
 
 <span class="small">([See this notebook on GitHub](https://github.com/andrewheiss/amelia-tidy-melding))</span>
 

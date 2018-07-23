@@ -1,8 +1,10 @@
-Title: Fauxcasts: Use a podcast app to listen to audiobooks
+---
+Title: "Fauxcasts: Use a podcast app to listen to audiobooks"
 Excerpt: Create a temporary podcast feed of a CD-based audiobook and use a modern podcast app to listen to the book faster and better.
 Category: blog
 Tags: rss, podcasts, audiobooks
 Slug: fauxcasts
+---
 
 
 Our public library has a huge collection of books on CD, including a bunch of [well dramatized versions of Shakespeare plays](https://en.wikipedia.org/wiki/Arkangel_Shakespeare) that I've always meant to read. However, out of all the music-listening devices I own, only two have optical drives: the ancient Mac Mini we use for our media center and our minivan. It's trivial to rip the audiobooks to MP3 on the Mac Mini, but I've never been completely happy with the options for listening to them. 

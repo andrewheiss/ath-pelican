@@ -1,3 +1,4 @@
+---
 Title: Graphic Design for Non-Designers
 Date: 2015-10-02
 Category: Talk
@@ -7,3 +8,4 @@ Code: https://github.com/andrewheiss/talks/tree/master/2015-10-02_graphic-design
 Code_title: GitHub repository
 Event: MPP workshop at the Sanford School of Public Policy
 Location: Duke University
+---

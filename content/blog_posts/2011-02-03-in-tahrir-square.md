@@ -1,8 +1,10 @@
+---
 Title: In Tahrir Square 
 Excerpt: A poem in honor of the &#35;Jan25 Tahrir protestors
 Category: blog
 Tags: jan25, egypt, nancy
 Slug: in-tahrir-square
+---
 
 
 My awesome wife [just wrote up a fantastic poem](http://www.heissatopia.com/2011/02/in-tahrir-square.html) dedicated to the &#35;Jan25 Tahrir protestors. This past week has been riveting and emotional for us, even though we live far from Egypt now. Cairo was our home for two years—we drank from the Nile (شربنا من النيل) and feel part of it. This horrific carnage is absolutely sickening.

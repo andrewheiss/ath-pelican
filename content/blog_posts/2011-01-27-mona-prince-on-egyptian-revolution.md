@@ -1,8 +1,10 @@
+---
 Title: Mona Prince on &#35;jan25 Egyptian Protests 
 Excerpt: Mona Prince's personal account of the &#35;jan25 Egyptian protests
 Category: blog
 Tags: jan25, egypt
 Slug: mona-prince-on-egyptian-revolution
+---
 
 
 Egyptian novelist and professor Mona Prince just sent me this personal report on her experience with the [#jan25 protests](http://en.wikipedia.org/wiki/2011_Egyptian_protests). I'm reposting it here in its entirety.

@@ -1,7 +1,9 @@
+---
 Title: New site launched
 Excerpt: I finally converted my ancient, inefficient PHP-ish website to a mean, lean, WordPresss running CMS.
 Category: blog
 Slug: new-site-launched
+---
 
 
 Two years ago I decided that it would be a good idea to start a personal website. I was always disappointed in [the Google results for my name](http://www.google.com/search?q=Andrew+Heiss), so I figured having my own web space and domain would help boost my ratings. Yes. I initially started this site for the sole purpose of [egogoogling](http://en.wikipedia.org/wiki/Egosurfing). So much has changed since then…

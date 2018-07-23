@@ -1,3 +1,4 @@
+---
 Title: A *Very* Brief Overview of Topics in Data Visualization
 Date: 2015-09-15
 Category: Talk
@@ -7,3 +8,4 @@ Code: https://github.com/andrewheiss/talks/tree/master/2015-09-15_intro-data-vis
 Code_title: GitHub repository
 Event: MPP workshop at the Sanford School of Public Policy
 Location: Duke University
+---
