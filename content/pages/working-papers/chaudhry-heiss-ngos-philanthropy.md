@@ -8,7 +8,7 @@ Code: https://github.com/andrewheiss/ngo-crackdowns-philanthropy
 preprint: /files/research/chaudhry-heiss-ngos-philanthropy.pdf
 Thumb: /files/images/research/chaudhry-heiss-ngos-philanthropy.png
 Details: >-
-  "Charity During Crackdown: Analyzing the Impact of State Repression of NGOs on Philanthropy" (with Suparna Chaudhry, Christopher Newport University)
+  "Charity During Crackdown: Analyzing the Impact of State Repression of NGOs on Philanthropy" (with [Suparna Chaudhry](http://www.suparnachaudhry.com/), Christopher Newport University)
 Extra: >-
   Presented at the annual meeting of the International Studies Association (ISA), San Francisco, California, April 2018
 ---

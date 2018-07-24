@@ -8,7 +8,7 @@ Code: https://github.com/andrewheiss/donors-ngo-restrictions
 preprint: /files/research/chaudhry-heiss-ngos-aid.pdf
 Thumb: /files/images/research/chaudhry-heiss-ngos-aid.png
 Details: >-
-  "Are Donors Really Responding? Analyzing the Impact of Global Restrictions on NGOs" (with Suparna Chaudhry, Christopher Newport University)
+  "Are Donors Really Responding? Analyzing the Impact of Global Restrictions on NGOs" (with [Suparna Chaudhry](http://www.suparnachaudhry.com/), Christopher Newport University)
 Extra: >-
   Presented at the annual meetings of the American Political Science Association (APSA), Boston, Massachusetts, August 2018; and the International Studies Association (ISA), Baltimore, Maryland, February 2017
 ---
