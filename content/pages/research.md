@@ -18,7 +18,3 @@ My dissertation, "Amicable Contempt: The Strategic Balance between Dictators and
 View the theory and (forthcoming) data for the project at [ingoresearch.org](https://www.ingoresearch.org/).
 
 ---
-
-Peruse my [open research notebook](https://notebook.andrewheiss.com/) to see all the notes, primary sources, scribblings, code, figures, half-formed thoughts, and all the other raw materials, by-products, and miscellanea involved in my research.
-
----

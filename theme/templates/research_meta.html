@@ -1,0 +1,55 @@
+            <div class="publication-details">
+                {% if project.extra %}
+                <p class="extra">{{ project.extra | md_single_line }}</p>
+                {% endif %}
+
+                {% if project.extra1 %}
+                <p class="extra">{{ project.extra1 | md_single_line }}</p>
+                {% endif %}
+
+                <ul class="publication-links">
+                    {% if listing %}
+                    <li class="project-info"><a href="{{ SITEURL }}/{{ project.url }}" rel="bookmark" title="Permalink to {{ project.title|striptags }}"><i class="fas fa-info-circle"></i> Full details</a></li>
+                    {%- endif %}
+
+                    {% if project.ungated %}
+                    <li><a href="{{ project.ungated }}"><i class="fas fa-unlock"></i> Ungated</a></li>
+                    {%- endif %}
+
+                    {% if project.gated %}
+                    <li><a href="{{ project.gated }}"><i class="fas fa-lock"></i> Gated</a></li>
+                    {%- endif %}
+
+                    {% if project.link %}
+                    <li><a href="{{ project.link }}"><i class="fas fa-external-link-square-alt"></i> View online</a></li>
+                    {%- endif %}
+
+                    {% if project.book %}
+                    <li><a href="{{ project.book }}"><i class="fas fa-book"></i> Book</a></li>
+                    {%- endif %}
+
+                    {% if project.preprint %}
+                    <li><a href="{{ project.preprint }}"><i class="far fa-file-alt"></i> Preprint PDF</a></li>
+                    {%- endif %}
+
+                    {% if project.pdf %}
+                    <li><a href="{{ project.pdf }}"><i class="far fa-file-pdf"></i> PDF</a></li>
+                    {%- endif %}
+
+                    {% if project.presentation %}
+                    <li><a href="{{ project.presentation }}"><i class="fas fa-chalkboard-teacher"></i> PDF</a></li>
+                    {%- endif %}
+
+                    {% if project.code %}
+                    <li><a href="{{ project.code }}"><i class="fab fa-github"></i> Code</a></li>
+                    {%- endif %}
+
+                    {% if project.raw_output %}
+                    <li><a href="{{ project.raw_output }}"><i class="fas fa-chart-bar"></i> Raw output</a></li>
+                    {%- endif %}
+
+                    {% if project.poster %}
+                    <li><a href="{{ project.poster }}"><i class="fas fa-square"></i> Poster</a></li>
+                    {%- endif %}
+                </ul>
+            </div>

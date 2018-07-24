@@ -29,10 +29,27 @@
 
 
 {% block content %}
-<article class="content-single">
-    <h1>{{ page.title }}</h1>
+<article class="content-single project">
+    {# Set pub to page variable so the research_meta template can use it correctly #}
+    {% set project = page %}
 
-    {{ page.content }}
+    <p class="pseudo-navigation"><a href="/research/"><i class="fas fa-arrow-circle-left"></i> Research</p></a>
+
+    {% if project.date_include %}
+    <p class="date"><time datetime="{{ project.date.isoformat() }}" title="{{ project.date.isoformat() }}">{{ project.date | strftime('%B %Y') }}</time></p>
+    {% endif %}
+
+    <h1>{{ project.title }}</h1>
+
+    <div class="publication-content">
+        {{ project.details | md }}
+    </div>
+
+    {% include 'research_meta.html' %}
+
+    <div class="project-content">
+        {{ project.content }}
+    </div>
 </article>
 
 {% endblock %}
