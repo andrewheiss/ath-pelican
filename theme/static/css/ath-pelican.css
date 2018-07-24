@@ -918,4 +918,15 @@ li.project-info a {
     }
 }
 
+/* Phone layout */
+@media (max-width: 480px) {
+    .project-thumb {
+        display: none;
+    }
+
+    .project-details {
+        width: 100%;
+    }
+}
+
 /* @end */
