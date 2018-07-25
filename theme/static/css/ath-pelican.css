@@ -849,7 +849,7 @@ li.project-info a {
     .content {
         padding: 2em 3em;
         margin-left: 25%;
-        max-width: 50em;
+        max-width: 65em;
 		z-index: 5;
 	}
 
@@ -860,6 +860,14 @@ li.project-info a {
         max-width: 300px;
 		z-index: 1;
 	}
+}
+
+/* Non-phone and tablet layout wider than 1200px */
+/* This is necessary because .sidebar has a max-width of 300px above, which is fine until the sidebar starts trying to be wider—then the left margin in .content gets wider and wider and wider. So, when the width of more than 1200px (which is the screen width where 25% starts to be greater than 300px), I specify that .content has a left margin of exactly 300px */
+@media (min-width: 1200px) {
+    .content {
+        margin-left: 300px;
+    }
 }
 
 /* Phone and tablet layout */
