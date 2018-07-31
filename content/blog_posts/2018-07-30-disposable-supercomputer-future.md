@@ -199,6 +199,8 @@ remote_computer2 <- droplet_create(image = "12345678",
 droplet(remote_computer$id) %>% docklet_pull("rocker/tidyverse")
 ```
 
+Just make sure you delete the snapshots when you're done—they cost $0.05 per GB per month.
+
 
 # 2. Use `future::plan()` to point R to those computers
 
