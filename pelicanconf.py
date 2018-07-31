@@ -22,7 +22,7 @@ DEFAULT_LANG = 'en'
 
 DEFAULT_DATE_FORMAT = '%A, %B %-d, %Y'
 
-TYPOGRIFY = True  # Nice typographic things
+TYPOGRIFY = False  # Nice typographic things
 
 GOOGLE_ANALYTICS = ''
 
