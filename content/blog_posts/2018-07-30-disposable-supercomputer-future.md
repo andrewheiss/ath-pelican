@@ -172,6 +172,33 @@ droplet(remote_computer$id) %>% docklet_pull("rocker/tidyverse")
 
 You can do this to create as many remote computers as you want.
 
+The first time you run `docklet_pull()` on a droplet, Docker will download hundreds of megabytes of container files. This is fine for one computer, but if you're creating a cluster of multiple computers, you might not want to redownload everything every time on each computer (to avoid extra bandwidth charges, for example). Instead of pulling a fresh Docker image on each computer, you can take a snapshot of the first remote droplet and then make new droplets based on the snapshot:
+
+```r
+# Create new droplet with rocker/tidyverse
+remote_computer <- docklet_create(region = "sfo2", size = "1gb")
+droplet(remote_computer$id) %>% docklet_pull("rocker/tidyverse")
+
+# Create snapshot
+droplet(remote_computer$id) %>% 
+  droplet_power_off() %>% 
+  droplet_snapshot(name = "tidyverse_ready") %>% 
+  droplet_power_on()
+
+# Create a new droplet based on this snapshot. This new computer will already
+# have rocker/tidyverse on it
+#
+# You can see a list of available snapshots and get the name/id with
+# images(private = TRUE)
+remote_computer2 <- droplet_create(image = "12345678", 
+                                   region = "sfo2", size = "1gb")
+
+# This won't take long because it already has rocker/tidyverse
+# You should get this message:
+#   Status: Image is up to date for rocker/tidyverse:latest
+droplet(remote_computer$id) %>% docklet_pull("rocker/tidyverse")
+```
+
 
 # 2. Use `future::plan()` to point R to those computers
 
