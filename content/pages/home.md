@@ -10,6 +10,6 @@ I'm a visiting assistant professor at the [Romney Institute of Public Management
 
 I study [how international NGO&#8288;s work in authoritarian countries](https://www.ingoresearch.org) and do research in public administration and policy, nonprofit management, international relations, and comparative politics. 
 
-I teach courses on [statistics and research methods](https://statsf18.classes.andrewheiss.com/), [data](https://datavizf18.classes.andrewheiss.com/) [visualization](https://datavizf17.classes.andrewheiss.com/), [economics](https://econw18.classes.andrewheiss.com/), and [science communication](https://storiesf17.classes.andrewheiss.com/).
+I teach courses on [statistics and data science](https://statsf18.classes.andrewheiss.com/), [data](https://datavizf18.classes.andrewheiss.com/) [visualization](https://datavizf17.classes.andrewheiss.com/), [economics](https://econw18.classes.andrewheiss.com/), and [science communication](https://storiesf17.classes.andrewheiss.com/).
 
 
