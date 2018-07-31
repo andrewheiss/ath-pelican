@@ -99,7 +99,7 @@ capabilities()
 
 R on macOS should automatically see the fonts you have installed on your computer.
 
-Here's a full example of loading and using a custom font on Windows:
+Here's a full example of loading and using a custom font on macOS:
 
 ``` r
 # Load libraries
