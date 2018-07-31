@@ -299,16 +299,15 @@ future_map(1:5, ~ rnorm(10000) * .x)
 #> ...
 ```
 
-You can even nest **future** plans. If you create a couple remote machines with multiple CPUs, you can do something like this:
+You can even nest **future** plans by [specifying them in a list](https://cran.r-project.org/web/packages/future/vignettes/future-3-topologies.html), and the package will take care of the different nested layers automatically. You can also place `plan(list(...))` in a file named `.future.R`, which **future** will source automatically when it is loaded. This allows you to use different plans on different computers without ever changing your code.
 
 ```r
-# Use cluster of computers locally
-plan(cluster, workers = cl)
+plan(list( 
+  tweak(cluster, workers = cl),  # Use a cluster of computers locally 
+  multiprocess  # Use all the CPUs on remote machines 
+)) 
 
-complicated_remote_stuff %<-% {
-  # Use all the CPUs on the remote machine
-  plan(multiprocess)
-  
+complicated_remote_stuff %<-% {  
   # Do complicated stuff on all the remote CPUs with future or furrr functions
   future_map(1:5, ~ rnorm(10000) * .x)
 } 
