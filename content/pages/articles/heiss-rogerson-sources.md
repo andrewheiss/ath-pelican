@@ -1,7 +1,7 @@
 ---
 Title: "Sources of Advocacy: When Does the Media Give Voice to Egyptian Advocacy NGOs?"
 Date: 2014-08-20
-Category: Working Paper
+Category: Dormant
 Slug: research/heiss-rogerson-sources
 Template: research_project
 PDF: /files/research/2014-heiss-rogerson-sources.pdf

@@ -1,7 +1,7 @@
 ---
 Title: "Discovering Discourse: The Relationship between Media and NGOs in Egypt between 2011–13"
 Date: 2014-03-20
-Category: Working Paper
+Category: Dormant
 Slug: research/heiss-rogerson-discourse
 Template: research_project
 PDF: /files/research/2014-heiss-rogerson-discourse.pdf
