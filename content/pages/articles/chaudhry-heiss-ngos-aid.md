@@ -26,15 +26,22 @@ Extra: >-
 
 ## Abstract
 
-The previous three decades have seen a proliferation of anti-NGO legislation throughout the world, resulting in increasingly restricted space for civil society organizations to provide services or engage in advocacy. This is worrisome for Western donors because they channel a large amount of foreign aid and democracy assistance funds through NGOs. How do donors respond to this legal crackdown on NGOs? We use original data on civil society restrictions across 148 countries from 1981–2013 to assess the impact of these restrictions on total flows of foreign aid, how aid is distributed, and which issues are funded. We find that additional anti-NGO legal barriers—in particular, barriers to advocacy—decrease the amount of foreign channeled to restrictive countries. Besides reducing the amount of aid, donors also redirect funds within restrictive countries, decreasing funds for politically sensitive causes in favor of tamer issues that are more compatible with the governments of those countries. Finally, donors—USAID in particular—channel more aid to domestic over foreign NGOs in order to assuage target country concerns about external interference in domestic politics. Our findings have worrying implications for donors in the foreign aid and democracy promotion community, whose projects may be unsustainable in the face of this legal crackdown.
+The past two decades have seen a proliferation of laws targeted at non-governmental organizations (NGOs), resulting in an increasingly restricted space for these organizations to provide services or engage in advocacy. How do Western donors respond to this legal crackdown on NGOs? We use original data on civil society restrictions across all official aid recipients from 1981–2012 to assess the impact of these restrictions on total flows of foreign aid, how aid is distributed, and which issues are funded. We find that additional legal barriers on NGO political advocacy decrease the amount of foreign given to restrictive countries. Additionally, we find that donors redirect funds within restrictive countries and decrease funding for politically sensitive causes in favor of tamer issues that are more compatible with the governments of those countries. Finally, we find that donors—USAID in particular—channel more aid to domestic rather than foreign NGOs in order to assuage target country concerns about external interference in domestic politics. The implications of these findings are worrisome for both Western donors, which channel a large amount of foreign aid through NGOs, and for NGOs, many of which are unable to sustain themselves without financial support from abroad. 
+
+
+## Figure
+
+Figure 5: Predicted ODA (foreign aid) across a range of differences from average number of anti-NGO laws in an average country; dark line shows average of 500 draws from posterior distribution.
+
+![Figure 5: Predicted ODA (foreign aid) across a range of differences from average number of anti-NGO laws in an average country; dark line shows average of 500 draws from posterior distribution.](/files/images/research/ngos-aid_fig5.png){.pure-img-responsive}
 
 
 ## BibTeX citation
 
 ```bibtex
-@unpublished{ChaudhryHeiss:2017,
+@unpublished{ChaudhryHeiss:2018,
     Author = {Suparna Chaudhry and Andrew Heiss},
     Note = {Working paper},
-    Title = {Are Funders Really Responding? Analyzing the Impact of Global Restrictions on {NGO}s},
-    Year = {2017}}
+    Title = {Are Donors Really Responding? Analyzing the Impact of Global Restrictions on {NGO}s},
+    Year = {2018}}
 ```
