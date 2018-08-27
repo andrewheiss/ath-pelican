@@ -10,6 +10,43 @@ I believe that university teaching should challenge and shift how students under
 My teaching and research experience has prepared me to teach courses in nonprofit management, data visualization, international relations, comparative politics, political institutions, Middle East politics, policy analysis, science communication, and both qualitative and qualitative research methods.
 
 
+# Courses for the 2018–19 academic year
+
+<div class="class-list" markdown="1">
+<table>
+    <tr>
+        <td>
+            ![Economic Decision Making for Managers](/files/images/teaching/econw18.png) 
+        </td>
+        <td>
+            **Economic Decision Making for Managers** <small>(MPA 612)</small>  
+            Winter 2019 | Brigham Young University | Graduate students
+        </td>
+    </tr>
+    <tr>
+        <td>
+            [![Data Science and Statistics for Public Management](/files/images/teaching/statsf18.png)][storiesf17] 
+        </td>
+        <td>
+            **[Data Science and Statistics for Public Management][statsf18]** <small>(MPA 630)</small>  
+            Fall 2018 | Brigham Young University | Graduate students
+        </td>
+    </tr>
+    <tr>
+        <td>
+            [![Data Visualization](/files/images/teaching/datavizf18.png)][datavizf18]
+        </td>
+        <td>
+            **[Data Visualization][datavizf18]** <small>(MPA 635)</small>  
+            Fall 2018 | Brigham Young University | Graduate students
+        </td>
+    </tr>
+</table>
+</div>
+
+[statsf18]: https://statsf18.classes.andrewheiss.com/
+[datavizf18]: https://datavizf18.classes.andrewheiss.com/
+
 # Courses for the 2017–18 academic year
 
 <div class="class-list" markdown="1">
