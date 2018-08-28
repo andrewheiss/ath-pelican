@@ -11,8 +11,8 @@ developing_site = True
 # ------------------
 AUTHOR = 'Andrew Heiss'
 SITENAME = 'Andrew Heiss'
-MINIBIO = 'International NGOs, nonprofit management, authoritarianism, data visualization, and R'
-DESCRIPTION = 'Andrew Heiss is a visiting assistant professor at the Romney Institute of Public Management at Brigham Young University, researching international NGOs in authoritarian regimes and teaching data visualization and economics.'
+MINIBIO = 'International NGOs, nonprofit management, authoritarianism, data science, and R'
+DESCRIPTION = 'Andrew Heiss is a visiting assistant professor at the Romney Institute of Public Management at Brigham Young University, researching international NGOs in authoritarian regimes and teaching data science and economics.'
 
 SITEURL = ''
 DEFAULT_SOCIAL_IMG = SITEURL + '/theme/img/meta_img.png'
