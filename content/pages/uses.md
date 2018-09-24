@@ -1,13 +1,13 @@
 ---
 Title: Uses
-Date: 2018-08-31
+Date: 2018-09-24
 Slug: uses
 Description: Andrew Heiss is working on a bunch of exciting and groundbreaking projects
 ---
 
 People often ask me what programs I use for my writing and design. In truth, my workflow tends to look like [this](https://xkcd.com/1579/) or [this](https://xkcd.com/1172/), but here's a more detailed list of all the interconnected programs I use.
 
-I try to keep this updated fairly regularly. As of August 31, 2018 this is what I'm using:
+I try to keep this updated fairly regularly. As of September 24, 2018 this is what I'm using:
 
 # Writing
 
@@ -18,7 +18,8 @@ I try to keep this updated fairly regularly. As of August 31, 2018 this is what 
 - The key to my writing workflow is the magical [pandoc](http://pandoc.org/), which converts Markdown files into basically anything else. I use [my own variation](https://github.com/andrewheiss/Global-Pandoc-files) of Kieran Healy's [Plain Text Social Science workflow](http://plain-text.co/) to convert Markdown to HTML, PDF (through LaTeX), and Word (through LibreOffice).
 - I store all my bibliographic references, books, and articles in a [BibTeX](http://www.bibtex.org/) file that I edit with [BibDesk](http://bibdesk.sourceforge.net/).
 - I read and annotate all my PDFs with [Skim](http://skim-app.sourceforge.net/) (and [iAnnotate](http://www.iannotate.com/) on iOS), since both export annotations as clean plain text.
-- I store all my notes in [Evernote](https://www.evernote.com/) (after temporarily ditching them for OneNote because of their [new prices and policies](https://blog.evernote.com/blog/2016/06/28/changes-to-evernotes-pricing-plans/), and despite their ongoing privacy controversies).
+- I store all my notes in [Bear](https://bear.app/), which has fantastic support for Markdown and syncs across all my devices through iCloud. I abandoned [Evernote](https://www.evernote.com/) in September 2018 after 9 years of heavy use, given their ongoing privacy controversies and mass layoffs.
+
 
 # Development
 
