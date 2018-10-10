@@ -1,16 +1,17 @@
 ---
 Title: "Charity During Crackdown: Analyzing the Impact of State Repression of NGOs on Philanthropy"
 Date: 2017-07-24
-Category: Working Paper
+Category: In progress
 Slug: research/chaudhry-heiss-ngos-philanthropy
 Template: research_project
 Code: https://github.com/andrewheiss/ngo-crackdowns-philanthropy
 preprint: /files/research/chaudhry-heiss-ngos-philanthropy.pdf
 Thumb: /files/images/research/chaudhry-heiss-ngos-philanthropy.png
 Details: >-
-  "Charity During Crackdown: Analyzing the Impact of State Repression of NGOs on Philanthropy" (with [Suparna Chaudhry](http://www.suparnachaudhry.com/), Christopher Newport University)
+  [Suparna Chaudhry](http://www.suparnachaudhry.com/) and **Andrew Heiss**, “Charity During Crackdown: Analyzing the Impact of State Repression of NGOs on Philanthropy”
 Extra: >-
   Presented at the annual meeting of the International Studies Association (ISA), San Francisco, California, April 2018
+Pub_Status: Under review
 ---
 
 [TOC]

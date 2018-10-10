@@ -512,6 +512,7 @@ pre, code {
 
 .publication-list,
 .publication-links,
+.publication-status,
 .publication-toc,
 .toc ul {
 	list-style-type: none;
@@ -562,14 +563,20 @@ pre, code {
 	margin: 0 0 0.5em;
 }
 
-.publication-links {
+.publication-links,
+.publication-status {
 	margin: 0;
 }
 
-.publication-links li {
+.publication-links li,
+.publication-status li {
 	display: inline;
 	padding-right: 10px;
 	white-space: nowrap;
+}
+
+.publication-status {
+    margin-bottom: 0.5em;
 }
 
 li.project-info {
@@ -579,6 +586,20 @@ li.project-info {
 }
 
 li.project-info a {
+    color: white;
+}
+
+li.project-under-review {
+    padding: 3px 6px;
+    background-color: #33DD71;
+    margin-right: 1em;
+    color: white;
+}
+
+li.project-revising {
+    padding: 3px 6px;
+    background-color: #44A2F4;
+    margin-right: 1em;
     color: white;
 }
 

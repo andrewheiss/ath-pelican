@@ -8,7 +8,7 @@ gated: https://dx.doi.org/10.4324/9781315301914
 ungated: /files/research/2018-johnson-heiss-liberal-institutionalism.pdf
 Thumb: /files/images/research/iogg-18_cover.jpg
 Details: >-
-  Tana Johnson and **Andrew Heiss**, "Liberal Institutionalism," chap. 8 in *International Organization and Global Governance*, 2nd ed., ed. Thomas G. Weiss and Rorden Wilkinson (London: Routledge, 2018), 123–34, doi: [`10.4324/9781315301914`](https://dx.doi.org/10.4324/9781315301914).
+  Tana Johnson and **Andrew Heiss**, “Liberal Institutionalism,” chap. 8 in *International Organization and Global Governance*, 2nd ed., ed. Thomas G. Weiss and Rorden Wilkinson (London: Routledge, 2018), 123–34, doi: [`10.4324/9781315301914`](https://dx.doi.org/10.4324/9781315301914).
 ---
 
 [TOC]

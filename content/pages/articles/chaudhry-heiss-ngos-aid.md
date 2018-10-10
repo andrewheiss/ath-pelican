@@ -1,16 +1,17 @@
 ---
 Title: "Are Donors Really Responding? Analyzing the Impact of Global Restrictions on NGOs"
 Date: 2016-03-01
-Category: Working Paper
+Category: In progress
 Slug: research/chaudhry-heiss-ngos-aid
 Template: research_project
 Code: https://github.com/andrewheiss/donors-ngo-restrictions
 preprint: /files/research/chaudhry-heiss-ngos-aid.pdf
 Thumb: /files/images/research/chaudhry-heiss-ngos-aid.png
 Details: >-
-  "Are Donors Really Responding? Analyzing the Impact of Global Restrictions on NGOs" (with [Suparna Chaudhry](http://www.suparnachaudhry.com/), Christopher Newport University)
+  [Suparna Chaudhry](http://www.suparnachaudhry.com/) and **Andrew Heiss**, “Are Donors Really Responding? Analyzing the Impact of Global Restrictions on NGOs”
 Extra: >-
   Presented at the annual meetings of the American Political Science Association (APSA), Boston, Massachusetts, August 2018; and the International Studies Association (ISA), Baltimore, Maryland, February 2017
+Pub_Status: Revising
 ---
 
 [TOC]

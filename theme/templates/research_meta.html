@@ -1,4 +1,16 @@
             <div class="publication-details">
+                {% if project.pub_status %}
+                <ul class="publication-status">
+                    {% if project.pub_status == 'Under review' %}
+                    <li class="project-under-review"><i class="fas fa-glasses"></i> Under review</li>
+                    {% endif %}
+
+                    {% if project.pub_status == 'Revising' %}
+                    <li class="project-revising"><i class="fas fa-pencil-alt"></i> Revising</li>
+                    {% endif %}
+                </ul>
+                {% endif %}
+
                 {% if project.extra %}
                 <p class="extra">{{ project.extra | md_single_line }}</p>
                 {% endif %}

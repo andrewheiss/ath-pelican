@@ -8,7 +8,7 @@ gated: https://dx.doi.org/10.4324/9781315301914
 Code: https://github.com/andrewheiss/ngos-authoritarianism
 Thumb: /files/images/research/2019-heiss-ngos-authoritarianism.png
 Details: >-
-  **Andrew Heiss**, "NGOs and Authoritarianism," in *Routledge Handbook of NGOs and International Relations*, ed. Thomas Davies (London: Routledge, 2019).
+  **Andrew Heiss**, “NGOs and Authoritarianism,” in *Routledge Handbook of NGOs and International Relations*, ed. Thomas Davies (London: Routledge, 2019).
 ---
 
 [TOC]
