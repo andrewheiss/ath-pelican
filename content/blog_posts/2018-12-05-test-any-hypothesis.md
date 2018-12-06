@@ -21,11 +21,9 @@ ModernDive borrows from Allen Downey's philosophy that [there is only one statis
 
 That's all. Five steps. No need to follow [complicated flowcharts to select the best and most appropriate statistical test](https://www.google.com/search?q=statistical+test+flow+chart). No need to run a bunch of tests to see if you need to pool variances or leave them separate. Calculate a number, simulate a null world, and decide if that number is significantly different from what is typically seen in the null world. Voila!
 
----
+[The `infer` package in R](https://github.com/tidymodels/infer) makes this process explicit, easy, and intuitive. 
 
-In December 2018 (just two days ago!), the World Bank announced a new [Worldwide Bureaucracy Indicators Database](https://www.cgdev.org/blog/three-lessons-world-banks-new-worldwide-bureaucracy-indicators-database), with dozens of measures of public sector effectiveness. The data includes variables that measure the proportion of women employed in both the private and the public sectors. Is there a difference between these two sectors? Do more women work in the public sector than the private sector?
-
-[The `infer` package in R](https://github.com/tidymodels/infer) makes this process explicit and easy. Here's how to test whether the median proportion of women employed in either the public sector or the private sector in 2012 is significantly different from zero. Instead of consulting a flow chart to find the right test that meets our our assumptions and data limitations, we just simulate our way to a p-value.
+In December 2018 (just two days ago!), the World Bank announced a new [Worldwide Bureaucracy Indicators Database](https://www.cgdev.org/blog/three-lessons-world-banks-new-worldwide-bureaucracy-indicators-database), with dozens of measures of public sector effectiveness. The data includes variables that measure the proportion of women employed in both the private and the public sectors. Is there a difference between these two sectors? Do more women work in the public sector than the private sector? Instead of consulting a flow chart to find the right test that meets our our assumptions and data limitations, we just simulate our way to a p-value and test to see if the difference in median proportions in each sector is significantly different from zero.
 
 We first [download a CSV of the WWBI data from the World Bank](https://datacatalog.worldbank.org/dataset/worldwide-bureaucracy-indicators). In its raw form, it's kind of a mess, with a row for each indicator in each country (so Afghanistan has a row for women private sector employment, one for women public sector employment, and so on), and columns for each year. This heavily commented code will load and clean and rearrange the WWBI data into something we can analyze and plot.
 
@@ -97,7 +95,7 @@ diff_prop
 ## 1 -0.102
 ```
 
-The difference in the median proportions here is 10.2%. More women appear to be employed in the public sector. But because of sampling issues, is there a possibility that this 10% difference could potentially be zero? Could it be negative? 
+The difference in the median proportions here is 10.2%. More women appear to be employed in the public sector. But because of sampling issues, is there a possibility that this 10% difference could potentially be zero? Could it be positive instead of negative? 
 
 To test this, we simulate a world where the actual difference in medians between these two sectors is zero. We then plot that null distribution, place the observed 10.2% difference in it, and see how well it fits. Here we follow the same `specify() %>% calculate()` pattern, but introduce two new steps. We first `hypothesize()` that the two sectors are independent of each other and that there's no difference between the two. We then `generate()` a null distribution based on permutation (essentially shuffling the private/public labels within the existing data 5,000 times), and then calculate the difference in medians for the two groups.
 
