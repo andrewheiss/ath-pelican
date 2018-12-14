@@ -62,6 +62,17 @@ wwbi_small <- wwbi %>%
   # Amid all the gathering and spreading, every column has become a character.
   # This converts the year and all the share_* variables back to numbers
   mutate_at(vars(year, starts_with("share")), as.numeric)
+
+wwbi_2012 <- wwbi_small %>% 
+  filter(year == 2012) %>% 
+  # Get rid of rows that are missing data in the share_* columns
+  drop_na(starts_with("share")) %>% 
+  # Make this tidy and long, with a column for private or public
+  gather(sector, proportion, starts_with("share")) %>% 
+  # Make these values even nicer
+  mutate(sector = recode(sector,
+                         share_female_private = "Women in private sector",
+                         share_female_public = "Women in public sector"))
 ```
 
 First, we'll use a ridge plot (or overlapping density plots) to see if there's a difference in the distribution of employment across these two sectors. We include `quantile_lines = TRUE` and `quantiles = 2` to draw the median of each distribution. 
