@@ -6,3 +6,4 @@ output/*
 content/files/*
 *.sublime-workspace
 assets/*
+pelican

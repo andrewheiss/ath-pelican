@@ -91,8 +91,7 @@ MARKDOWN = {
             'baselevel': 1,
             # 'title': 'Contents',
         },
-        'markdown.extensions.codehilite': {'css_class': 'codehilite'},
-        'markdown.extensions.headerid': {'level': 2}
+        'markdown.extensions.codehilite': {'css_class': 'codehilite'}
     },
     'output_format': 'html5',
 }
