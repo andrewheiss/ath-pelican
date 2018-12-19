@@ -2,7 +2,14 @@
 Title: Installing pdftk-php
 Excerpt: A detailed, updated tutorial on how to install, use, and customize pdftk-php.php, which combines the power of pdftk and PHP, allowing you to serve dynamic PDF forms from the web.
 Category: blog
-Tags: html, pdftk, pdftk-php, php, sh, sql, text
+Tags: 
+  - html
+  - pdftk
+  - pdftk-php
+  - php
+  - sh
+  - sql
+  - text
 Slug: installing-pdftk-php
 ---
 

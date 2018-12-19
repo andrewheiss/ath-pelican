@@ -2,7 +2,12 @@
 Title: On narrowing and redefining research
 excerpt: After a year of deliberation, I may have finally decided what to write about for my thesis.
 Category: blog
-Tags: bloggers, history, italians, mutamasirun, thesis
+Tags: 
+  - bloggers
+  - history
+  - italians
+  - mutamasirun
+  - thesis
 Slug: on-narrowing-and-redefining-research
 ---
 

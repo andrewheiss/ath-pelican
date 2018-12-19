@@ -2,7 +2,10 @@
 Title: "Fauxcasts: Use a podcast app to listen to audiobooks"
 Excerpt: Create a temporary podcast feed of a CD-based audiobook and use a modern podcast app to listen to the book faster and better.
 Category: blog
-Tags: rss, podcasts, audiobooks
+Tags: 
+  - rss
+  - podcasts
+  - audiobooks
 Slug: fauxcasts
 ---
 

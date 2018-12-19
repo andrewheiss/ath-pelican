@@ -2,7 +2,12 @@
 Title: A Tale of Three Taxis
 Excerpt: Traffic in Cairo is horrible, especially when all the taxi drivers, the ubiquitous life-blood of the Egyptian streets, have a deathwish for you.
 Category: blog
-Tags: cairo, chaos, egypt, life abroad, taxis
+Tags: 
+  - cairo
+  - chaos
+  - egypt
+  - life abroad
+  - taxis
 Slug: a-tale-of-three-taxis
 ---
 

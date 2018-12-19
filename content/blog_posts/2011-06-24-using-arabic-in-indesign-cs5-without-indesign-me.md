@@ -2,7 +2,9 @@
 Title: Using Arabic in InDesign CS5 without InDesign ME
 Excerpt: Use InDesign CS5&rsquo;s hidden World Ready Composer to typeset text in Arabic and other complex scripts.
 Category: blog
-Tags: arabic, graphic design
+Tags: 
+  - arabic
+  - graphic design
 Slug: using-arabic-in-indesign-cs5-without-indesign-me
 ---
 

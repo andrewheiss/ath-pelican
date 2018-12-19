@@ -2,7 +2,9 @@
 Title: Convert logistic regression standard errors to odds ratios with R
 Excerpt: Correctly transform logistic regression standard errors to odds ratios using R
 Category: blog
-Tags: r, regression
+Tags: 
+  - r
+  - regression
 Math: True
 ---
 

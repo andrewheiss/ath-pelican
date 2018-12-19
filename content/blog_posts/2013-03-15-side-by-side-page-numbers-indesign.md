@@ -2,7 +2,9 @@
 Title: True side-by-side page numbers in InDesign
 Excerpt: Automatically create side-by-side page numbers for parallel texts or spread numbers in InDesign. 
 Category: blog
-Tags: arabic, graphic design
+Tags: 
+  - arabic
+  - graphic design
 Slug: side-by-side-page-numbers-indesign
 ---
 

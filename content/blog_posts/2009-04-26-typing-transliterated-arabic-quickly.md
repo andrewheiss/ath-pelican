@@ -2,7 +2,13 @@
 Title: Typing transliterated Arabic quickly
 Excerpt: Use text-replacement software to automate Arabic transliteration.
 Category: blog
-Tags: arabic, automation, ijmes, texter, transliteration, typinator
+Tags: 
+  - arabic
+  - automation
+  - ijmes
+  - texter
+  - transliteration
+  - typinator
 Slug: typing-transliterated-arabic-quickly
 ---
 

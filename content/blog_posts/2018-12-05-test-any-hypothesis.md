@@ -2,7 +2,11 @@
 Title: How to test any hypothesis with the infer package
 Excerpt: Use the infer package in R to test any statistical hypothesis through simulation.
 Category: blog
-Tags: r, tidyverse, infer, hypothesis testing
+Tags: 
+  - r
+  - tidyverse
+  - infer
+  - hypothesis testing
 Slug: test-any-hypothesis
 Math: True
 ---

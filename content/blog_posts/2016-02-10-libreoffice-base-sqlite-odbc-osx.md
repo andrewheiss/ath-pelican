@@ -2,7 +2,10 @@
 Title: Use LibreOffice Base as a GUI for an SQLite database in OS X
 Excerpt: Connect LibreOffice to an SQLite database to take advantage of SQLite’s ubiquitousness and LibreOffice’s form-based GUI.
 Category: blog
-Tags: osx, sqlite, databases
+Tags: 
+  - osx
+  - sqlite
+  - databases
 Slug: libreoffice-base-sqlite-odbc-osx
 ---
 

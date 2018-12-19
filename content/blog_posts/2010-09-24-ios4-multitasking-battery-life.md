@@ -2,7 +2,9 @@
 Title: iOS 4, Multitasking, and Battery Life
 Excerpt: The multitasking capabilities of iOS 4 seem to be draining my battery. Help me figure out how to stop it!
 Category: blog
-Tags: ipod, ios
+Tags: 
+  - ipod
+  - ios
 Slug: ios4-multitasking-battery-life
 ---
 

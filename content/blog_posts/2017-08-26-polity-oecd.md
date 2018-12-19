@@ -3,7 +3,10 @@ Title: Quickly play with Polity IV and OECD data (and see the danger of US democ
 Excerpt: Use ggplot to reproducibly see how much trouble the Polity Project thinks the US is in.
 Category: blog
 Thumbnail: https://www.andrewheiss.com/files/images/polity-oecd/unnamed-chunk-6-1.png
-Tags: r, ggplot, dataviz
+Tags: 
+  - r
+  - ggplot
+  - dataviz
 ---
 
 

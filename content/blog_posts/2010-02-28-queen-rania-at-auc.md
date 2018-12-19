@@ -2,7 +2,12 @@
 Title: Queen Rania at AUC
 Excerpt: On February 28, 2010 at the American University in Cairo, Jordan's Queen Rania gave a speech on the importance of civic engagement in the Arab world. While her idea that regular citizens need to be more involved in government, the hardhanded policies of Arab governments make it almost impossible for that to happen.
 Category: blog
-Tags: egypt, jordan, politics, civic engagement, queen rania
+Tags: 
+  - egypt
+  - jordan
+  - politics
+  - civic engagement
+  - queen rania
 Slug: queen-rania-at-auc
 ---
 

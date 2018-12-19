@@ -2,7 +2,11 @@
 Title: The academic job search finally comes to an end
 Excerpt: Explore 2.5 years of applying for academic jobs with fancy data visualization
 Category: blog
-Tags: r, ggplot, dataviz, jobs
+Tags: 
+  - r
+  - ggplot
+  - dataviz
+  - jobs
 Slug: academic-job-market-visualized
 ---
 

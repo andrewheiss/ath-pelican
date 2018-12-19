@@ -2,7 +2,11 @@
 Title: Gutenberg ipsum
 Excerpt: Stop using boring, boilerplate Lorem ipsum filler text and build your own random, semi-coherent text from Project Gutenberg books.
 Category: blog
-Tags: lorem ipusm, text, perl, sh
+Tags: 
+  - lorem ipusm
+  - text
+  - perl
+  - sh
 Slug: gutenberg-ipsum
 ---
 

@@ -2,7 +2,9 @@
 Title: Install R, RStudio, and R Commander in Windows and OS X
 Excerpt: R, RStudio, and R Commander are all powerful open source statistical tools, but they can be a little tricky to install. These instructions make it easy to get everything working right.
 Category: blog
-Tags: statistics, r
+Tags: 
+  - statistics
+  - r
 Slug: install-r-rstudio-r-commander-windows-osx
 ---
 

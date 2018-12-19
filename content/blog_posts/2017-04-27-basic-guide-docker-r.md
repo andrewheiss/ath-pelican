@@ -2,7 +2,9 @@
 Title: Super basic practical guide to Docker and RStudio
 Excerpt: Use RStudio inside Docker containers for portable and reproducible development environments.
 Category: blog
-Tags: r, docker
+Tags: 
+  - r
+  - docker
 ---
 
 

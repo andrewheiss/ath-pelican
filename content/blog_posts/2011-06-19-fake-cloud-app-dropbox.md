@@ -2,7 +2,11 @@
 Title: Fake CloudApp with Dropbox and Quicksilver
 Excerpt: Move files to your Dropbox public folder and generate a shareable URL instantly, <em>à la</em> CloudApp, with a combination of a few services and Quicksilver triggers.
 Category: blog
-Tags: dropbox, quicksilver, cloudapp, automator
+Tags: 
+  - dropbox
+  - quicksilver
+  - cloudapp
+  - automator
 Slug: fake-cloud-app-dropbox
 ---
 

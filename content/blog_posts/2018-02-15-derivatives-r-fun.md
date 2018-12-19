@@ -3,7 +3,11 @@ Title: Fun with empirical and function-based derivatives in R
 Excerpt: Use R to do things with derivatives, both with actual functions and with existing empirical data.
 Category: blog
 Thumbnail: https://www.andrewheiss.com/files/images/derivatives-r-fun/plot-all-empirical-1.png
-Tags: r, ggplot, dataviz, economics
+Tags: 
+  - r
+  - ggplot
+  - dataviz
+  - economics
 Slug: derivatives-r-fun
 Math: True
 ---

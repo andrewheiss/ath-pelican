@@ -2,7 +2,10 @@
 Title: Drone sightings in the US, visualized
 Excerpt: See where the FAA has reported hobbyist drone sightings from 2014–2016
 Category: blog
-Tags: r, dataviz, hrbrmstr-challenge
+Tags: 
+  - r
+  - dataviz
+  - hrbrmstr-challenge
 ---
 
 

@@ -2,7 +2,13 @@
 Title: Create a cheap, disposable supercomputer with R, DigitalOcean, and future
 Excerpt: Use the future R package to run computationally intensive R commands on a cluster of remote computers
 Category: blog
-Tags: r, docker, tidyverse, future, digitalocean, docker
+Tags: 
+  - r
+  - docker
+  - tidyverse
+  - future
+  - digitalocean
+  - docker
 Slug: disposable-supercomputer-future
 ---
 

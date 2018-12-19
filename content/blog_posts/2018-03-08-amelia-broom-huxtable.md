@@ -2,7 +2,11 @@
 Title: Show multiply imputed results in a side-by-side regression table with broom and huxtable
 Excerpt: Extend broom's tidy() and glance() to work with lists of multiply imputed regression models
 Category: blog
-Tags: r, imputation, tidyverse, markdown
+Tags: 
+  - r
+  - imputation
+  - tidyverse
+  - markdown
 Slug: amelia-broom-huxtable
 Math: True
 ---

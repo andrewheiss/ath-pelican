@@ -2,7 +2,11 @@
 Title: Google Profile Business Cards
 Excerpt: I got 25 Google Profile business cards for free. Woot!
 Category: blog
-Tags: cool, ego-googling, ego-surfing, online identity
+Tags: 
+  - cool
+  - ego-googling
+  - ego-surfing
+  - online identity
 Slug: google-profile-business-cards
 ---
 

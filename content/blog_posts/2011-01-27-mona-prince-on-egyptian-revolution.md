@@ -2,7 +2,9 @@
 Title: Mona Prince on &#35;jan25 Egyptian Protests 
 Excerpt: Mona Prince's personal account of the &#35;jan25 Egyptian protests
 Category: blog
-Tags: jan25, egypt
+Tags: 
+  - jan25
+  - egypt
 Slug: mona-prince-on-egyptian-revolution
 ---
 
