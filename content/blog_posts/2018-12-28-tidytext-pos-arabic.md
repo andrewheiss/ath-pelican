@@ -63,7 +63,7 @@ To start, we’ll initialize the CoreNLP Arabic tagging engine (this takes a few
 cnlp_init_corenlp(language = "ar")
 ```
 
-Then, for the sake of speed, we’ll extract just the first surah of the Qur’an ([the Fatihah](https://en.wikipedia.org/wiki/Al-Fatiha)) and tag it with `cnlp_annotate()`. We’ll use the version of the Qur’an without vowels becuase it seems to work better with CoreNLP. `cnlp_annotate()` does the heavy lifting of annotation and returns an object with the `annotate` class, which isn’t readily usable. We use `cnlp_get_token()` to transform it to a data frame, which makes it easier to analyze with tidyverse tools.
+Then, for the sake of speed, we’ll extract just the first surah of the Qur’an ([the Fatihah](https://en.wikipedia.org/wiki/Al-Fatiha)) and tag it with `cnlp_annotate()`. We’ll use the version of the Qur’an without vowels because it seems to work better with CoreNLP. `cnlp_annotate()` does the heavy lifting of annotation and returns an object with the `annotate` class, which isn’t readily usable. We use `cnlp_get_token()` to transform it to a data frame, which makes it easier to analyze with tidyverse tools.
 
 ``` r
 fatiha <- quran_ar_min %>% 
