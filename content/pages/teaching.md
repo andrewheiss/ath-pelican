@@ -16,11 +16,11 @@ My teaching and research experience has prepared me to teach courses in nonprofi
 <table>
     <tr>
         <td>
-            ![Economic Decision Making for Managers](/files/images/teaching/econw18.png) 
+            ![Economy, Society, and Public Policy](/files/images/teaching/econw19.png) 
         </td>
         <td>
-            **Economic Decision Making for Managers** <small>(MPA 612)</small>  
-            Winter 2019 | Brigham Young University | Graduate students
+            **[Economy, Society, and Public Policy][econw19]** <small>(MPA 612 + [executive MPA 612][empa-econw19])</small>  
+            Winter 2019 | Brigham Young University
         </td>
     </tr>
     <tr>
@@ -29,7 +29,7 @@ My teaching and research experience has prepared me to teach courses in nonprofi
         </td>
         <td>
             **[Data Science and Statistics for Public Management][statsf18]** <small>(MPA 630)</small>  
-            Fall 2018 | Brigham Young University | Graduate students
+            Fall 2018 | Brigham Young University
         </td>
     </tr>
     <tr>
@@ -38,7 +38,7 @@ My teaching and research experience has prepared me to teach courses in nonprofi
         </td>
         <td>
             **[Data Visualization][datavizf18]** <small>(MPA 635)</small>  
-            Fall 2018 | Brigham Young University | Graduate students
+            Fall 2018 | Brigham Young University
         </td>
     </tr>
 </table>
@@ -46,6 +46,9 @@ My teaching and research experience has prepared me to teach courses in nonprofi
 
 [statsf18]: https://statsf18.classes.andrewheiss.com/
 [datavizf18]: https://datavizf18.classes.andrewheiss.com/
+[econw19]: https://econw19.classes.andrewheiss.com/
+[empa-econw19]: https://empa-econw19.classes.andrewheiss.com/
+
 
 # Courses for the 2017–18 academic year
 
@@ -57,7 +60,7 @@ My teaching and research experience has prepared me to teach courses in nonprofi
         </td>
         <td>
             **[Economic Decision Making for Managers][econw18]** <small>(MPA 612)</small>  
-            Winter 2018 | Brigham Young University | Graduate students
+            Winter 2018 | Brigham Young University
         </td>
     </tr>
     <tr>
@@ -66,7 +69,7 @@ My teaching and research experience has prepared me to teach courses in nonprofi
         </td>
         <td>
             **[Telling Stories with Data][storiesf17]** <small>(Bus M 491R)</small>  
-            Fall 2017 | Brigham Young University | Graduate and undergraduate students
+            Fall 2017 | Brigham Young University
         </td>
     </tr>
     <tr>
@@ -75,7 +78,7 @@ My teaching and research experience has prepared me to teach courses in nonprofi
         </td>
         <td>
             **[Data Visualization][datavizf17]** <small>(MPA 635)</small>  
-            Fall 2017 | Brigham Young University | Graduate students
+            Fall 2017 | Brigham Young University
         </td>
     </tr>
 </table>
@@ -89,7 +92,7 @@ My teaching and research experience has prepared me to teach courses in nonprofi
 
 # Future courses
 
-**[Middle Eastern Politics](/files/teaching/Middle%20East%20Politics%20syllabus.pdf)** <small>(undergraduate)</small>
+**[Middle Eastern Politics](/files/teaching/Middle%20East%20Politics%20syllabus.pdf)**
 
 
 # Past graduate courses
