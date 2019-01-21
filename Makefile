@@ -1,5 +1,5 @@
 PY?=pelican/bin/python3
-PELICAN?=pipenv run pelican
+PELICAN?=~/Library/Python/3.7/bin/pipenv run pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)
