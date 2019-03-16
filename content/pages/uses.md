@@ -59,12 +59,13 @@ I try to keep this updated fairly regularly. As of March 16, 2019 this is what I
 - I use [Vitamin-R](http://www.publicspace.net/Vitamin-R/) as a souped-up Pomodoro timer.
 - I was an early convert to [Todo.txt](http://todotxt.com/) and used it for years until my tasks and projects got too unwieldy. I switched to [Taskpaper](https://www.taskpaper.com/) for a while before recently settling on [2Do](http://www.2doapp.com/) (due to [incredibly](https://www.macstories.net/stories/why-2do-is-my-new-favorite-ios-task-manager/) [positive](https://brooksreview.net/2016/01/2do/) reviews), and I'm in love.
 - [Fantastical 2](https://flexibits.com/fantastical)’s natural language input is a glorious thing.
-- I keep a log of what I work on (and occasionally do more traditional diary-like entries) with [Day One 2](http://dayoneapp.com/) on both iOS and macOS.
+- I keep a log of what I work on (and occasionally do more traditional diary-like entries) with [Day One](http://dayoneapp.com/) on both iOS and macOS.
 - I use [TextExpander](https://smilesoftware.com/textexpander) to replace and expand a ton of snippets, and I use [Keyboard Maestro](https://www.keyboardmaestro.com/main/) to run dozens of little scripts that help control my computer with the keyboard.
 - I use [Übersicht](http://tracesof.net/uebersicht/) to show weather, iTunes track information, and my todo lists on my desktop.
-- I use [Dropbox](https://www.dropbox.com) religiously and use [Crashplan](https://www.code42.com/crashplan/) to back up all the computers in our house to the cloud.
+- I use [Dropbox](https://www.dropbox.com) religiously and use [Backblaze](https://www.backblaze.com/) to back up all the computers in our house to the cloud.
 - With all these little helper apps, I use [Bartender](https://www.macbartender.com/) to keep my menubar clean.
+
 
 # Hardware
 
-- I use a 2016 13″ MacBook Pro, iPad Mini 2, and iPhone SE.
+- I use a 2016 13″ MacBook Pro, a 5th generation iPad, and an iPhone 8.
