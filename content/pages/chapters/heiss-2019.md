@@ -1,12 +1,12 @@
 ---
 Title: "NGOs and Authoritarianism"
-Date: 2019-02-01
+Date: 2019-04-30
 Category: Chapter
 Slug: research/heiss-ngo-ir-2019
 Template: research_project
-gated: https://dx.doi.org/10.4324/9781315301914
+gated: https://dx.doi.org/10.4324/9781315268927
 Code: https://github.com/andrewheiss/ngos-authoritarianism
-Thumb: /files/images/research/2019-heiss-ngos-authoritarianism.png
+Thumb: /files/images/research/handbook-ngos-ir-19_cover.jpg
 Details: >-
   **Andrew Heiss**, “NGOs and Authoritarianism,” in *Routledge Handbook of NGOs and International Relations*, ed. Thomas Davies (London: Routledge, 2019).
 ---
@@ -37,5 +37,6 @@ Figure 2: Civil society repression and regulations
     Editor = {Thomas Davies},
     Publisher = {Routledge},
     Title = {{NGOs} and Authoritarianism},
+    Chapter = {38},
     Year = {2019}}
 ```
