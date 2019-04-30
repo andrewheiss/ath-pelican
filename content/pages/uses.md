@@ -1,13 +1,13 @@
 ---
 Title: Uses
-Date: 2019-04-09
+Date: 2019-04-22
 Slug: uses
 Description: Andrew Heiss is working on a bunch of exciting and groundbreaking projects
 ---
 
 People often ask me what programs I use for my writing and design. In truth, my workflow tends to look like [this](https://xkcd.com/1579/) or [this](https://xkcd.com/1172/), but here's a more detailed list of all the interconnected programs I use.
 
-I try to keep this updated fairly regularly. As of April 9, 2019 this is what I'm using:
+I try to keep this updated fairly regularly. As of April 22, 2019 this is what I'm using:
 
 # Writing
 
@@ -57,7 +57,7 @@ I try to keep this updated fairly regularly. As of April 9, 2019 this is what I'
 
 - My secret for avoiding the siren call of the internet is [Freedom](https://freedom.to/). I have two blocklists: (1) *antisocial*, which blocks Facebook and Twitter, and (2) *nuclear*, which blocks everything. I have the antisocial blocklist enabled on my laptop and phone from 8:00 AM–6:00 PM and 8:30 PM–11:30 PM. Since I accidentally discovered that it's relatively easy to circumvent the blocking on the Mac, I also use [Focus](https://heyfocus.com/) with the same schedule. 
 - I use [Vitamin-R](http://www.publicspace.net/Vitamin-R/) as a souped-up Pomodoro timer.
-- I was an early convert to [Todo.txt](http://todotxt.com/) and used it for years until my tasks and projects got too unwieldy. I switched to [Taskpaper](https://www.taskpaper.com/) for a while before recently settling on [2Do](http://www.2doapp.com/) (due to [incredibly](https://www.macstories.net/stories/why-2do-is-my-new-favorite-ios-task-manager/) [positive](https://brooksreview.net/2016/01/2do/) reviews), and I'm in love.
+- I was an early convert to [Todo.txt](http://todotxt.com/) and used it for years until my tasks and projects got too unwieldy. I switched to [Taskpaper](https://www.taskpaper.com/) for a while, used [2Do](http://www.2doapp.com/) for a couple years, and now I'm a convert to [OmniFocus](https://www.omnigroup.com/omnifocus).
 - [Fantastical 2](https://flexibits.com/fantastical)’s natural language input is a glorious thing.
 - I keep a log of what I work on (and occasionally do more traditional diary-like entries) with [Day One](http://dayoneapp.com/) on both iOS and macOS.
 - I use [TextExpander](https://smilesoftware.com/textexpander) to replace and expand a ton of snippets, and I use [Keyboard Maestro](https://www.keyboardmaestro.com/main/) to run dozens of little scripts that help control my computer with the keyboard.
