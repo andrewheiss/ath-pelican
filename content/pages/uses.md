@@ -1,13 +1,13 @@
 ---
 Title: Uses
-Date: 2019-06-08
+Date: 2019-08-21
 Slug: uses
 Description: Andrew Heiss is working on a bunch of exciting and groundbreaking projects
 ---
 
 People often ask me what programs I use for my writing and design. In truth, my workflow tends to look like [this](https://xkcd.com/1579/) or [this](https://xkcd.com/1172/), but here's a more detailed list of all the interconnected programs I use.
 
-I try to keep this updated fairly regularly. As of June 8, 2019 this is what I'm using:
+I try to keep this updated fairly regularly. As of August 21, 2019 this is what I'm using:
 
 # Writing
 
@@ -68,4 +68,4 @@ I try to keep this updated fairly regularly. As of June 8, 2019 this is what I'm
 
 # Hardware
 
-- I use a 2016 13″ MacBook Pro, a 5th generation iPad, and an iPhone 8.
+- I use a 2018 15″ MacBook Pro, a 2016 13″ MacBook Pro, a 5th generation iPad, and an iPhone 8.

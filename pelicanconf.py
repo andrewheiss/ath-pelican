@@ -12,7 +12,7 @@ developing_site = True
 AUTHOR = 'Andrew Heiss'
 SITENAME = 'Andrew Heiss'
 MINIBIO = 'International NGOs, nonprofit management, authoritarianism, data science, and R'
-DESCRIPTION = 'Andrew Heiss is a visiting assistant professor at the Romney Institute of Public Management at Brigham Young University, researching international NGOs in authoritarian regimes and teaching data science and economics.'
+DESCRIPTION = 'Andrew Heiss is an assistant professor at Georgia State University, researching international NGOs and teaching data science & economics.'
 
 SITEURL = ''
 DEFAULT_SOCIAL_IMG = SITEURL + '/theme/img/meta_img.png'
@@ -132,7 +132,7 @@ LOAD_CONTENT_CACHE = False if developing_site else True
 # ------------
 # Site items
 # ------------
-MENUITEMS = [('About', '/'), ('CV', '/files/2018-10-04_andrew-heiss-cv.pdf'),
+MENUITEMS = [('About', '/'), ('CV', '/files/2019-08-21_andrew-heiss-cv.pdf'),
              ('Blog', '/blog/'), ('Research', '/research/'),
              ('Teaching', '/teaching/'),
              ('Talks', '/talks/'),
