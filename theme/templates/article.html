@@ -32,15 +32,28 @@
 
 {% block extra_script %}
 {% if article.math %}
-<!--     <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: { 
-                inlineMath: [["$","$"],["\\(","\\)"]], 
-                displayMath: [["$$","$$"],["\\[","\\]"]]
-            }
-        });
-    </script> -->
-    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+(function () {
+  var head = document.getElementsByTagName("head")[0], script;
+  script = document.createElement("script");
+  script.type = "text/x-mathjax-config";
+  script[(window.opera ? "innerHTML" : "text")] =
+    "MathJax.Hub.Config({\n" +
+
+    "  tex2jax: {\n" +
+    "      inlineMath: [['$','$'], ['\\\\(','\\\\)'] ],\n" +
+    "      displayMath: [['$$','$$'], ['\\\\[','\\\\]']],\n" +
+    "      processEscapes: true,\n"+
+    "      preview: 'TeX',\n" +
+    "  }\n" +
+    "});"
+  head.appendChild(script);
+  script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src  = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/latest.js?config=TeX-AMS-MML_HTMLorMML";
+  head.appendChild(script);
+})();
+</script>
 {% endif %}
 {% endblock extra_script %}
 
