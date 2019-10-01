@@ -1,14 +1,15 @@
 ---
 Title: "Taking Control of Regulations: How International Advocacy NGOs Shape the Regulatory Environments of their Target Countries"
-Date: 2019-06-11
+Date: 2019-09-17
 Category: Article
 Slug: research/heiss-2019-taking-control
 Template: research_project
-pdf: /files/research/2019-heiss-taking-control-of-regulations.pdf
+gated: http://dx.doi.org/10.1007/s11266-016-9684-5
+ungated: /files/research/2019-heiss-taking-control-of-regulations.pdf
 Code: https://github.com/andrewheiss/taking-control-of-regulations
 Thumb: /files/images/research/2018-heiss-taking-control-of-regulations.png
 Details: >-
-  **Andrew Heiss**, “Taking Control of Regulations: How International Advocacy NGOs Shape the Regulatory Environments of their Target Countries,” *Interest Groups and Advocacy* (forthcoming), doi: [`10.1057/s41309-019-00061-0`](https://dx.doi.org/10.1057/s41309-019-00061-0)
+  **Andrew Heiss**, “Taking Control of Regulations: How International Advocacy NGOs Shape the Regulatory Environments of their Target Countries,” *Interest Groups and Advocacy* 8, no. 3 (September 2019): 356–75, doi: [`10.1057/s41309-019-00061-0`](https://dx.doi.org/10.1057/s41309-019-00061-0)
 Extra: >-
   Presented at the workshop on Interest Groups, International Organizations, and Global Problem-Solving Capacity, Stockholm University, Sweden, June 2018, organized by Elizabeth Bloodgood and Lisa Dellmuth
 ---
@@ -21,7 +22,7 @@ Extra: >-
 
 - [Paper (preprint)](/files/research/2019-heiss-taking-control-of-regulations.pdf)
 - [GitHub repository](https://github.com/andrewheiss/taking-control-of-regulations)
-
+- [Read-only PDF](https://rdcu.be/bRhne)
 
 ## Abstract
 
@@ -30,9 +31,9 @@ A wave of legislative and regulatory crackdown on international nongovernmental 
 
 ## Figure
 
-Figure 1: Relationship between institutional constraints, resource con􏰁gurations, programmatic flexibility, and advocacy effects
+Figure 1: Relationship between institutional constraints, resource configurations, programmatic flexibility, and advocacy effects
 
-![Figure 1: Relationship between institutional constraints, resource con􏰁gurations, programmatic flexibility, and advocacy effects](/files/images/research/iga-19_fig1.png){.pure-img-responsive}
+![Figure 1: Relationship between institutional constraints, resource configurations, programmatic flexibility, and advocacy effects](/files/images/research/iga-19_fig1.png){.pure-img-responsive}
 
 
 ## BibTeX citation
