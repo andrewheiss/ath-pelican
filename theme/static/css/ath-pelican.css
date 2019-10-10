@@ -63,6 +63,14 @@ pre, code {
     height: auto;
 }
 
+.no-space-after {
+    margin-bottom: 0;
+}
+
+h1 + h2 {
+    margin-top: 0;
+}
+
 .screen-reader-text {
 	position: absolute;
 	left: -10000px;

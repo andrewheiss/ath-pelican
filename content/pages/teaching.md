@@ -10,13 +10,44 @@ I believe that university teaching should challenge and shift how students under
 My teaching and research experience has prepared me to teach courses in nonprofit management, data visualization, international relations, comparative politics, political institutions, Middle East politics, policy analysis, science communication, and both qualitative and qualitative research methods.
 
 
-# Courses for the 2018–19 academic year
+# Courses for the 2019–20 academic year
 
 <div class="class-list" markdown="1">
 <table>
     <tr>
         <td>
-            ![Economy, Society, and Public Policy](/files/images/teaching/econw19.png) 
+            [![Program Evaluation for Public Service](/files/images/teaching/statsf18.png)][evalf19] 
+        </td>
+        <td>
+            **[Data Science and Statistics for Public Management][evalf19]** <small>(PMAP 8521)</small>  
+            Fall 2019, Spring 2020 | Georgia State University
+        </td>
+    </tr>
+    <tr>
+        <td>
+            [![Economy, Society, and Public Policy](/files/images/teaching/econw19.png)][econf19] 
+        </td>
+        <td>
+            **[Economy, Society, and Public Policy][econf19]** <small>(PMAP 8141)</small>  
+            Fall 2019 | Georgia State University
+        </td>
+    </tr>
+</table>
+</div>
+
+[evalf19]: https://evalf19.classes.andrewheiss.com/
+[econf19]: https://econf19.classes.andrewheiss.com/
+
+
+# Past courses {.no-space-after}
+
+## Brigham Young University (2018–19)
+
+<div class="class-list" markdown="1">
+<table>
+    <tr>
+        <td>
+            [![Economy, Society, and Public Policy](/files/images/teaching/econw19.png)][econw19]
         </td>
         <td>
             **[Economy, Society, and Public Policy][econw19]** <small>(MPA 612 + [executive MPA 612][empa-econw19])</small>  
@@ -25,7 +56,7 @@ My teaching and research experience has prepared me to teach courses in nonprofi
     </tr>
     <tr>
         <td>
-            [![Data Science and Statistics for Public Management](/files/images/teaching/statsf18.png)][storiesf17] 
+            [![Data Science and Statistics for Public Management](/files/images/teaching/statsf18.png)][statsf18] 
         </td>
         <td>
             **[Data Science and Statistics for Public Management][statsf18]** <small>(MPA 630)</small>  
@@ -44,13 +75,7 @@ My teaching and research experience has prepared me to teach courses in nonprofi
 </table>
 </div>
 
-[statsf18]: https://statsf18.classes.andrewheiss.com/
-[datavizf18]: https://datavizf18.classes.andrewheiss.com/
-[econw19]: https://econw19.classes.andrewheiss.com/
-[empa-econw19]: https://empa-econw19.classes.andrewheiss.com/
-
-
-# Courses for the 2017–18 academic year
+## Brigham Young University (2017–18)
 
 <div class="class-list" markdown="1">
 <table>
@@ -84,24 +109,26 @@ My teaching and research experience has prepared me to teach courses in nonprofi
 </table>
 </div>
 
+[statsf18]: https://statsf18.classes.andrewheiss.com/
+[datavizf18]: https://datavizf18.classes.andrewheiss.com/
+[econw19]: https://econw19.classes.andrewheiss.com/
+[empa-econw19]: https://empa-econw19.classes.andrewheiss.com/
 [econw18]: https://econw18.classes.andrewheiss.com/
 [storiesf17]: https://storiesf17.classes.andrewheiss.com/
 [datavizf17]: https://datavizf17.classes.andrewheiss.com/
 
 
+# Past courses (taught or TAed as a student) {.no-space-after}
 
-# Future courses
-
-**[Middle Eastern Politics](/files/teaching/Middle%20East%20Politics%20syllabus.pdf)**
-
-
-# Past graduate courses
+## As PhD student
 
 **Stats in Real Life** <small>(TA; PubPol 590)</small>  
 Spring 2014, Fall 2014  | Duke University
 
 **Policy Analysis** <small>(TA; PubPol 803/807)</small>  
 Fall 2013, Fall 2015 | Duke University
+
+## As MPA student
 
 **Statistical Analysis for Public Administrators** <small>(TA; PMGT 630)</small>  
 Summer 2012 | Brigham Young University
@@ -112,8 +139,7 @@ Winter and Spring 2012 | Brigham Young University
 **Decision Modeling and Analysis** <small>(TA; PMGT 632)</small>  
 Fall 2011, Spring 2012 | Brigham Young University
 
-
-# Past undergraduate courses
+## As undergraduate
 
 **Print Publishing** <small>(Instructor; CHum 260)</small>  
 Spring 2008 | Brigham Young University
@@ -133,3 +159,8 @@ State Administration of Foreign Experts Affairs (SAFEA) Kazakh cohort
 August 2014 | Duke University  
 Duke Center for International Development (DCID)  
 State Administration of Foreign Experts Affairs (SAFEA) Chinese cohort
+
+
+# Future courses
+
+**[Middle Eastern Politics](/files/teaching/Middle%20East%20Politics%20syllabus.pdf)**
