@@ -19,7 +19,7 @@ My teaching and research experience has prepared me to teach courses in nonprofi
             [![Program Evaluation for Public Service](/files/images/teaching/statsf18.png)][evalf19] 
         </td>
         <td>
-            **[Data Science and Statistics for Public Management][evalf19]** <small>(PMAP 8521)</small>  
+            **[Program Evaluation for Public Service][evalf19]** <small>(PMAP 8521)</small>  
             Fall 2019, Spring 2020 | Georgia State University
         </td>
     </tr>
