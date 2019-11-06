@@ -4,7 +4,7 @@ Date: 2019-09-17
 Category: Article
 Slug: research/heiss-2019-taking-control
 Template: research_project
-gated: http://dx.doi.org/10.1007/s11266-016-9684-5
+gated: http://dx.doi.org/10.1057/s41309-019-00061-0
 ungated: /files/research/2019-heiss-taking-control-of-regulations.pdf
 Code: https://github.com/andrewheiss/taking-control-of-regulations
 Thumb: /files/images/research/2018-heiss-taking-control-of-regulations.png
