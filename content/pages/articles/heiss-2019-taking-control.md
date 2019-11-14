@@ -4,12 +4,12 @@ Date: 2019-09-17
 Category: Article
 Slug: research/heiss-2019-taking-control
 Template: research_project
-gated: http://dx.doi.org/10.1057/s41309-019-00061-0
+gated: http://doi.org/10.1057/s41309-019-00061-0
 ungated: /files/research/2019-heiss-taking-control-of-regulations.pdf
 Code: https://github.com/andrewheiss/taking-control-of-regulations
 Thumb: /files/images/research/2018-heiss-taking-control-of-regulations.png
 Details: >-
-  **Andrew Heiss**, “Taking Control of Regulations: How International Advocacy NGOs Shape the Regulatory Environments of their Target Countries,” *Interest Groups and Advocacy* 8, no. 3 (September 2019): 356–75, doi: [`10.1057/s41309-019-00061-0`](https://dx.doi.org/10.1057/s41309-019-00061-0)
+  **Andrew Heiss**, “Taking Control of Regulations: How International Advocacy NGOs Shape the Regulatory Environments of their Target Countries,” *Interest Groups and Advocacy* 8, no. 3 (September 2019): 356–75, doi: [`10.1057/s41309-019-00061-0`](https://doi.org/10.1057/s41309-019-00061-0)
 Extra: >-
   Presented at the workshop on Interest Groups, International Organizations, and Global Problem-Solving Capacity, Stockholm University, Sweden, June 2018, organized by Elizabeth Bloodgood and Lisa Dellmuth
 ---

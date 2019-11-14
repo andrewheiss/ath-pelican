@@ -231,7 +231,7 @@ Hooray! Correctly melded coefficients and standard errors!
 
 But what do we do about the other model details, like $R^2$ and the F-statistic? How do we report those?
 
-According to [a post on the Amelia mailing list](https://lists.gking.harvard.edu/pipermail/amelia/2016-July/001249.html), there are two ways. First, we can use a fancy method for combining $R^2$ and adjusted $R^2$ described by [Ofer Harel (2009)](https://dx.doi.org/10.1080/02664760802553000). Second, we can just take the average of the $R^2$s from all the imputed models. The results should be roughly the same.
+According to [a post on the Amelia mailing list](https://lists.gking.harvard.edu/pipermail/amelia/2016-July/001249.html), there are two ways. First, we can use a fancy method for combining $R^2$ and adjusted $R^2$ described by [Ofer Harel (2009)](https://doi.org/10.1080/02664760802553000). Second, we can just take the average of the $R^2$s from all the imputed models. The results should be roughly the same.
 
 Harel's method involves two steps:
 

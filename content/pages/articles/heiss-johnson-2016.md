@@ -4,11 +4,11 @@ Date: 2016-03-01
 Category: Article
 Slug: research/heiss-johnson-2016
 Template: research_project
-gated: http://dx.doi.org/10.1093/isr/viv014
+gated: http://doi.org/10.1093/isr/viv014
 ungated: /files/research/2016-heiss-johnson-ingo-behavior.pdf
 Thumb: /files/images/research/2016-heiss-johnson-ingo-behavior.png
 Details: >-
-  **Andrew Heiss** and Tana Johnson, “Internal, Interactive, and Institutional Factors: Towards a Unified Theory of INGO Behavior,” *International Studies Review* 18, no. 3 (September 2016): 528–41, doi: [`10.1093/isr/viv014`](http://dx.doi.org/10.1093/isr/viv014).
+  **Andrew Heiss** and Tana Johnson, “Internal, Interactive, and Institutional Factors: Towards a Unified Theory of INGO Behavior,” *International Studies Review* 18, no. 3 (September 2016): 528–41, doi: [`10.1093/isr/viv014`](http://doi.org/10.1093/isr/viv014).
 ---
 
 [TOC]
@@ -28,9 +28,9 @@ Figure 1 from the paper, showing a unified framework for understanding the types
 
 ## Books reviewed
 
-- Sarah S. Stroup, *Borders among Activists: International NGOs in the United States, Britain, and France* (Ithaca, New York: Cornell University Press, 2012), doi: [`10.7591/9780801464256`](https://dx.doi.org/10.7591/9780801464256).
-- Jonas Tallberg, Thomas Sommerer, Theresa Squatrito, and Christer Jönsson, *The Opening Up of International Organizations: Transnational Access in Global Governance* (Cambridge: Cambridge University Press, 2013), doi: [`10.1017/cbo9781107325135`](https://dx.doi.org/10.1017/cbo9781107325135).
-- Wendy H. Wong, *Internal Affairs: How the Structure of NGOs Transforms Human Rights* (Ithaca: Cornell University Press, 2012), doi: [`10.7591/9780801466069`](https://dx.doi.org/10.7591/9780801466069).
+- Sarah S. Stroup, *Borders among Activists: International NGOs in the United States, Britain, and France* (Ithaca, New York: Cornell University Press, 2012), doi: [`10.7591/9780801464256`](https://doi.org/10.7591/9780801464256).
+- Jonas Tallberg, Thomas Sommerer, Theresa Squatrito, and Christer Jönsson, *The Opening Up of International Organizations: Transnational Access in Global Governance* (Cambridge: Cambridge University Press, 2013), doi: [`10.1017/cbo9781107325135`](https://doi.org/10.1017/cbo9781107325135).
+- Wendy H. Wong, *Internal Affairs: How the Structure of NGOs Transforms Human Rights* (Ithaca: Cornell University Press, 2012), doi: [`10.7591/9780801466069`](https://doi.org/10.7591/9780801466069).
 
 
 ## BibTeX citation

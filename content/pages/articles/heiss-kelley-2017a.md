@@ -4,12 +4,12 @@ Date: 2016-06-01
 Category: Article
 Slug: research/heiss-kelley-2017a
 Template: research_project
-gated: http://dx.doi.org/10.1080/23322705.2016.1199241
+gated: http://doi.org/10.1080/23322705.2016.1199241
 ungated: /files/research/2016-heiss-kelley-anti-tip-ngos.pdf
 Code: https://github.com/andrewheiss/From-the-Trenches-Anti-TIP-NGOs-and-US
 Thumb: /files/images/research/2016-heiss-kelley-anti-tip-ngos.png
 Details: >-
-  **Andrew Heiss** and Judith G. Kelley, “From the Trenches: A Global Survey of Anti-TIP NGOs and their Views of US Efforts,” *Journal of Human Trafficking* 3 (2017), doi: [`10.1080/23322705.2016.1199241`](http://dx.doi.org/10.1080/23322705.2016.1199241).
+  **Andrew Heiss** and Judith G. Kelley, “From the Trenches: A Global Survey of Anti-TIP NGOs and their Views of US Efforts,” *Journal of Human Trafficking* 3 (2017), doi: [`10.1080/23322705.2016.1199241`](http://doi.org/10.1080/23322705.2016.1199241).
 ---
 
 [TOC]

@@ -4,12 +4,12 @@ Date: 2017-01-24
 Category: Article
 Slug: research/heiss-kelley-2017
 Template: research_project
-gated: http://dx.doi.org/10.1086/691218
+gated: http://doi.org/10.1086/691218
 ungated: /files/research/2017-heiss-kelley-ingos-donors-governments.pdf
 Code: https://github.com/andrewheiss/Between-rock-and-hard-place
 Thumb: /files/images/research/2017-heiss-kelley-ingos-donors-governments.png
 Details: >-
-  **Andrew Heiss** and Judith G. Kelley, “Between a Rock and a Hard Place: International NGOs and the Dual Pressures of Donors and Host Governments,” *Journal of Politics* 79, no. 2 (April 2017): 732–41, doi: [`10.1086/691218`](http://dx.doi.org/10.1086/691218).
+  **Andrew Heiss** and Judith G. Kelley, “Between a Rock and a Hard Place: International NGOs and the Dual Pressures of Donors and Host Governments,” *Journal of Politics* 79, no. 2 (April 2017): 732–41, doi: [`10.1086/691218`](http://doi.org/10.1086/691218).
 ---
 
 [TOC]
@@ -30,9 +30,9 @@ Figure 2: The dual environmental constraints confronting INGOs
 
 ## Books reviewed
 
-- Sarah Sunn Bush, *The Taming of Democracy Assistance: Why Democracy Promotion Does Not Confront Dictators* (Cambridge, UK: Cambridge University Press, 2015), doi: [`10.1017/cbo9781107706934`](https://dx.doi.org/10.1017/cbo9781107706934).
-- Jessica C. Teets, *Civil Society under Authoritarianism: The China Model* (New York: Cambridge University Press, 2014), doi: [`10.1017/cbo9781139839396`](https://dx.doi.org/10.1017/cbo9781139839396).
-- Amanda Murdie, *Help or Harm: The Human Security Effects of International NGOs* (Stanford: Stanford University Press, 2014), doi: [`10.11126/stanford/9780804791977.001.0001`](https://dx.doi.org/11126/stanford/9780804791977.001.0001).
+- Sarah Sunn Bush, *The Taming of Democracy Assistance: Why Democracy Promotion Does Not Confront Dictators* (Cambridge, UK: Cambridge University Press, 2015), doi: [`10.1017/cbo9781107706934`](https://doi.org/10.1017/cbo9781107706934).
+- Jessica C. Teets, *Civil Society under Authoritarianism: The China Model* (New York: Cambridge University Press, 2014), doi: [`10.1017/cbo9781139839396`](https://doi.org/10.1017/cbo9781139839396).
+- Amanda Murdie, *Help or Harm: The Human Security Effects of International NGOs* (Stanford: Stanford University Press, 2014), doi: [`10.11126/stanford/9780804791977.001.0001`](https://doi.org/11126/stanford/9780804791977.001.0001).
 
 
 ## BibTeX citation

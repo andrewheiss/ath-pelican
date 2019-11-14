@@ -4,7 +4,7 @@ Date: 2019-04-30
 Category: Chapter
 Slug: research/heiss-ngo-ir-2019
 Template: research_project
-gated: https://dx.doi.org/10.4324/9781315268927
+gated: https://doi.org/10.4324/9781315268927
 Code: https://github.com/andrewheiss/ngos-authoritarianism
 Thumb: /files/images/research/handbook-ngos-ir-19_cover.jpg
 Details: >-
