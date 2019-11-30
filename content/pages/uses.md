@@ -1,13 +1,13 @@
 ---
 Title: Uses
-Date: 2019-10-29
+Date: 2019-11-30
 Slug: uses
 Description: Andrew Heiss is working on a bunch of exciting and groundbreaking projects
 ---
 
 People often ask me what programs I use for my writing and design. In truth, my workflow tends to look like [this](https://xkcd.com/1579/) or [this](https://xkcd.com/1172/), but here's a more detailed list of all the interconnected programs I use.
 
-I try to keep this updated fairly regularly. As of October 29, 2019 this is what I'm using:
+I try to keep this updated fairly regularly. As of November 30, 2019 this is what I'm using:
 
 # Writing
 
@@ -28,7 +28,7 @@ I try to keep this updated fairly regularly. As of October 29, 2019 this is what
 - I post almost everything I write or develop on [GitHub](https://github.com/andrewheiss).
 - I use [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) for most of my statistical computing, and I'm a dedicated devotee of the [tidyverse](http://tidyverse.org/). In the interest of full reproducibility and transparency, I make [R Markdown websites](https://rmarkdown.rstudio.com/rmarkdown_websites.html) for each of my projects. I don't typically make full-blown literate documents (like, I have yet to write a full article or book in R Markdown)—instead, I generate figures and tables with R and reference them in my writing. [See a list of these websites](https://stats.andrewheiss.com/).
 - I also use [Python](https://www.python.org/) ([3!](http://www.onthelambda.com/2014/05/13/damn-the-torpedoes-full-speed-ahead-making-the-switch-to-python-3/)) pretty regularly, especially for natural language processing (with [nltk](http://www.nltk.org/)) and web scraping (with [Requests](http://docs.python-requests.org/en/master/) + [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)). Every few months I play with pandas and numpy and Jupyter, but I'm far more comfortable with R for scientific computing.
-- I use RStudio for editing R files, but I use [Sublime Text 3](https://sublimetext.com/3) for everything else.
+- I use RStudio for editing R files, but I use [Visual Studio Code](https://code.visualstudio.com/) for everything else.
 
 ## Web
 
