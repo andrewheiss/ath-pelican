@@ -55,7 +55,7 @@ I try to keep this updated fairly regularly. As of January 2, 2020 this is what 
 
 ## Productivity
 
-- My secret for avoiding the siren call of the internet is [Freedom](https://freedom.to/). I have two blocklists: (1) *antisocial*, which blocks Facebook and Twitter, and (2) *nuclear*, which blocks everything. I have the antisocial blocklist enabled on my laptop and phone from 8:00 AM–6:00 PM and 8:30 PM–11:30 PM. Since I accidentally discovered that it's relatively easy to circumvent the blocking on the Mac, I also use [Focus](https://heyfocus.com/) with the same schedule. 
+- My secret for avoiding the siren call of the internet is [Freedom](https://freedom.to/). I have two blocklists: (1) *antisocial*, which blocks Facebook and Twitter, and (2) *nuclear*, which blocks everything. I have the antisocial blocklist enabled on my laptop and phone from 8:00 AM–6:00 PM and 8:30 PM–11:30 PM. Since I accidentally discovered that it's relatively easy to circumvent the blocking on the Mac, I also use [Focus](https://heyfocus.com/) with the same schedule.
 - I use [Vitamin-R](http://www.publicspace.net/Vitamin-R/) as a souped-up Pomodoro timer.
 - I was an early convert to [Todo.txt](http://todotxt.com/) and used it for years until my tasks and projects got too unwieldy. I switched to [Taskpaper](https://www.taskpaper.com/) for a while, used [2Do](http://www.2doapp.com/) for a couple years, and now I'm a convert to [OmniFocus](https://www.omnigroup.com/omnifocus).
 - [Fantastical 2](https://flexibits.com/fantastical)’s natural language input is a glorious thing.
