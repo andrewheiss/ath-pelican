@@ -16,11 +16,11 @@ My teaching and research experience has prepared me to teach courses in nonprofi
 <table>
     <tr>
         <td>
-            [![Program Evaluation for Public Service](/files/images/teaching/statsf18.png)][evalf19] 
+            [![Program Evaluation for Public Service](/files/images/teaching/evalsp20.png)][evalsp20] 
         </td>
         <td>
-            **[Program Evaluation for Public Service][evalf19]** <small>(PMAP 8521)</small>  
-            Fall 2019, Spring 2020 | Georgia State University
+            **[Program Evaluation for Public Service][evalsp20]** <small>(PMAP 8521)</small>  
+            [Fall 2019][evalf19], [Spring 2020][evalsp20] | Georgia State University
         </td>
     </tr>
     <tr>
@@ -36,6 +36,7 @@ My teaching and research experience has prepared me to teach courses in nonprofi
 </div>
 
 [evalf19]: https://evalf19.classes.andrewheiss.com/
+[evalsp20]: https://evalsp20.classes.andrewheiss.com/
 [econf19]: https://econf19.classes.andrewheiss.com/
 
 
