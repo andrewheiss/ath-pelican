@@ -759,20 +759,22 @@ li.project-revising {
 
 
 .sidebar nav li {
-	display: inline;
+	display: inline-block;
 	white-space: nowrap;
-	font-size: 1.1em;
+	font-size: 1.2em;
+	margin: 0 1.5em 0.4em 0;
+	font-weight: bold;
 }
 
-.sidebar nav li:after {
+/* .sidebar nav li:after {
 	margin: 0 0.5em;
 	content: "•";
 	color: rgb(175, 175, 175);
 	font-size: .8em;
-}
+} */
 
 .sidebar nav li:last-child:after {
-	content: "";
+	/* content: ""; */
 	margin: 0;
 }
 
