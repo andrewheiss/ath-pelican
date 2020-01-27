@@ -18,11 +18,19 @@
 
 {% block social_meta %}
     {% if page.thumbnail %}
-    {{ meta.open_graph(title, url, description, page.thumbnail) }}
+    {{ meta.open_graph(title, SITEURL, description, page.thumbnail) }}
     {% else %}
-    {{ meta.open_graph(title, url, description, DEFAULT_SOCIAL_IMG) }}
+    {{ meta.open_graph(title, SITEURL, description, SITEURL + DEFAULT_SOCIAL_IMG) }}
     {% endif %}
 {% endblock social_meta %}
+
+{% block schema_meta %}
+    {% if page.thumbnail %}
+    {{ meta.site_schema_json_ld(title, SITEURL, description, page.thumbnail) }}
+    {% else %}
+    {{ meta.site_schema_json_ld(title, SITEURL, description, SITEURL + DEFAULT_SOCIAL_IMG) }}
+    {% endif %}
+{% endblock schema_meta %}
 
 {% block extra_script %}
     <script type="text/javascript">
@@ -43,7 +51,7 @@
 {% block content %}
 <div class="home-top pure-g">
     <div class="home-image pure-u-1 pure-u-md-1-3">
-        <img src="{{ page.main_photo }}" class="pure-img-responsive">
+        <img src="{{ page.main_photo }}" class="pure-img-responsive" alt="{{ AUTHOR }}">
     </div>
     <div class="home-blurb pure-u-1 pure-u-md-2-3">
         {{ page.content }}

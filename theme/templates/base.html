@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Andrew Heiss">
+    <meta name="author" content="{{ AUTHOR }}">
     {% block meta_tags %}{% endblock meta_tags %}
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
 
@@ -18,6 +18,8 @@
     <link rel="openid2.local_id" href="https://www.google.com/profiles/andrewheiss">
 
     {% block social_meta %}{% endblock social_meta %}
+
+    {% block schema_meta %}{% endblock schema_meta %}
 
     <link rel="stylesheet" href="/theme/css/pure/1.0.0/pure-min.css">
     <link rel="stylesheet" href="/theme/css/syntax.css">

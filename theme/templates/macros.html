@@ -19,6 +19,59 @@
     <meta property="og:description" content="{{ description }}" />
 {%- endmacro %}
 
+{% macro blog_schema_json_ld(title, url, date, description, author, author_url, image='') -%}
+    <script type="application/ld+json">
+    {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "name": "{{ title }}",
+    "headline": "{{ title }}",
+    "datePublished": "{{ date }}",
+    "dateModified": "{{ date }}",
+    "author": {
+        "@type": "Person",
+        "name": "{{ author }}",
+        "url": "{{ author_url }}"
+    },
+    {% if image != '' %}
+    "image": "{{ image }}",
+    {% endif %}
+    "url": "{{ url }}",
+    "description": "{{ description }}"
+    }
+    </script>
+{%- endmacro %}
+
+{% macro site_schema_json_ld(title, url, description, image='') -%}
+    <script type="application/ld+json">
+    {
+    "@context" : "http://schema.org",
+    "@type" : "WebSite",
+    "name": "{{ title }}",
+    "url" : "{{ url }}",
+    {% if image != '' %}
+    "image": "{{ image }}",
+    {% endif %}
+    "description": "{{ description }}"
+    }
+    </script>
+{%- endmacro %}
+
+{% macro page_schema_json_ld(title, url, description, image='') -%}
+<script type="application/ld+json">
+    {
+    "@context" : "http://schema.org",
+    "@type" : "WebPage",
+    "name": "{{ title }}",
+    "url" : "{{ url }}",
+    {% if image != '' %}
+    "image": "{{ image }}",
+    {% endif %}
+    "description": "{{ description }}"
+    }
+    </script>
+{%- endmacro %}
+
 {% macro meta_description(description) -%}
     <meta name="description" content="{{ description }}">
 {%- endmacro %}

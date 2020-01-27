@@ -3,6 +3,7 @@
 
 {% set title = article.title | striptags | escape %}
 {% set url = SITEURL + '/' + article.url %}
+
 {%- if article.excerpt %}
     {% set description = article.excerpt | striptags %}
 {% else %}
@@ -24,9 +25,17 @@
     {% if article.thumbnail %}
     {{ meta.open_graph(title, url, description, article.thumbnail) }}
     {% else %}
-    {{ meta.open_graph(title, url, description, DEFAULT_SOCIAL_IMG) }}
+    {{ meta.open_graph(title, url, description, SITEURL + DEFAULT_SOCIAL_IMG) }}
     {% endif %}
 {% endblock social_meta %}
+
+{% block schema_meta %}
+    {% if article.thumbnail %}
+    {{ meta.blog_schema_json_ld(title, url, article.date.isoformat(), description, AUTHOR, SITEURL, article.thumbnail) }}
+    {% else %}
+    {{ meta.blog_schema_json_ld(title, url, article.date.isoformat(), description, AUTHOR, SITEURL, SITEURL + DEFAULT_SOCIAL_IMG) }}
+    {% endif %}
+{% endblock schema_meta %}
 
 {% block title %}{{ title }} | {{ SITENAME }}{% endblock title %}
 

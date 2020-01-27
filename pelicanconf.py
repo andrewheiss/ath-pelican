@@ -15,9 +15,9 @@ MINIBIO = 'International NGOs, nonprofit management, authoritarianism, data scie
 DESCRIPTION = 'Andrew Heiss is an assistant professor at Georgia State University, researching international NGOs and teaching data science & economics.'
 
 SITEURL = ''
-DEFAULT_SOCIAL_IMG = SITEURL + '/theme/img/meta_img.png'
+DEFAULT_SOCIAL_IMG = '/theme/img/meta_img.png'
 
-TIMEZONE = 'America/Denver'
+TIMEZONE = 'America/New_York'
 DEFAULT_LANG = 'en'
 
 DEFAULT_DATE_FORMAT = '%A, %B %-d, %Y'
