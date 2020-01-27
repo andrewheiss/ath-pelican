@@ -20,7 +20,7 @@ Unfortunately, though, its forwarding abilities are limited to US phones. Using 
 
 ### The Gizmo Project--background
 
-[Gizmo](http://gizmo5.com/pc/ "Gizmo5 - Make free internet calls from your mobile phone and computer - Home") is normally a [VoIP](http://en.wikipedia.org/wiki/Voip "Voice over Internet Protocol - Wikipedia, the free encyclopedia") provider that lets you make free (or super cheap--something like $0.019 a minute) phone calls. When you sign up for an account you get a special phone number in the 747 area code as your VoIP/Gizmo username. While any phone on the Gizmo network can call your 747 number for free, regular phones can't connect to it.
+Gizmo (formerly http://gizmo5.com/pc/) is normally a [VoIP](http://en.wikipedia.org/wiki/Voip "Voice over Internet Protocol - Wikipedia, the free encyclopedia") provider that lets you make free (or super cheap--something like $0.019 a minute) phone calls. When you sign up for an account you get a special phone number in the 747 area code as your VoIP/Gizmo username. While any phone on the Gizmo network can call your 747 number for free, regular phones can't connect to it.
 
 Gizmo offers a Call In service that lets you buy a phone number in most US area codes (or one of dozens of countries), which then lets you receive phone calls from standard phones. Call In numbers start at $35 a year (or $12 a year for three months), but prices can be higher depending on demand.
 
@@ -51,7 +51,7 @@ Google Voice changes all this.
 
 ### Enter Gizmo Voice
 
-Google and Gizmo have joined up to let you hook Google Voice directly into your Gizmo account. Rather than buy a Gizmo Call In number, I can use my free Google Voice number with my Gizmo Account. After [following Gizmo's instructions on connecting the two accounts](http://www.gizmovoice.com/ "Introducing Gizmo Voice‎(GizmoVoice)‎"), now when people call my Google Voice number, the call is routed to the normally inaccessible 747 Gizmo number, which is already associated with my ATA box.
+Google and Gizmo have joined up to let you hook Google Voice directly into your Gizmo account. Rather than buy a Gizmo Call In number, I can use my free Google Voice number with my Gizmo Account. After following Gizmo's instructions on connecting the two accounts, now when people call my Google Voice number, the call is routed to the normally inaccessible 747 Gizmo number, which is already associated with my ATA box.
 
 This means I can stop paying $35 a year for my Call In number. The only thing I pay for is the phone use itself. Gizmo just changed their phone rates for users using Google Voice--apparently all calls under three minutes are free, while longer phone calls follow their normal low rates. 
 

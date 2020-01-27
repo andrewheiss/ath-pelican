@@ -6,7 +6,7 @@ Template: design_project
 Slug: other-projects/arabian-nights
 Thumb: /files/images/design/1001-thumb.png
 Full: /files/images/design/1001-full.png
-Link: http://www.lulu.com/product/paperback/arabian-nights-selections-from-1001-nights/1368715
+Link: http://www.lulu.com/shop/andrew-heiss-and-andrew-lang-and-kate-douglas-wiggins/arabian-nights-selections-from-1001-nights/paperback/product-1368715.html
 ---
 
 * Andrew Lang's 1898 version of *1,001 Nights*

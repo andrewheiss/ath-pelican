@@ -42,7 +42,7 @@ Can real governmental and societal change happen in the Middle East solely throu
 
 So, while Queen Rania’s speech *was* inspiring and motivational on the surface, it was full of *kalaam fadi*—empty words.  
 
-[gerhart]: http://www.aucegypt.edu/ResearchatAUC/rc/gerhartcenter/Pages/default.aspx "Gerhart Center"
+[gerhart]: https://business.aucegypt.edu/research/centers/gerhart "Gerhart Center"
 [rania-wp]: http://en.wikipedia.org/wiki/Queen_Rania_of_Jordan
 [rania-hp]: http://www.queenrania.jo/
 [rania-twitter]: http://twitter.com/QueenRania

@@ -19,7 +19,7 @@ Unfortunately, there is no universally standard system for transliteration, and 
 
 For example, the name Great Britain (بريطانيا العظمى) uses several non-Latin letters. Written in Franco it looks like this: *bri6ania al3o'6ma*. For readers unfamiliar with Arabic (or even those who are, like me), it's always hard to remember what the random uppercase letters and numbers mean.
 
-Fortunately, there are better systems. Here's Great Britain written using the [IJMES](https://ijmes.chass.ncsu.edu/IJMES_Translation_and_Transliteration_Guide.htm) (International Journal of Middle East Studies) [system](https://ijmes.chass.ncsu.edu/docs/TransChart.pdf), also used in the Encyclopedia of Islam: *Brīṭānīyā al-ʿuẓmá*. Much easier to read.
+Fortunately, there are better systems. Here's Great Britain written using the [IJMES](https://www.cambridge.org/core/journals/international-journal-of-middle-east-studies/information/author-resources/ijmes-translation-and-transliteration-guide) (International Journal of Middle East Studies) [system](https://www.cambridge.org/core/services/aop-file-manager/file/57d83390f6ea5a022234b400/TransChart.pdf), also used in the Encyclopedia of Islam: *Brīṭānīyā al-ʿuẓmá*. Much easier to read.
 
 Since the nonstandard Latin letters use Unicode glyphs, you need to use a font that has a full set of Unicode glyphs, like Times, Arial, Helvetica, and other standard fonts. You also have to hunt down all the special characters either in Word's Insert Special Character dialog or in the Glyphs panel in InDesign.
 

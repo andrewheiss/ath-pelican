@@ -18,7 +18,7 @@ Unfortunately, though, I wrote that tutorial as my first foray into the world of
 
 In the interim, I've refined my system and released it as an open source PHP class, named [`pdftk-php`][pdftk-php]. The project is hosted at [GitHub][github], a brilliant hosting service for collaborative projects, which uses Git, the best version control software I've ever used. Anyone can check out, or clone, the project, make any edits to the core set of classes, and merge those with the main project branch—it is now a true community project. If you don't want to contribute, you can still [download it from GitHub][download] as a `.zip` or `.tar` file. 
 
-Included in the project is a (hopefully) extensively documented example application that you can set up on your own server. You can try a live working example at [pdftk-php.andrewheiss.com][example].
+Included in the project is a (hopefully) extensively documented example application that you can set up on your own server.
 
 I'm working on writing a new step-by-step tutorial on how to set everything up, akin to the old one. In theory, the new `pdftk-php` should work with PDFs created in any program, not just LiveCycle. In the meantime, download `pdftk-php`, try it out, and report any bugs here on the blog or [directly at GitHub][issues] (where I hope to keep everything related to `pdftk-php` from now on). Fork the project and contribute if you feel like it, too!
 
@@ -28,6 +28,5 @@ Thanks and good luck!
 [mmlab]: http://mmlab.lib.byu.edu "HBLL Multimedia Lab"
 [github]: http://github.com "GitHub"
 [pdftk-php]: http://github.com/andrewheiss/pdftk-php/ "pdftk-php on GitHub"
-[example]: http://pdftk-php.andrewheiss.com/ "Working pdftk-php example"
 [download]: http://github.com/andrewheiss/pdftk-php/downloads "Download pdftk-php at GitHub"
 [issues]: http://github.com/andrewheiss/pdftk-php/issues "Report an issue at GitHub"

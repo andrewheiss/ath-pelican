@@ -6,7 +6,6 @@ Template: design_project
 Slug: other-projects/byu-mpa-association
 Thumb: /files/images/design/mpaa-thumb.png
 Full: /files/images/design/mpaa-full.png
-Link: http://mpaa.byu.edu/
 ---
 
 * Runs on Drupal 6

@@ -9,7 +9,7 @@ Tags:
 ---
 
 
-For my first entry into [@hrbrmstr's new weekly data visualization challenge](https://rud.is/b/2016/03/30/introducing-a-weekly-r-python-js-etc-vis-challenge/), I made two plots related to the [dataset of unmanned aircraft (UAS) sightings](https://www.faa.gov/uas/law_enforcement/uas_sighting_reports/). The [R code for these plots is on GitHub](https://github.com/andrewheiss/2016-13/tree/master/andrewheiss).
+For my first entry into [@hrbrmstr's new weekly data visualization challenge](https://rud.is/b/2016/03/30/introducing-a-weekly-r-python-js-etc-vis-challenge/), I made two plots related to the [dataset of unmanned aircraft (UAS) sightings](https://www.faa.gov/uas/resources/public_records/uas_sightings_report/). The [R code for these plots is on GitHub](https://github.com/andrewheiss/2016-13/tree/master/andrewheiss).
 
 First, I was interested in the type of drones being spotted. When I think of drones, I typically think of the ones the CIA and Air Force have flying over Yemen, Somalia, Afghanistan, and Pakistan shooting at suspected ISIS and Al-Qaeda members. To see if that's the case with these UAS sightings, I mapped out all US-based Air Force bases and all drone sightings, assuming that any military drone sightings would happen near bases.
 

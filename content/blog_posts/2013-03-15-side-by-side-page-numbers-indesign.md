@@ -9,7 +9,7 @@ Slug: side-by-side-page-numbers-indesign
 ---
 
 
-The books I make for the [Middle East Texts Initiative](http://meti.byu.edu/) contain side-by-side English-Arabic translations of old Arabic, Hebrew, and Latin texts. InDesign can generally handle the side-by-side parallel stories and text frames, but it cannot properly number the pages. After all the front matter and introductory text, the English translation starts on a verso page (left) with page 1, followed by a page of Arabic on the recto (right), also on page 1. The next verso is page 2. 
+The books I make for the Middle East Texts Initiative contain side-by-side English-Arabic translations of old Arabic, Hebrew, and Latin texts. InDesign can generally handle the side-by-side parallel stories and text frames, but it cannot properly number the pages. After all the front matter and introductory text, the English translation starts on a verso page (left) with page 1, followed by a page of Arabic on the recto (right), also on page 1. The next verso is page 2. 
 
 InDesign doesn't include a way to insert automatic spread numbers instead of page numbers, which means there's no easy way to have automatic parallel, same-numbered pages. For years users have come up with kludgy solutions, like:
 

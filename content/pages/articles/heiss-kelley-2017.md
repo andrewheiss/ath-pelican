@@ -32,7 +32,7 @@ Figure 2: The dual environmental constraints confronting INGOs
 
 - Sarah Sunn Bush, *The Taming of Democracy Assistance: Why Democracy Promotion Does Not Confront Dictators* (Cambridge, UK: Cambridge University Press, 2015), doi: [`10.1017/cbo9781107706934`](https://doi.org/10.1017/cbo9781107706934).
 - Jessica C. Teets, *Civil Society under Authoritarianism: The China Model* (New York: Cambridge University Press, 2014), doi: [`10.1017/cbo9781139839396`](https://doi.org/10.1017/cbo9781139839396).
-- Amanda Murdie, *Help or Harm: The Human Security Effects of International NGOs* (Stanford: Stanford University Press, 2014), doi: [`10.11126/stanford/9780804791977.001.0001`](https://doi.org/11126/stanford/9780804791977.001.0001).
+- Amanda Murdie, *Help or Harm: The Human Security Effects of International NGOs* (Stanford: Stanford University Press, 2014), doi: [`10.2307/j.ctvqsdpq8`](https://doi.org/10.2307/j.ctvqsdpq8).
 
 
 ## BibTeX citation

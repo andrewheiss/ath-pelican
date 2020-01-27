@@ -11,7 +11,7 @@ Slug: gutenberg-ipsum
 ---
 
 
-I've decided to try to be more like [Ben Crowder](http://bencrowder.net/), [Tod Robbins](http://www.todrobbins.com/portfolio/), and [Brett Terpstra](http://brettterpstra.com/) and release my code tinkerings into the public more often. 
+I've decided to try to be more like [Ben Crowder](http://bencrowder.net/), [Tod Robbins](http://www.todrobbins.com/), and [Brett Terpstra](http://brettterpstra.com/) and release my code tinkerings into the public more often. 
 
 Since upgrading to [TextExpander 4](http://smilesoftware.com/TextExpander/) a couple weeks ago, I've decided to delve into it a lot more. I recently converted from [Typinator](http://www.ergonis.com/products/typinator/), where I only really used a few expansions for [typing transliterated Arabic](http://www.andrewheiss.com/blog/2009/04/26/typing-transliterated-arabic-quickly/). After belatedly stumbling upon a couple posts by [Brett](http://brettterpstra.com/dammit-again-with-the-lipsum/) and [Dr. Drang](http://www.leancrew.com/all-this/2011/02/dissociated-darwin/), I found that TextExpander can be used for some pretty fun stuff. Like random Lorem Ipsum-like text based on *n*-gram algorithms! 
 

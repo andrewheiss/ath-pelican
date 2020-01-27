@@ -6,7 +6,6 @@ Template: design_project
 Slug: other-projects/secret-treasures-hans-wehr
 Thumb: /files/images/design/hans-thumb.png
 Full: /files/images/design/hans-full.png
-Link: http://www.hanswehr.net/
 ---
 
 * Runs on Drupal

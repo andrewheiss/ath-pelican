@@ -13,7 +13,7 @@ About a year ago I discovered to my dismay that using Arabic in InDesign was ent
 
 ![Messed up Arabic text](http://www.andrewheiss.com/images/arabic-indesign/messed-up-text.png "http://www.andrewheiss.com/images/arabic-indesign/messed-up-text.png")
 
-While Microsoft and Apple have great right-to-left (RTL) language support built in, Adobe doesn't. InDesign and Illustrator *cannot* handle RTL text. Adobe has, however, outsourced their code to [WinSoft](http://www.winsoft.eu/), who develops the Creative Suite ME (Middle Eastern edition), which *does* have excellent RTL support, especially through the use of their [Tasmeem](http://www.winsoft.eu/products_solutions/WinSoft-Tasmeem.php) typesetting framework, recently highlighted in [Saudi Aramco Magazine](http://www.saudiaramcoworld.com/issue/200704/keyboard.calligraphy.htm). However, I don't want to buy the ME version for minimal Arabic use.
+While Microsoft and Apple have great right-to-left (RTL) language support built in, Adobe doesn't. InDesign and Illustrator *cannot* handle RTL text. Adobe has, however, outsourced their code to [WinSoft](http://www.winsoft.eu/), who develops the Creative Suite ME (Middle Eastern edition), which *does* have excellent RTL support, especially through the use of their [Tasmeem](https://en.wikipedia.org/wiki/Tasmeem) typesetting framework, recently highlighted in [Saudi Aramco Magazine](http://www.saudiaramcoworld.com/issue/200704/keyboard.calligraphy.htm). However, I don't want to buy the ME version for minimal Arabic use.
 
 #### Typing backwards ####
 
@@ -33,7 +33,7 @@ The glyphs panel is a great and often underused panel in InDesign. It's generall
 
 You can even type with the glyphs panel, which is how we get Arabic working in InDesign. This method also works for Illustrator and any other Adobe program with a glyphs panel.
 
-To activate the panel, go to Window &gt; Type &amp; Tables &gt; Glyphs. Choose an Arabic font from the list in the bottom left corner of the panel to load that font into the panel. I like working with the [Arabic Typesetting](http://www.microsoft.com/typography/fonts/font.aspx?FID=283&amp;FNAME=Arabic+Typesetting) font that comes with Office 2007 because of the dozens of alternate glyphs and ligatures that are available. Microsoft has an excellent collection of Arabic fonts as well, found [here](http://www.microsoft.com/downloads/details.aspx?FamilyID=A83C0E03-8913-47A3-ACB7-8AC357627620&amp;displaylang=AR).
+To activate the panel, go to Window &gt; Type &amp; Tables &gt; Glyphs. Choose an Arabic font from the list in the bottom left corner of the panel to load that font into the panel. I like working with the [Arabic Typesetting](https://docs.microsoft.com/en-us/typography/font-list/arabic-typesetting) font that comes with Office 2007 because of the dozens of alternate glyphs and ligatures that are available. Microsoft has an excellent collection of Arabic fonts as well.
 
 You should see normal Roman characters in the panel. Scroll down until you get the Arabic glyphs. Double click on a letter to insert it at your cursor.
 
@@ -51,9 +51,9 @@ You can insert alternate glyphs and ligatures too:
 
 ![Alternate glyphs and ligatures](http://www.andrewheiss.com/images/arabic-indesign/more-alternate-glyphs.png "Alternate glyphs and ligatures")
 
-If you use a decorative Arabic font, like Microsoft's Diwani family (found in the [arafonts.exe](http://www.microsoft.com/downloads/details.aspx?FamilyID=A83C0E03-8913-47A3-ACB7-8AC357627620&amp;displaylang=AR) font package), you can use the decorative swashes as well. You can even change the font after inserting the letters to another Arabic font and maintain the letters.
+If you use a decorative Arabic font, like Microsoft's Diwani family (found in the [arafonts.exe](http://www.tucows.com/preview/872760/Arabic-Font-Pack) font package), you can use the decorative swashes as well. You can even change the font after inserting the letters to another Arabic font and maintain the letters.
 
-In the end, you'll have real Arabic text that can be manipulated just like normal InDesign text. It's a clunky method, but it works, as seen [here](http://www.andrewheiss.com/Portfolio?page=Design).
+In the end, you'll have real Arabic text that can be manipulated just like normal InDesign text. It's a clunky method, but it works, as seen [here](/other-projects/arabian-nights/).
 
 This could all probably be automated with a script of sorts, but I'm no programmer.
 

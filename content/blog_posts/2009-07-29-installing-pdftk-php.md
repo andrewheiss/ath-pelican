@@ -38,7 +38,7 @@ $password = "supersecure";
 $db_name = "pdftk-php";
 ```
 
-Browse to the example site (in my case, [http://localhost/pdftk-php/example/index.php](http://localhost/pdftk-php/example/index.php "pdftk-php")) and add some entries to populate the database a little.
+Browse to the example site (in my case, http://localhost/pdftk-php/example/index.php) and add some entries to populate the database a little.
 
 ## Set up the script
 
@@ -141,7 +141,7 @@ $fdf_data_strings= array('form1[0].#subform[0].#area[0].FirstName[0]' => $pdf_fi
 	
 Finally, check the values of `$pdf_filename` and `$pdf_original` near lines 62 and 65.
 
-Go to [http://localhost/pdftk-php/example/view.php](http://localhost/pdftk-php/example/view.php "pdftk-php - List of submitted forms") and click on the download links for one of entries. You should be prompted to download a PDF file, dynamically generated using `pdftk-php.php`. Success!
+Go to http://localhost/pdftk-php/example/view.php and click on the download links for one of entries. You should be prompted to download a PDF file, dynamically generated using `pdftk-php.php`. Success!
 	
 # Advanced customization
 
@@ -247,7 +247,7 @@ if ($data['option2'] == 1) {
 $fdf_data_names = array('option1' => $pdf_option1, 'option2' => $pdf_option2);
 ```
 	
-And that should do it! Visit [http://localhost/pdftk-php/example/view.php](http://localhost/pdftk-php/example/view.php "pdftk-php - List of submitted forms") and download one of the forms. The checkboxes should populate perfectly.
+And that should do it! Visit http://localhost/pdftk-php/example/view.php and download one of the forms. The checkboxes should populate perfectly.
 
 ## Other types of form fields
 

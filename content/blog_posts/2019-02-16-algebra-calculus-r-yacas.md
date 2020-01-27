@@ -48,7 +48,7 @@ R is phenomenal software for statistics and graphics and all sorts of other thin
 
 Many of these CAS libraries have interfaces with R, like [**rSymPy**](https://cran.r-project.org/web/packages/rSymPy/index.html) and [**Ryacas**](https://cran.r-project.org/web/packages/Ryacas/index.html). However, they’re fairly undocumented and **rSymPy** hasn’t been updated since 2010. Additionally, **rSymPy** requires **rJava** (for whatever reason), which is a gigantic headache to install. **Ryacas**, on the other hand, doesn’t have a ton of dependencies, is actively maintained, and is *slightly* better documented.
 
-There are like [a billion examples of how to use **Ryacas** here](https://cran.r-project.org/web/packages/Ryacas/vignettes/elaborate-reference.html) or [on StackOverflow](https://stackoverflow.com/questions/47474121/how-to-rearrange-the-complex-algebraic-equation-in-r), but here are just a few tiny examples to show what it can do:
+There are like [a billion examples of how to use **Ryacas** here](https://cran.r-project.org/web/packages/Ryacas/vignettes/getting-started.html) or [on StackOverflow](https://stackoverflow.com/questions/47474121/how-to-rearrange-the-complex-algebraic-equation-in-r), but here are just a few tiny examples to show what it can do:
 
 ``` r
 library(Ryacas)
