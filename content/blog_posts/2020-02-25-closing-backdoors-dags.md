@@ -2,6 +2,7 @@
 Title: Ways to close backdoors in DAGs
 Excerpt: Use regression, inverse probability weighting, and matching to close confounding backdoors and find causation in observational data
 Category: blog
+Thumbnail: https://www.andrewheiss.com/files/images/closing-backdoors-dags/load-libraries-make-dag-1.png
 Tags: 
   - r
   - ggplot
@@ -23,6 +24,7 @@ However, I was never taught this approach in any of my doctoral classes, and I�
 
 The purpose of this post isn’t to introduce causal models and DAGs and confounders vs. colliders and all that. For that kind of introduction, consult any (or all\!) of these resources:
 
+  - Nick Huntington-Klein's [ECON 305: Economics, Causality, and Analytics course](http://www.nickchk.com/econ305.html) (especially lectures 13–18)
   - Julia M. Rohrer, “Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data,” Advances in Methods and Practices in *Psychological Science* 1, no. 1 (March 2018): 27–42, doi: [10.1177/2515245917745629](https://doi.org/10.1177/2515245917745629)
   - Miguel A. Hernán and James M. Robbins, *Causal Inference: What If* (CRC Press, 2020), <https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/>
   - Paul Hünermund and Elias Bareinboim, “Causal Inference and Data-Fusion in Econometrics,” December 19, 2019, arXiv: 1912.09104 \[econ.EM\], <https://arxiv.org/abs/1912.09104>
