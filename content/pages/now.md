@@ -1,11 +1,11 @@
 ---
 Title: What I'm doing now
-Date: 2020-02-25
+Date: 2020-03-02
 Slug: now
 Description: Andrew Heiss is working on a bunch of exciting and groundbreaking projects
 ---
 
-As of February 25, 2020, I'm spending all my time on these things:
+As of March 2, 2020, I'm spending all my time on these things:
 
 * Raising 5 kids (12, 10, 7.5, 4.5, 2) and trying to stay sane ([family blog](http://www.heissatopia.com/))
 * Settling into Atlanta as I start a new job as an assistant professor in the [Department of Public Management and Policy](https://aysps.gsu.edu/public-management-policy/) at the [Andrew Young School of Policy Studies](https://aysps.gsu.edu/) at [Georgia State University](https://www.gsu.edu/)
