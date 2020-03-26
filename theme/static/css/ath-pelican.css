@@ -48,6 +48,10 @@ pre, code {
 	padding: 0.3em;
 }
 
+pre {
+    font-size: 1em;
+}
+
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
