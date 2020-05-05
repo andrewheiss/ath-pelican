@@ -16,6 +16,15 @@ My teaching and research experience has prepared me to teach courses in nonprofi
 <table>
     <tr>
         <td>
+            [![Data Visualization with R](/files/images/teaching/datavizm20.png)][datavizm20] 
+        </td>
+        <td>
+            **[Data Visualization with R][datavizm20]** <small>(PMAP 8921)</small>  
+            May 2020 | Georgia State University
+        </td>
+    </tr>
+    <tr>
+        <td>
             [![Program Evaluation for Public Service](/files/images/teaching/evalsp20.png)][evalsp20] 
         </td>
         <td>
@@ -35,6 +44,7 @@ My teaching and research experience has prepared me to teach courses in nonprofi
 </table>
 </div>
 
+[datavizm20]: https://datavizm20.classes.andrewheiss.com/
 [evalf19]: https://evalf19.classes.andrewheiss.com/
 [evalsp20]: https://evalsp20.classes.andrewheiss.com/
 [econf19]: https://econf19.classes.andrewheiss.com/

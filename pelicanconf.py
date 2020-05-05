@@ -137,7 +137,6 @@ MENUITEMS = [('About', '/'), ('CV', '/files/2020-03-23_andrew-heiss-cv.pdf'),
              ('Blog', '/blog/'), ('Research', '/research/'),
              ('Teaching', '/teaching/'),
              ('Talks', '/talks/'),
-             ('Other projects', '/other-projects/'),
              ('Now', '/now/'), ('Uses', '/uses/')]
 
 SOCIAL = [('E-mail', 'mailto:andrew@andrewheiss.com', 'far fa-envelope'),
