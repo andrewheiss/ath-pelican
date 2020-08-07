@@ -34,11 +34,11 @@ My teaching and research experience has prepared me to teach courses in nonprofi
     </tr>
     <tr>
         <td>
-            [![Economy, Society, and Public Policy](/files/images/teaching/econw19.png)][econf19] 
+            [![Economy, Society, and Public Policy](/files/images/teaching/econw19.png)][econs20] 
         </td>
         <td>
             **[Economy, Society, and Public Policy][econf19]** <small>(PMAP 8141)</small>  
-            Fall 2019 | Georgia State University
+            [Fall 2019][econf19], [Summer 2020][econs20] | Georgia State University
         </td>
     </tr>
 </table>
@@ -48,6 +48,7 @@ My teaching and research experience has prepared me to teach courses in nonprofi
 [evalf19]: https://evalf19.classes.andrewheiss.com/
 [evalsp20]: https://evalsp20.classes.andrewheiss.com/
 [econf19]: https://econf19.classes.andrewheiss.com/
+[econs20]: https://econs20.classes.andrewheiss.com/
 
 
 # Past courses {.no-space-after}
