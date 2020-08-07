@@ -1,6 +1,6 @@
 ---
 Title: >-
-  "Why wont this run again?!": Making R analysis more reproducible
+  "Why won't this run again?!": Making R analysis more reproducible
 Date: 2019-05-14
 Category: Talk
 Slug: talks/2019-05-14_utah-county-rug-reproducibility
