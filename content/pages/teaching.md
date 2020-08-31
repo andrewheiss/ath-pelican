@@ -10,7 +10,38 @@ I believe that university teaching should challenge and shift how students under
 My teaching and research experience has prepared me to teach courses in nonprofit management, data visualization, international relations, comparative politics, political institutions, Middle East politics, policy analysis, science communication, and both qualitative and qualitative research methods.
 
 
-# Courses for the 2019–20 academic year
+# Courses for the 2020–21 academic year
+
+<div class="class-list" markdown="1">
+<table>
+    <tr>
+        <td>
+            [![Program Evaluation for Public Service](/files/images/teaching/evalsp20.png)][evalf20]
+        </td>
+        <td>
+            **[Program Evaluation for Public Service][evalf20]** <small>(PMAP 8521)</small>  
+            [Fall 2020 (asynchronous online)][evalf20] | Georgia State University
+        </td>
+    </tr>
+    <tr>
+        <td>
+            [![Microeconomics for Public Policy](/files/images/teaching/econw19.png)][econf20]
+        </td>
+        <td>
+            **[Microeconomics for Public Policy][econf20]** <small>(PMAP 8141)</small>  
+            [Fall 2020 (asynchronous online)][econf20] | Georgia State University
+        </td>
+    </tr>
+</table>
+</div>
+
+[evalf20]: https://evalf20.classes.andrewheiss.com/
+[econf20]: https://econf20.classes.andrewheiss.com/
+
+
+# Past courses {.no-space-after}
+
+## Georgia State University (2019–now)
 
 <div class="class-list" markdown="1">
 <table>
@@ -20,12 +51,12 @@ My teaching and research experience has prepared me to teach courses in nonprofi
         </td>
         <td>
             **[Data Visualization with R][datavizm20]** <small>(PMAP 8921)</small>  
-            May 2020 | Georgia State University
+            [May 2020 (asynchronous online)][datavizm20] | Georgia State University
         </td>
     </tr>
     <tr>
         <td>
-            [![Program Evaluation for Public Service](/files/images/teaching/evalsp20.png)][evalsp20] 
+            [![Program Evaluation for Public Service](/files/images/teaching/evalsp20.png)][evalsp20]
         </td>
         <td>
             **[Program Evaluation for Public Service][evalsp20]** <small>(PMAP 8521)</small>  
@@ -34,11 +65,11 @@ My teaching and research experience has prepared me to teach courses in nonprofi
     </tr>
     <tr>
         <td>
-            [![Economy, Society, and Public Policy](/files/images/teaching/econw19.png)][econs20] 
+            [![Economy, Society, and Public Policy](/files/images/teaching/econw19.png)][econs20]
         </td>
         <td>
-            **[Economy, Society, and Public Policy][econf19]** <small>(PMAP 8141)</small>  
-            [Fall 2019][econf19], [Summer 2020][econs20] | Georgia State University
+            **[Economy, Society, and Public Policy][econs20]** <small>(PMAP 8141)</small>  
+            [Fall 2019][econf19], [Summer 2020 (asynchronous online)][econs20] | Georgia State University
         </td>
     </tr>
 </table>
@@ -50,10 +81,7 @@ My teaching and research experience has prepared me to teach courses in nonprofi
 [econf19]: https://econf19.classes.andrewheiss.com/
 [econs20]: https://econs20.classes.andrewheiss.com/
 
-
-# Past courses {.no-space-after}
-
-## Brigham Young University (2018–19)
+## Brigham Young University (2017–19)
 
 <div class="class-list" markdown="1">
 <table>
@@ -84,13 +112,6 @@ My teaching and research experience has prepared me to teach courses in nonprofi
             Fall 2018 | Brigham Young University
         </td>
     </tr>
-</table>
-</div>
-
-## Brigham Young University (2017–18)
-
-<div class="class-list" markdown="1">
-<table>
     <tr>
         <td>
             [![Economic Decision Making for Managers](/files/images/teaching/econw18.png)][econw18] 
@@ -132,7 +153,7 @@ My teaching and research experience has prepared me to teach courses in nonprofi
 
 # Past courses (taught or TAed as a student) {.no-space-after}
 
-## As PhD student
+## As a PhD student
 
 **Stats in Real Life** <small>(TA; PubPol 590)</small>  
 Spring 2014, Fall 2014  | Duke University
@@ -140,7 +161,7 @@ Spring 2014, Fall 2014  | Duke University
 **Policy Analysis** <small>(TA; PubPol 803/807)</small>  
 Fall 2013, Fall 2015 | Duke University
 
-## As MPA student
+## As an MPA student
 
 **Statistical Analysis for Public Administrators** <small>(TA; PMGT 630)</small>  
 Summer 2012 | Brigham Young University
@@ -151,7 +172,7 @@ Winter and Spring 2012 | Brigham Young University
 **Decision Modeling and Analysis** <small>(TA; PMGT 632)</small>  
 Fall 2011, Spring 2012 | Brigham Young University
 
-## As undergraduate
+## As an undergraduate
 
 **Print Publishing** <small>(Instructor; CHum 260)</small>  
 Spring 2008 | Brigham Young University
