@@ -1,17 +1,16 @@
 ---
-Title: "Charity During Crackdown: Analyzing the Impact of State Repression of NGOs on Philanthropy"
-Date: 2017-07-24
-Category: In progress
+Title: "Dynamics of International Giving: How Heuristics Shape Individual Donor Preferences"
+Date: 2020-09-28
+Category: Article
 Slug: research/chaudhry-heiss-ngos-philanthropy
 Template: research_project
-Code: https://github.com/andrewheiss/ngo-crackdowns-philanthropy
-preprint: /files/research/chaudhry-heiss-ngos-philanthropy.pdf
 Thumb: /files/images/research/chaudhry-heiss-ngos-philanthropy.png
+ungated: /files/research/chaudhry-heiss-ngos-philanthropy.pdf
+Code: https://github.com/andrewheiss/ngo-crackdowns-philanthropy
 Details: >-
-  [Suparna Chaudhry](http://www.suparnachaudhry.com/) and **Andrew Heiss**, “Charity During Crackdown: Analyzing the Impact of State Repression of NGOs on Philanthropy”
+  [Suparna Chaudhry](http://www.suparnachaudhry.com/) and **Andrew Heiss**, “Dynamics of International Giving: How Heuristics Shape Individual Donor Preferences,” *Nonprofit and Voluntary Sector Quarterly* (forthcoming)
 Extra: >-
-  Presented at the annual meeting of the International Studies Association (ISA), San Francisco, California, April 2018
-Pub_Status: Under review
+  Presented at the annual meeting of the International Studies Association (ISA), San Francisco, California, April 2018; and the annual meeting of ISA, Toronto, Canada, March 2019
 ---
 
 [TOC]
@@ -23,28 +22,29 @@ Pub_Status: Under review
 - [Paper (preprint)](/files/research/chaudhry-heiss-ngos-philanthropy.pdf)
 - [Supplement (preprint)](/files/research/chaudhry-heiss-ngos-philanthropy-supplement.pdf)
 - [Statistical analysis notebook](https://stats.andrewheiss.com/ngo-crackdowns-philanthropy/)
-- [Experiment preregistration](https://osf.io/dx973/register/565fb3678c5e4a66b5582f67)
 - [GitHub repository](https://github.com/andrewheiss/ngo-crackdowns-philanthropy)
+- [Experiment preregistration](https://osf.io/dx973/register/565fb3678c5e4a66b5582f67)
 
+![Preregistered](/files/images/research/preregistered_large_color.png) &emsp; ![Open data](/files/images/research/data_large_color.png) &emsp; ![Open](/files/images/research/materials_large_color.png)
 
 ## Abstract
 
-State crackdown on non-governmental organizations (NGOs), particularly through legal restrictions on funding, has become increasingly common. How do legal restrictions on NGOs impact patterns of private philanthropic giving and individual donor decision-making? With reduced funding for NGOs working on contentious issues, and an absence of philanthropic culture in many developing countries, many NGOs rely on funds from private donors in Western countries. Using a survey experiment, we explore how this crackdown changes donors' preferences based on the issue area and funding sources of the NGO. We find that private donors are responsive to the legal difficulties international NGOs face abroad and are more likely to donate to legally besieged privately funded human rights NGOs. Additionally, already-likely donors give substantially more to legally restricted NGOs working on humanitarian issues. We conclude by discussing the implications for the sustainability of NGOs working abroad.
+State restrictions on non-governmental organizations (NGOs) have become increasingly pervasive across the globe. While this crackdown has been shown to have a negative impact on public funding flows, we know little about how it impacts private philanthropy. How does information about crackdown abroad, as well as organizational attributes of nonprofits affect individual donors’ willingness to donate internationally? Using a survey experiment, we find that learning about repressive NGO environments increases generosity in that already-likely donors are willing to donate substantially more to legally besieged nonprofits. This generosity persists when mediated by two organizational-level heuristics: NGO issue areas and main funding sources. We discuss the implications of our results on how nonprofits can use different framing appeals to increase fundraising at a time when traditional public donor funding to such organizations is decreasing.
 
 
-## Figure
+## Important figures
 
-Figure 1: Effect of crackdown on likelihood to donate and amount donated, across issues and funding arrangements
+Figures 2 & 3: Difference in likelihood of donation across crackdown and no crackdown groups, conditioned by other experimental frames + difference in amount donated across crackdown and no crackdown groups, conditioned by other experimental frames
 
-![Figure 1: Effect of crackdown on likelihood to donate and amount donated, across issues and funding arrangements](/files/images/research/ngos-philanthropy_fig1.png){.pure-img-responsive}
+![Figures 2 & 3: Difference in likelihood of donation across crackdown and no crackdown groups, conditioned by other experimental frames + difference in amount donated across crackdown and no crackdown groups, conditioned by other experimental frames](/files/images/research/ngos-philanthropy_figs23.png){.pure-img-responsive}
 
 
 ## BibTeX citation
 
 ```bibtex
-@unpublished{ChaudhryHeiss:2018,
+@article{ChaudhryHeiss:2021,
     Author = {Suparna Chaudhry and Andrew Heiss},
-    Note = {Working paper},
-    Title = {Charity During Crackdown: Analyzing the Impact of State Repression of {NGOs} on Philanthropy},
-    Year = {2018}}
+    Title = {Dynamics of International Giving: How Heuristics Shape Individual Donor Preferences},
+    Journal = {Nonprofit and Voluntary Sector Quarterly},
+    Year = {Forthcoming}}
 ```
