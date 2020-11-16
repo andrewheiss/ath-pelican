@@ -1,14 +1,15 @@
 ---
 Title: "Dynamics of International Giving: How Heuristics Shape Individual Donor Preferences"
-Date: 2020-09-28
+Date: 2020-11-16
 Category: Article
 Slug: research/chaudhry-heiss-ngos-philanthropy
 Template: research_project
 Thumb: /files/images/research/chaudhry-heiss-ngos-philanthropy.png
+gated: https://doi.org/10.1177/0899764020971045
 ungated: /files/research/chaudhry-heiss-ngos-philanthropy.pdf
 Code: https://github.com/andrewheiss/ngo-crackdowns-philanthropy
 Details: >-
-  [Suparna Chaudhry](http://www.suparnachaudhry.com/) and **Andrew Heiss**, “Dynamics of International Giving: How Heuristics Shape Individual Donor Preferences,” *Nonprofit and Voluntary Sector Quarterly* (forthcoming)
+  [Suparna Chaudhry](http://www.suparnachaudhry.com/) and **Andrew Heiss**, “Dynamics of International Giving: How Heuristics Shape Individual Donor Preferences,” *Nonprofit and Voluntary Sector Quarterly* (forthcoming), doi: [`10.1177/0899764020971045`](http://doi.org/10.1177/0899764020971045)
 Extra: >-
   Presented at the annual meeting of the International Studies Association (ISA), San Francisco, California, April 2018; and the annual meeting of ISA, Toronto, Canada, March 2019
 ---
@@ -44,6 +45,7 @@ Figures 2 & 3: Difference in likelihood of donation across crackdown and no crac
 ```bibtex
 @article{ChaudhryHeiss:2021,
     Author = {Suparna Chaudhry and Andrew Heiss},
+    Doi = {10.1177/0899764020971045},
     Title = {Dynamics of International Giving: How Heuristics Shape Individual Donor Preferences},
     Journal = {Nonprofit and Voluntary Sector Quarterly},
     Year = {Forthcoming}}
